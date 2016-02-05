@@ -9,9 +9,28 @@ footer {
 	.social-item {
 		margin: 0 $space/4;
 		@include media($tablet) {
-			margin: 0 $space/2;
+			margin: 0 $space/1.6;
 		}
 	}
+}
+
+.social-links {
+  margin-top: $space;
+}
+
+.social-item {
+  display: inline-block;
+  margin: 0 $space/1.6;
+  img {
+    @include size($space $space);
+  }
+}
+
+.social-item-link {
+  float: left;
+  img {
+    width: $space;
+  }
 }
 
 .copy {

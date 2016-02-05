@@ -1,5 +1,45 @@
 //Variables
-@import "variables";
+// COLORS
+
+$white:			#FFF;
+$black:			#000;
+
+$sky-blue: 		#CBF2FF;
+$medium-blue:	#528CA5;
+$dark-blue:		#1a2e33;
+
+$light-brown:	#E5D8CE;
+$brown:			#7F6C5F;
+
+$yellow-orange:	#FFAF40;
+$orange:		#FF7040;
+$red: 			#FF3F46;
+
+
+// SPACING
+
+$space: 2em;
+
+// BREAKPOINT SIZES
+
+$mobile-size:	719px;
+$tablet-size:	720px;
+$desktop-size:	em(960);
+$large-size:	em(1224);
+
+// BREAKPOINTS
+
+$mobile: 	new-breakpoint(max-width $mobile-size 	4);
+$tablet: 	new-breakpoint(min-width $tablet-size 	8);
+$desktop: 	new-breakpoint(min-width $desktop-size 	12);
+$large: 	new-breakpoint(min-width $large-size 	12);
+
+// TYPOGRAPHY
+
+$base-font-size:	16px;
+$tablet-font-size:	18px;
+$desktop-font-size:	21px;
+$large-font-size:	24px;
 
 // FONTS
 @include font-face("Aleo", "/fonts/Aleo/Aleo-Regular", 400);
