@@ -2,22 +2,99 @@
 layout: default
 ---
 
-<div class="home">
+<section class="hero full">
+  <div class="container">
 
-  <h1 class="page-heading">Posts</h1>
+    <nav class="menu">
+      <div class="menu-logo">
+        <a href="{{ site.baseurl }}"><img src="/img/bitcamp-logo-text.svg"></a>
+      </div>
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#about" class="menu-item-link">About</a></li>
+        <li class="menu-item"><a href="#schedule" class="menu-item-link">Schedule</a></li>
+        <li class="menu-item"><a href="#sponsors" class="menu-item-link">Sponsors</a></li>
+        <li class="menu-item"><a href="mailto:hello@bitca.mp" class="menu-item-link">Contact</a></li>
+      </ul>
+    </nav> <!-- /.menu -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <nav class="menu-mobile">
+      <div class="menu-hamburger">
+        <img src="/img/hamburger.svg">
+      </div>
+      <ul class="mobile-navigation" id="mobile-navigation">
+        <a href="#about" class="menu-item-link-mobile"><li class="menu-item-mobile">About</li></a>
+         <a href="#schedule" class="menu-item-link-mobile"><li class="menu-item-mobile">Schedule</li></a>
+        <a href="#sponsors" class="menu-item-link-mobile"><li class="menu-item-mobile">Sponsors</li></a>
+        <a href="mailto:hello@bitca.mp" class="menu-item-link-mobile"><li class="menu-item-mobile">Contact</li></a>
+      </ul>
+    </nav> <!-- /.menu-mobile -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+    <div class="hero-info">
+      <div class="hero-info-text" id="hero-info-date">April 10-12, 2015</div>
+      <div id="hero-info-badge">
+        <img src="/img/bitcamp-logo-badge.svg">
+      </div>
+      <div id="hero-info-logo">
+        <img src="/img/bitcamp-logo-icon.svg">
+      </div>
+      <div class="hero-info-text" id="hero-info-city">College Park, MD</div>
+    </div>
+
+    <h1 class="hero-text">Imagine<br>Tomorrow</h1>
+    <!-- <a href="/register/" class="button">Sign up Today</a> -->
+
+    <ul class="social-links">
+      <li class="social-item">
+        <a href="https://www.facebook.com/bitcmp" class="social-item-link" target="_blank">
+          <img src="/img/social/facebook.svg">
+        </a>
       </li>
-    {% endfor %}
-  </ul>
+      <li class="social-item">
+        <a href="https://twitter.com/bitcmp" class="social-item-link" target="_blank">
+          <img src="/img/social/twitter.svg">
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://instagram.com/bitcamp" class="social-item-link" target="_blank">
+          <img src="/img/social/instagram.svg">
+        </a>
+      </li>
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+  <a href="http://bitcamp15.challengepost.com/" class="button">See the Hacks</a>
+</section> <!-- /.hero -->
 
-</div>
+<section class="info" id="about">  <!-- about -->
+  <h2 class="info-title">About</h2>
+  <p class="info-text">
+    Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!
+  </p>
+</section> <!-- /about -->
+
+<section class="full photo-feature" id="photo-2"></section>
+
+<section class="info" id="schedule"> <!-- schedule -->
+{% include _schedule.html %}
+</section> <!-- /schedule -->
+
+<section class="full photo-feature" id="photo-3"></section>
+
+{% include _sponsors.html %}
+
+<section class="full photo-feature" id="photo-1"></section>
+
+<section class="info links" id="links">
+	<a href="http://bitca.mp/trails" class="link">Trails</a>
+	<a href="http://bitca.mp/mentors" class="link">Mentors</a>
+	<a href="http://bitca.mp/conduct" class="link">Conduct</a>
+	<a href="http://bitca.mp/faq" class="link">FAQ</a>
+	<a href="http://bitca.mp/travel" class="link">Travel</a>
+	<a href="http://bitca.mp/sponsors" class="link">Sponsors</a>
+	<a href="http://bitca.mp/colorwar" class="link">Colorwar</a>
+	<a href="https://docs.google.com/forms/d/1EqO8s883rFQpXBeLr2_nIuamQGwWZD5MOUEZhykybr0/viewform" class="link">Waiver</a>
+	<a href="https://docs.google.com/forms/d/1TxhcSMFOawS3TbHYhoAhZsH7Vs27zks8jD84pH_BNAY/viewform" class="link">Volunteer</a>
+	<a href="http://bitca.mp/map" class="link">Map</a>
+	<a href="http://bitcamp15.challengepost.com/" class="link">Challenge Post</a>
+	<a href="http://bitca.mp/thanks/" class="link">Thank You!</a>
+</section>

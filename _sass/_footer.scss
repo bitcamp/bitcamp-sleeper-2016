@@ -1,0 +1,19 @@
+footer {
+	clear: both;
+	text-align: center;
+
+	p {
+		color: $medium-blue;
+	}
+
+	.social-item {
+		margin: 0 $space/4;
+		@include media($tablet) {
+			margin: 0 $space/2;
+		}
+	}
+}
+
+.copy {
+	margin-bottom: $space;
+}

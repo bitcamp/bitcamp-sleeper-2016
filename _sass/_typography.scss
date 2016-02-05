@@ -1,0 +1,63 @@
+//Variables
+@import "variables";
+
+// FONTS
+@include font-face("Aleo", "/fonts/Aleo/Aleo-Regular", 400);
+@include font-face("Aleo", "/fonts/Aleo/Aleo-Bold", 700);
+@include font-face("Avenir", "/fonts/Avenir/Avenir-Regular", 400);
+@include font-face("Avenir", "/fonts/Avenir/Avenir-Bold", 700);
+
+$slab: "Aleo", Georgia, Serif;
+$sans: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+
+
+// BODY
+
+body {
+	font-family: $slab;
+	font-weight: 400;
+	font-size: $base-font-size;
+	@include media($tablet) {
+		font-size: $tablet-font-size;
+	}
+	@include media($desktop) {
+		font-size: $desktop-font-size;
+	}
+	@include media($large) {
+		font-size: $large-font-size;
+	}
+}
+
+// TABLES
+
+th {
+	font-family: $sans;	
+}
+table {
+	@include media($mobile) {
+		font-size: $tablet-font-size * .5;
+	}
+}
+
+// HEADINGS
+
+h1 {
+	line-height: 1.25;
+	font-family: $sans;
+	font-size: 4em;
+	color: $dark-blue;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1em;
+	font-family: $sans;
+	color: $dark-blue;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-family: $sans;
+	color: $dark-blue;
+}
