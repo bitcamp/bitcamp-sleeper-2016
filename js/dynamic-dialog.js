@@ -25,7 +25,6 @@ function expandSelect(currentIdentifier) {
 $(window).load(function() {
     $(".section-content").customScrollbar({
         skin: 'brown-skin', 
-        hScroll: false,
         updateOnWindowResize: true
     });
 });
