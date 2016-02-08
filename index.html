@@ -56,7 +56,6 @@ layout: default
     </div>
   </a>
 
-  {% assign index = 0 %}
   {% for section in site.data.content-blocks %}
     {% capture orientation %}{% cycle 'left', 'right' %}{% endcapture %}
     {% capture height %}
@@ -135,7 +134,6 @@ layout: default
         {% endfor %}
       </div>
     </div>
-    {% assign index = index + 1 %}
   {% endfor %}
 </div>
 <div class="lines-tiled show-only-mobile"></div>
