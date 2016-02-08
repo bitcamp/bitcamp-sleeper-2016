@@ -1,100 +1,142 @@
 ---
 layout: default
 ---
-
-<section class="hero full">
-  <div class="container">
-
-    <nav class="menu">
-      <div class="menu-logo">
-        <a href="{{ site.baseurl }}"><img src="/img/bitcamp-logo-text.svg"></a>
-      </div>
-      <ul class="menu-list">
-        <li class="menu-item"><a href="#about" class="menu-item-link">About</a></li>
-        <li class="menu-item"><a href="#schedule" class="menu-item-link">Schedule</a></li>
-        <li class="menu-item"><a href="#sponsors" class="menu-item-link">Sponsors</a></li>
-        <li class="menu-item"><a href="mailto:hello@bitca.mp" class="menu-item-link">Contact</a></li>
-      </ul>
-    </nav> <!-- /.menu -->
-
-    <nav class="menu-mobile">
-      <div class="menu-hamburger">
-        <img src="/img/hamburger.svg">
-      </div>
-      <ul class="mobile-navigation" id="mobile-navigation">
-        <a href="#about" class="menu-item-link-mobile"><li class="menu-item-mobile">About</li></a>
-         <a href="#schedule" class="menu-item-link-mobile"><li class="menu-item-mobile">Schedule</li></a>
-        <a href="#sponsors" class="menu-item-link-mobile"><li class="menu-item-mobile">Sponsors</li></a>
-        <a href="mailto:hello@bitca.mp" class="menu-item-link-mobile"><li class="menu-item-mobile">Contact</li></a>
-      </ul>
-    </nav> <!-- /.menu-mobile -->
-
-    <div class="hero-info">
-      <div class="hero-info-text" id="hero-info-date">April 10-12, 2015</div>
-      <div id="hero-info-badge">
-        <img src="/img/bitcamp-logo-badge.svg">
-      </div>
-      <div id="hero-info-logo">
-        <img src="/img/bitcamp-logo-icon.svg">
-      </div>
-      <div class="hero-info-text" id="hero-info-city">College Park, MD</div>
+<div class="sky vh_height44" id="sky">
+  <img src="{{ 'assets/img/bitcamp-logo-text-orange.svg' | prepend: site.baseurl }}" class="vh_height10" id="logo-text">
+  <div class="subtext">
+    <div class="vw_width52" style="margin-left:24%;">
+      A 36-hour hackathon at the University of Maryland
     </div>
-
-    <h1 class="hero-text">Imagine<br>Tomorrow</h1>
-    <!-- <a href="/register/" class="button">Sign up Today</a> -->
-
-    <ul class="social-links">
-      <li class="social-item">
-        <a href="https://www.facebook.com/bitcmp" class="social-item-link" target="_blank">
-          <img src="/img/social/facebook.svg">
-        </a>
-      </li>
-      <li class="social-item">
-        <a href="https://twitter.com/bitcmp" class="social-item-link" target="_blank">
-          <img src="/img/social/twitter.svg">
-        </a>
-      </li>
-      <li class="social-item">
-        <a href="https://instagram.com/bitcamp" class="social-item-link" target="_blank">
-          <img src="/img/social/instagram.svg">
-        </a>
-      </li>
-    </ul>
-
+    <div class="date-container">
+      April 8-10, 2016
+    </div>
+    <a href="{{ site.typeform_url }}">
+      <button class="register-button">Register</button>
+    </a>
   </div>
-  <a href="http://bitcamp15.challengepost.com/" class="button">See the Hacks</a>
-</section> <!-- /.hero -->
+</div>
 
-<section class="info" id="about">  <!-- about -->
-  <h2 class="info-title">About</h2>
-  <p class="info-text">
-    Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!
-  </p>
-</section> <!-- /about -->
+<div id="img-container">
+  <div class="pole vh_height69 vh_top12"></div>
+  <div class="sponsorship_inquiries vh_top82 vw_left7 desktop-assets">
+    For sponsorship inquries, contact 
+    <a href="mailto:hello@bitca.mp">
+      hello@bitca.mp
+    </a>
+  </div>
+  <img src="{{ 'assets/img/mountains-left.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height26 vh_top19 vw_left6 mountain" id="mountain-1">
+   <img src="{{ 'assets/img/mountains-right.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height26 vh_top19 vw_right1 mountain" id="mountain">
+  <img src="{{ 'assets/img/lake.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height11 vh_top47 vw_right7 desktop-assets">
+  <img src="{{ 'assets/img/bus.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height14 vh_top67 vw_left87 desktop-assets">
+  <img src="{{ 'assets/img/bulletin_board.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height11 vh_top71 vw_left69 desktop-assets">
+  <img src="{{ 'assets/img/tents.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height8 vh_top59 vw_left36 desktop-assets">
+  <img src="{{ 'assets/img/fire.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height11 vh_top64 vw_left46 desktop-assets">
+  <img src="{{ 'assets/img/cabin.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height5 vh_top51 vw_left23 desktop-assets">
+  <img src="{{ 'assets/img/lines.svg' | prepend: site.baseurl }}"
+   class="svg-image vh_height56 vw_width100 vh_top38 desktop-assets"
+   id="lines">
+</div>
+<div class="dialog-container">
+  <a href="#">
+    <div onclick="setActiveDialog('Home');">
+      <img src="assets/img/sign-right.svg"
+        class="sign-img sign-right vh_top14">
+      <div class="sign vh_top15" id="Home-menu" style="color:#FFFFFF">
+        Home
+      </div>
+    </div>
+  </a>
 
-<section class="full photo-feature" id="photo-2"></section>
-
-<section class="info" id="schedule"> <!-- schedule -->
-{% include _schedule.html %}
-</section> <!-- /schedule -->
-
-<section class="full photo-feature" id="photo-3"></section>
-
-{% include _sponsors.html %}
-
-<section class="full photo-feature" id="photo-1"></section>
-
-<section class="info links" id="links">
-	<a href="http://bitca.mp/trails" class="link">Trails</a>
-	<a href="http://bitca.mp/mentors" class="link">Mentors</a>
-	<a href="http://bitca.mp/conduct" class="link">Conduct</a>
-	<a href="http://bitca.mp/faq" class="link">FAQ</a>
-	<a href="http://bitca.mp/travel" class="link">Travel</a>
-	<a href="http://bitca.mp/sponsors" class="link">Sponsors</a>
-	<a href="http://bitca.mp/colorwar" class="link">Colorwar</a>
-	<a href="https://docs.google.com/forms/d/1EqO8s883rFQpXBeLr2_nIuamQGwWZD5MOUEZhykybr0/viewform" class="link">Waiver</a>
-	<a href="https://docs.google.com/forms/d/1TxhcSMFOawS3TbHYhoAhZsH7Vs27zks8jD84pH_BNAY/viewform" class="link">Volunteer</a>
-	<a href="http://bitca.mp/map" class="link">Map</a>
-	<a href="http://bitcamp15.challengepost.com/" class="link">Challenge Post</a>
-	<a href="http://bitca.mp/thanks/" class="link">Thank You!</a>
-</section>
+  {% assign index = 0 %}
+  {% for section in site.data.content-blocks %}
+    {% capture orientation %}{% cycle 'left', 'right' %}{% endcapture %}
+    {% capture height %}
+      {% cycle 'vh_top21', 'vh_top28', 'vh_top35', 'vh_top42',
+      'vh_top49', 'vh_top56', 'vh_top63' %}
+    {% endcapture %}
+    {% capture textHeight %}
+      {% cycle 'vh_top22', 'vh_top29', 'vh_top36', 'vh_top43',
+      'vh_top50', 'vh_top57', 'vh_top64' %}
+    {% endcapture %}
+    <a href="#">
+      <div onclick="setActiveDialog('{{section.name | replace:' ','-' }}');">
+        <img src="assets/img/sign-{{orientation}}.svg"
+          class="sign-img 
+            {% if orientation == 'right' %}
+              sign-right
+            {% else %}
+              sign-left
+            {% endif %}
+          {{height}}">
+        <div class="sign {{textHeight}}"
+          id="{{section.name| replace:' ','-' }}-menu">
+          {{section.name}}
+        </div>
+      </div>
+    </a>
+    <div class="dialog vh_height60 vw_width60 vh_top21 container-fluid"
+      id="{{ section.name }}">
+      <script>
+        $(document).ready(function(){
+          {{section.name | replace:' ','-' }}selected = '{{section.name}}-{{section.subsections[0].name}}';
+          expandSelect({{section.name | replace:' ','-' }}selected);
+        });
+      </script>
+      <a href="#">
+        <div class="exit" onclick="setActiveDialog('Home');">x</div>
+      </a>
+      {% if section.subsections.size > 1 %}
+        <div class="col-md-3">
+          {% for subsection in section.subsections %}
+            {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
+            <a href="#">
+              <div class="selection-text unselected"
+                id="{{selectorName}}-selector">
+                {{ subsection.name }}
+              </div>
+            </a>
+            <script>
+                $('#{{selectorName}}-selector').click(
+                  function() {
+                    changeText({{section.name}}selected, '{{selectorName}}');
+                    {{section.name}}selected = '{{selectorName}}';
+                  }
+                );
+            </script>
+          {% endfor %}
+        </div>
+      {% endif %}
+      <div class="dialog-section-container
+        {% if section.subsections.size > 1 %}
+          col-md-9
+        {% else %}
+          col-md-12
+        {%endif%}">
+        {% for subsection in section.subsections %}
+          {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
+          <div class="dialog-section" id="{{selectorName}}">
+            <div class="selection-text selected content-title 
+              {% if section.subsections.size > 1 %}
+                desktop-assets
+              {% endif %}">
+              {{ subsection.name }}
+            </div>
+            <div class="section-content">
+              {{ subsection.value }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% assign index = index + 1 %}
+  {% endfor %}
+</div>
+<div class="lines-tiled show-only-mobile"></div>

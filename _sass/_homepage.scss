@@ -1,0 +1,306 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #E5D8CE;
+}
+
+.svg-image {
+  position: absolute;
+}
+
+.mountain {
+  z-index: 0;
+}
+
+.sky {
+  padding-top: 65px;
+  background-color: #CBF2FF;
+  text-align: center;
+  color: #FF6F3F;
+}
+
+.sponsorship_inquiries {
+  position: absolute;
+  color: #7F6C5F;
+  font-size: 17px;
+  a {
+    color: #7F6C5F;
+    text-decoration: underline;
+  }
+}
+
+.pole {
+  background-color: #7F6C5F;
+  width: 15px;
+  position: absolute;
+  left: 110px;
+}
+
+.subtext {
+  position: relative;
+  z-index: 1;
+  margin-top: 32px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.date-container {
+  padding-top: 10px;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.sign-img {
+  z-index: 100;
+  position: absolute;
+  height: 48px;
+}
+
+.sign-right {
+  -ms-transform: rotate(356deg); /* IE 9 */
+  -webkit-transform: rotate(356deg); /* Chrome, Safari, Opera */
+  transform: rotate(356deg);
+  left: 56px;
+}
+
+.selected {
+  color: #000000;
+}
+
+.unselected {
+  color: #528CA5;
+}
+
+.selection-text {
+  text-transform: uppercase;
+  font-family: 'avenir';
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.content-title {
+  margin-bottom: 20px;
+}
+
+.dialog-section {
+  display: none;
+  text-align: left;
+  font-size: 17px;
+  margin-right: 20px;
+  color: #444444;
+}
+
+.dialog-section-container {
+  position: relative;
+  height: 100%;
+  overflow: scroll;
+}
+
+dialog-section-container::-webkit-scrollbar {
+  width: 35px;
+}
+
+dialog-section-container::-webkit-scrollbar-track {
+  background-color: #b46868;
+}
+
+dialog-section-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+   
+dialog-section-container::-webkit-scrollbar-button {
+  background-color: #7c2929;
+}
+   
+dialog-section-container::-webkit-scrollbar-corner {
+  background-color: black;
+}
+
+.dialog {
+  padding-top: 45px;
+  position: absolute;
+  background-color: #E5D8CE;
+  border: 1px solid #7F6C5F;
+  z-index: 10000;
+  right: 3000px;
+}
+
+.sign-left {
+  -ms-transform: rotate(4deg); /* IE 9 */
+  -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+  transform: rotate(4deg);
+  left: 40px;
+}
+
+.sign {
+  position: absolute;
+  z-index: 200;
+  color: #E5D8CE;
+  text-transform: uppercase;
+  font-family: 'avenir';
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 11px;
+  left: 93px;
+}
+
+.register-button {
+  margin-top: 18px;
+  padding: 15px 35px 15px 35px;
+  border: none;
+  background-color: #FF6F3F;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'avenir';
+}
+
+.section-content {
+  text-align: left;
+}
+
+.show-only-mobile {
+  display: none;
+}
+
+.lines-tiled {
+  background-image: url('../assets/img/lines.svg');
+  top: 300px;
+  height: 450px;
+  z-index: -100000;
+  background-repeat: space;
+}
+
+.exit {
+  color: #7F6C5F;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  font-family: 'avenir';
+  font-size: 35px;
+}
+
+@media screen and (max-width: 999px) {
+  .selection-text {
+    font-size: 18px;
+  }
+}
+
+#mlh-trust-badge {
+  right: 75px;
+}
+
+#lines {
+  z-index: -10000;
+}
+
+.mobile-dialog {
+  width: 100%;
+  top: 252px;
+  min-height: 475px;
+}
+
+@media screen and (max-width: 720px) {
+  #logo-text {
+    height: 50px;
+  }
+
+  .selection-text {
+    font-size: 18px;
+  }
+
+  .desktop-assets {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .subtext {
+    line-height: 150%;
+    font-size: 90%;
+    margin-top: 2px;
+  }
+
+  #mlh-trust-badge {
+    right: 15px;
+  }
+
+  #mountain,#mountain-1 {
+    height: 80px;
+    top: 174px;
+  }
+
+  #mountain {
+    right: 0;
+  }
+
+  #mountain-1 {
+    left: 5px;
+  }
+
+  #sky {
+    padding-top: 35px;
+    height: 250px
+  }
+
+  .date-container {
+    font-weight: 600;
+  }
+
+  .register-button {
+    padding-top: 14px;
+    padding-bottom: 12px;
+    font-size: 135%;
+    margin-top: 10px;
+  }
+
+  #lines {
+    position: absolute;
+    top: 270px;
+  }
+
+  .pole {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20px;
+  }
+
+  .sign-img,.sign {
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .sign {
+    padding-top: 16px;
+  }
+
+  .sign-img {
+    padding-left: 17px;
+    height: 60px;
+  }
+
+  .sign-left {
+    padding-right: 30px;
+  }
+
+  .dialog {
+    border: none;
+  }
+
+  #img-container {
+    .vh_top12 {
+      top: 285px;
+    }
+  }
+
+  .show-only-mobile {
+    display: block;
+  }
+}

@@ -1,38 +1,40 @@
 footer {
-	clear: both;
-	text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 18px;
+  clear: both;
+  text-align: center;
+  padding-bottom: 0.25em;
+  p {
+    color: #7F6C5F;
+    font-size: 80%;
+  }
 
-	p {
-		color: $medium-blue;
-	}
-
-	.social-item {
-		margin: 0 $space/4;
-		@include media($tablet) {
-			margin: 0 $space/1.6;
-		}
-	}
+  .social-item {
+    margin: 0 1.25em;
+  }
 }
 
 .social-links {
-  margin-top: $space;
+  margin-top: 2em;
 }
 
 .social-item {
   display: inline-block;
-  margin: 0 $space/1.6;
+  margin: 0 1.25em;
   img {
-    @include size($space $space);
+    @include size(2em 2em);
   }
 }
 
 .social-item-link {
   float: left;
   img {
-    width: $space;
+    width: 2em;
   }
 }
 
 .copy {
-	margin-bottom: $space;
+  margin-bottom: 2em;
 }
