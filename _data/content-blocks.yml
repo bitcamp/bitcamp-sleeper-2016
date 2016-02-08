@@ -1,20 +1,142 @@
 - name: About
   subsections: 
-    - name: Bitcamp
+    - name: What is Bitcamp
       value: |
         Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!
+    - name: What is a Hackathon
+      value: |
+        A hackathon is a creative coding marathon. Students are encouraged to come with an idea, form teams, and then build out that idea into a product in 36 hours. For Bitcamp, we want you to take something you love (sports! art! camping!) and combine it with technology to make something awesome. It is a great time to push the envelope and learn some new skills.
+    - name: Venue
+      value: |
+        Bitcamp 2016 will take place at the <a href="https://goo.gl/maps/Y6CbkMAwLm72">Reckord Armory</a> on the University of Maryland campus. 
+        <br><br>If you are coming from I95/I495: Exit at College Park/US-1 (#25), go south on US-1 for about two miles until reaching the Visitor Center on your right. Turn right into the parking lot and park in lots C1 or C2. 
+        <br><br>If you are coming from Washington D.C.: Take Rhode Island Avenue (US-1) north to College Park, which will turn into Baltimore Avenue (US-1). Turn left into the parking lot for the Visitors Center and park in lots C1 or C2. 
+        <br><br>If you are traveling via Metro: Ride the Green Line to the College Park Metro Station, and take the University of Maryland <a href="http://www.transportation.umd.edu/shuttle/schedules/current/104_CPM.pdf">104</a> bus to stop #1. Walk south across the fields to reach the Armory.
 - name: Events
   subsections:
     - name: Schedule
       value: |
-        lorem ipsum lorem ipsum
+        <section class="info" id="schedule"> <!-- schedule -->
+        <!-- Friday -->
+        <h3 class="table-title">Friday</h3><br>
+        <table id="table-friday">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4:00PM</td>
+            <td>Sponsor Mentor Checkin</td>
+          </tr>
+          <tr>
+            <td>6:00PM</td>
+            <td>Registration Opens</td>
+          </tr>
+          <tr>
+            <td>8:00PM</td>
+            <td>Sponsorship Fair</td>
+          </tr>
+          <tr>
+            <td>9:30PM</td>
+            <td>Opening Ceremony</td>
+          </tr>
+          <tr>
+            <td>10:00PM </td>
+            <td>Hacking Begins</td>
+          </tr>
+        </tbody>
+        </table><!-- /Friday -->
+        <!-- Saturday -->
+        <br><h3 class="table-title">Saturday</h3><br>
+        <table id="table-friday">
+        <thead>
+          <tr>
+            <th>Start</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4:00PM </td>
+            <td>Colorwar</td>
+          </tr>
+        </tbody>
+        </table><!-- /Saturday -->
+        <!-- Sunday -->
+        <br><h3 class="table-title">Sunday</h3><br>
+        <table id="table-sunday">
+        <thead>
+          <tr>
+            <th>Start</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10:00AM </td>
+            <td>Hacking Ends/Submissions Due</td>
+          </tr>
+          <tr>
+            <td>11:00AM </td>
+            <td>Expo Begins</td>
+          </tr>
+          <tr>
+            <td>1:30PM</td>
+            <td>Closing Ceremony</td>
+          </tr>
+          <tr>
+            <td>2:30PM</td>
+            <td>End</td>
+          </tr>
+        </tbody>
+        </table>
+        <!-- /Sunday -->
+    - name: Colorwar
+      value: |
+        More information coming soon!
+    - name: Trails
+      value: |
+        More information coming soon!
 - name: FAQ
   subsections:
     - name: General FAQ
       value: |
-        lorem ipsum lorem ipsum
+        <h3>What’s Bitcamp?</h3>
+        Bitcamp is a place for exploration. We’re a hackathon that values participant experience and mentorship over competitiveness and points. Come to have fun with your friends, learn something new, eat s’mores, and have a generally awesome time. We have all sorts of crazy activities planned for you...you’ll have to come to find out the rest!
+        <br><br><h3>What’s a hackathon?</h3>
+        <br>A hackathon is a creative coding marathon. Students are encouraged to come with an idea, form teams, and then build out that idea into a product in 36 hours. For Bitcamp, we want you to take something you love (sports! art! camping!) and combine it with technology to make something awesome. It is a great time to push the envelope and learn some new skills.
+        <br><br><h3>Where’s Bitcamp?</h3>
+        Bitcamp 2016 will take place at the <a href="https://goo.gl/maps/Y6CbkMAwLm72">Reckord Armory</a> on the University of Maryland campus. 
+        <br><br>If you are coming from I95/I495: Exit at College Park/US-1 (#25), go south on US-1 for about two miles until reaching the Visitor Center on your right. Turn right into the parking lot and park in lots C1 or C2. 
+        <br><br>If you are coming from Washington D.C.: Take Rhode Island Avenue (US-1) north to College Park, which will turn into Baltimore Avenue (US-1). Turn left into the parking lot for the Visitors Center and park in lots C1 or C2. 
+        <br><br>If you are traveling via Metro: Ride the Green Line to the College Park Metro Station, and take the University of Maryland <a href="http://www.transportation.umd.edu/shuttle/schedules/current/104_CPM.pdf">104</a> bus to stop #1. Walk south across the fields to reach the Armory.
+        <br><br><h3>Travel </h3>
+        We’ll have buses covering travel from several schools and areas. If there isn’t a bus from your school or area, we’ll be providing reimbursements on an application basis. We cannot reimburse anyone traveling from a school that has a bus. Please contact travel@bitca.mp for more information.
+        <br><br><h3>Guidelines</h3>
+        Don’t bring any firearms, knives, weapons, drugs or alcohol. 
+        <br><br>Don’t use an old project. Start something new instead!
+        <br><br>Please read our Code of Conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody. (TL;DR: Be nice.)
+        <br><br><h3>Timing </h3>
+        People will arrive between 6pm and 8pm on Friday, April 8, 2016. Dinner is served at 6:30 PM. Our Sponsor Fair is at 8:00 PM, where you can spend time meeting and listening to sponsor talks. Hacking will start at 10pm on Friday and go until 10am on Sunday, April 10, 2016. Closing session will end by 3pm on Sunday.
+        <br><br><h3>Packing List </h3>
+        Bring yourself, a photo ID, your signed waiver (if applicable), clothes, toiletries, a sleeping bag/blanket, your hacker setup and maybe an idea or two.
+        <br><br><h3>Registration Process</h3>
+        Registration opens Monday, February 8th at 12:00pm. Answer the questions regarding  yourself, and later we will follow up with you with travel reimbursements, liability waivers, and the sort.
+        <br><br><h3>Teams</h3>
+        Projects are submitted by teams to ChallengePost. You don’t need to finalize your team until project submissions are due during the event. Teams are limited to four people. You may have a one-person team.
+        <br><br><h3>Experience + Ideas </h3>
+        Don’t be afraid if you don’t think you have enough experience, a team or an idea. A hackathon is meant for learning. We are going to have experienced mentors to help your team with a range of topics, and workshops on all kinds of skills.
+        <br><br><h3>Can I volunteer/mentor?</h3>
+        We would love your help in guiding our hackers! More details will be coming soon about this opportunity.  
+        <br><br><h3>Who can apply?</h3>
+        Any college, university, or high school student 18 years old or older on January 1st, 2016 is eligible to apply.
+        <br><br><h3>Other questions?</h3>
+        Feel free to email us (link to hello@bitca.mp) or tweet us @bitcmp (link to twitter.com/bitcmp)<br><br>
 - name: Contact
   subsections:
-    - Contact us
+    - name: Contact us
       value: |
-        Feel free to email <a href="mailto:hello@bitca.mp>us</a> or tweet us <a href="twitter.com/bitcmp">@bitcmp</a>
+        Feel free to <a href="mailto:hello@bitca.mp">email us</a> or tweet us <a href="twitter.com/bitcmp">@bitcmp</a>

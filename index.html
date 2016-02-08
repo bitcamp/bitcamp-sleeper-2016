@@ -93,8 +93,7 @@ layout: default
       <a href="#">
         <div class="exit" onclick="setActiveDialog('Home');">x</div>
       </a>
-      {% if section.subsections.size > 1 %}
-        <div class="col-md-3">
+        <div class="col-md-4">
           {% for subsection in section.subsections %}
             {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
             <a href="#">
@@ -113,13 +112,7 @@ layout: default
             </script>
           {% endfor %}
         </div>
-      {% endif %}
-      <div class="dialog-section-container
-        {% if section.subsections.size > 1 %}
-          col-md-9
-        {% else %}
-          col-md-12
-        {%endif%}">
+      <div class="dialog-section-container col-md-8">
         {% for subsection in section.subsections %}
           {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
           <div class="dialog-section" id="{{selectorName}}">
