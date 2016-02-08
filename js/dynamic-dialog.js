@@ -15,6 +15,7 @@ function collapseDeselect(currentIdentifier) {
 }
 
 function expandSelect(currentIdentifier) {
+    console.log(currentIdentifier);
     $('#' + currentIdentifier + '-selector').removeClass('unselected');
     $('#' + currentIdentifier + '-selector').addClass('selected');
     $('#' + currentIdentifier + '-selector-tablet').removeClass('unselected');

@@ -86,7 +86,7 @@ layout: default
       id="{{ section.name }}">
       <script>
         $(document).ready(function(){
-          {{section.name | replace:' ','-' }}selected = '{{section.name}}-{{section.subsections[0].name}}';
+          {{section.name | replace:' ','-' }}selected = '{{section.name}}-{{section.subsections[0].name | replace:' ','-' }}';
           expandSelect({{section.name | replace:' ','-' }}selected);
         });
       </script>
