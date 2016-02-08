@@ -1,18 +1,20 @@
 - name: About
   subsections: 
-    - name: Venue
+    - name: Bitcamp
       value: |
-        lorem ipsum
-    - name: Past Hacks
-      value: |
-        qwerpuopiqwueropiqweurpoiqwjeroipj
-        qweiorpuqpwioeurpoiqwuerpioj
-    - name: Code of Conduct
-      value: |
-        jqwpoeiruqopwieurpoiqwjerpoiqweopiruqwopieru
-        qweiropuqwpoieurpoiwqeurpoiqwueroipuqwepiru
+        Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!
 - name: Events
   subsections:
     - name: Schedule
       value: |
         lorem ipsum lorem ipsum
+- name: FAQ
+  subsections:
+    - name: General FAQ
+      value: |
+        lorem ipsum lorem ipsum
+- name: Contact
+  subsections:
+    - Contact us
+      value: |
+        Feel free to email <a href="mailto:hello@bitca.mp>us</a> or tweet us <a href="twitter.com/bitcmp">@bitcmp</a>
