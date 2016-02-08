@@ -8,10 +8,10 @@
         A hackathon is a creative coding marathon. Students are encouraged to come with an idea, form teams, and then build out that idea into a product in 36 hours. For Bitcamp, we want you to take something you love (sports! art! camping!) and combine it with technology to make something awesome. It is a great time to push the envelope and learn some new skills.
     - name: Venue
       value: |
-        Bitcamp 2016 will take place at the <a href="https://goo.gl/maps/Y6CbkMAwLm72">Reckord Armory</a> on the University of Maryland campus. 
+        Bitcamp 2016 will take place at the <a target="_blank" href="https://goo.gl/maps/Y6CbkMAwLm72">Reckord Armory</a> on the University of Maryland campus. 
         <br><br>If you are coming from I95/I495: Exit at College Park/US-1 (#25), go south on US-1 for about two miles until reaching the Visitor Center on your right. Turn right into the parking lot and park in lots C1 or C2. 
         <br><br>If you are coming from Washington D.C.: Take Rhode Island Avenue (US-1) north to College Park, which will turn into Baltimore Avenue (US-1). Turn left into the parking lot for the Visitors Center and park in lots C1 or C2. 
-        <br><br>If you are traveling via Metro: Ride the Green Line to the College Park Metro Station, and take the University of Maryland <a href="http://www.transportation.umd.edu/shuttle/schedules/current/104_CPM.pdf">104</a> bus to stop #1. Walk south across the fields to reach the Armory.
+        <br><br>If you are traveling via Metro: Ride the Green Line to the College Park Metro Station, and take the University of Maryland <a target="_blank" href="http://www.transportation.umd.edu/shuttle/schedules/current/104_CPM.pdf">104</a> bus to stop #1. Walk south across the fields to reach the Armory.
 - name: Events
   subsections:
     - name: Schedule
