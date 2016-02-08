@@ -2,6 +2,12 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
   background-color: #E5D8CE;
+  font-family: 'avenir';
+}
+
+dialog a, dialog a:visited, dialog a:hover {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .svg-image {
@@ -23,10 +29,12 @@ html, body {
   position: absolute;
   color: #7F6C5F;
   font-size: 17px;
+  text-align: center;
   a {
     color: #7F6C5F;
     text-decoration: underline;
   }
+  width: 100%;
 }
 
 .pole {
@@ -56,11 +64,37 @@ html, body {
   height: 48px;
 }
 
+.sign {
+  position: absolute;
+  z-index: 200;
+  color: #E5D8CE;
+  text-transform: uppercase;
+  font-family: 'avenir';
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 11px;
+  left: 93px;
+}
+
 .sign-right {
+  left: 56px;
+}
+
+.sign-left {
+  left: 40px;
+}
+
+.sign-right, .sign-right-text {
   -ms-transform: rotate(356deg); /* IE 9 */
   -webkit-transform: rotate(356deg); /* Chrome, Safari, Opera */
   transform: rotate(356deg);
-  left: 56px;
+}
+
+.sign-left, .sign-left-text {
+  -ms-transform: rotate(4deg); /* IE 9 */
+  -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+  transform: rotate(4deg);
 }
 
 .selected {
@@ -77,6 +111,9 @@ html, body {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 20px;
+  a {
+    text-decoration: none;
+  }
 }
 
 .content-title {
@@ -93,28 +130,6 @@ html, body {
 
 .dialog-section-container {
   position: relative;
-  height: 100%;
-  overflow: scroll;
-}
-
-dialog-section-container::-webkit-scrollbar {
-  width: 35px;
-}
-
-dialog-section-container::-webkit-scrollbar-track {
-  background-color: #b46868;
-}
-
-dialog-section-container::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2); 
-}
-   
-dialog-section-container::-webkit-scrollbar-button {
-  background-color: #7c2929;
-}
-   
-dialog-section-container::-webkit-scrollbar-corner {
-  background-color: black;
 }
 
 .dialog {
@@ -126,29 +141,9 @@ dialog-section-container::-webkit-scrollbar-corner {
   right: 3000px;
 }
 
-.sign-left {
-  -ms-transform: rotate(4deg); /* IE 9 */
-  -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
-  transform: rotate(4deg);
-  left: 40px;
-}
-
-.sign {
-  position: absolute;
-  z-index: 200;
-  color: #E5D8CE;
-  text-transform: uppercase;
-  font-family: 'avenir';
-  font-weight: 600;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 11px;
-  left: 93px;
-}
-
 .register-button {
   margin-top: 18px;
-  padding: 15px 35px 15px 35px;
+  padding: 10px 35px 9px 35px;
   border: none;
   background-color: #FF6F3F;
   color: #FFFFFF;
@@ -157,8 +152,14 @@ dialog-section-container::-webkit-scrollbar-corner {
   font-family: 'avenir';
 }
 
+.register-button:hover {
+  background-color: #FF3F46;
+}
+
 .section-content {
   text-align: left;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .show-only-mobile {
@@ -177,9 +178,9 @@ dialog-section-container::-webkit-scrollbar-corner {
   color: #7F6C5F;
   position: absolute;
   top: 7px;
-  right: 10px;
+  right: 15px;
   font-family: 'avenir';
-  font-size: 35px;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 999px) {
