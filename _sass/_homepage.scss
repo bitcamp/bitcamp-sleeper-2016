@@ -26,7 +26,6 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 .sponsorship_inquiries {
-  position: absolute;
   color: #7F6C5F;
   font-size: 17px;
   text-align: center;
@@ -98,7 +97,7 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 .selected {
-  color: #000000;
+  color: #1A2E33;
 }
 
 .unselected {
@@ -153,7 +152,8 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 .register-button:hover {
-  background-color: #FF3F46;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .section-content {
