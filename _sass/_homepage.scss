@@ -6,7 +6,7 @@ html, body {
 }
 
 dialog a, dialog a:visited, dialog a:hover {
-  color: inherit;
+  color: #7F6C5F;
   text-decoration: underline;
 }
 
@@ -35,6 +35,7 @@ dialog a, dialog a:visited, dialog a:hover {
     text-decoration: underline;
   }
   width: 100%;
+  font-family: 'aleo';
 }
 
 .pole {
@@ -50,6 +51,7 @@ dialog a, dialog a:visited, dialog a:hover {
   margin-top: 32px;
   font-size: 18px;
   text-align: center;
+  font-family: 'aleo';
 }
 
 .date-container {
