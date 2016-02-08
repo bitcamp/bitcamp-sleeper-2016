@@ -20,7 +20,6 @@ html, body {
 }
 
 .sponsorship_inquiries {
-  position: absolute;
   color: #7F6C5F;
   font-size: 17px;
   a {
@@ -64,7 +63,7 @@ html, body {
 }
 
 .selected {
-  color: #000000;
+  color: #1A2E33;
 }
 
 .unselected {
@@ -157,8 +156,14 @@ dialog-section-container::-webkit-scrollbar-corner {
   font-family: 'avenir';
 }
 
+.register-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .section-content {
   text-align: left;
+  line-height: 200%;
 }
 
 .show-only-mobile {
