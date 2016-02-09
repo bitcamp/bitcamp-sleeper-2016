@@ -101,3 +101,9 @@ h3 {
 	font-family: $sans;
 	color: $dark-blue;
 }
+a{
+	color: $medium-blue;
+	&:visited, &:active, &:hover, &:link{
+		color: $medium-blue;
+	}
+}
