@@ -117,7 +117,7 @@ layout: default
             </script>
           {% endfor %}
         </div>
-      <div class="dialog-section-container col-md-8">
+      <div class="dialog-section-container col-md-8 vh_height48">
         {% for subsection in section.subsections %}
           {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
           <div class="dialog-section" id="{{selectorName}}">
@@ -127,7 +127,7 @@ layout: default
               {% endif %}">
               {{ subsection.name }}
             </div>
-            <div class="section-content vh_height46">
+            <div class="section-content">
               {{ subsection.value }}
             </div>
           </div>

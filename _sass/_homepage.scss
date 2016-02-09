@@ -131,7 +131,11 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 .dialog-section-container {
-  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* scrollbar for Internet Explorer */
+  scrollbar-face-color: #A58D7C;
+  scrollbar-track-color: #7F6C5F;
 }
 
 .dialog {
@@ -161,7 +165,6 @@ dialog a, dialog a:visited, dialog a:hover {
 
 .section-content {
   text-align: left;
-  height: auto;
   margin-bottom: 10px;
 }
 
@@ -180,10 +183,11 @@ dialog a, dialog a:visited, dialog a:hover {
 .exit {
   color: #7F6C5F;
   position: absolute;
-  top: 52px;
-  right: 15px;
+  top: 15px;
+  right: 25px;
   font-family: 'avenir';
   font-size: 30px;
+  z-index: 10000000;
 }
 
 @media screen and (max-width: 999px) {
@@ -306,6 +310,10 @@ td{
     .vh_top12 {
       top: 285px;
     }
+  }
+
+  .dialog-section-container {
+    overflow-y: visible;
   }
 
   .show-only-mobile {

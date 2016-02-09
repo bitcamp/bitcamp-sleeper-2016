@@ -21,10 +21,3 @@ function expandSelect(currentIdentifier) {
     $('#' + currentIdentifier + '-selector-tablet').addClass('selected');
     $('#' + currentIdentifier).css('display', 'block');
 }
-
-$(window).load(function() {
-    $(".section-content").customScrollbar({
-        skin: 'brown-skin', 
-        updateOnWindowResize: true
-    });
-});
