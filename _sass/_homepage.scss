@@ -159,7 +159,7 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 .register-button {
-  margin-top: 18px;
+  margin-top: 5px;
   padding: 10px 35px 9px 35px;
   border: none;
   background-color: #FF6F3F;
@@ -167,12 +167,6 @@ dialog a, dialog a:visited, dialog a:hover {
   font-weight: 600;
   text-transform: uppercase;
   font-family: 'avenir';
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margint-right: auto;
-  z-index: 1000000;
 }
 
 .register-button:hover {
