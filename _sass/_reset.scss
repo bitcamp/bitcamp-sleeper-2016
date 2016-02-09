@@ -49,10 +49,14 @@ li {
 a {
   background-color: transparent;
   text-decoration: none;
+  color: #528CA5;
 
   &:active,
   &:hover {
     outline: none;
+  }
+  &:visited {
+    color: #528CA5;
   }
 }
 
