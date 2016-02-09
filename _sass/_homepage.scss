@@ -23,6 +23,7 @@ dialog a, dialog a:visited, dialog a:hover {
   background-color: #CBF2FF;
   text-align: center;
   color: #FF6F3F;
+  overflow: hidden;
 }
 
 .sponsorship_inquiries {
@@ -133,9 +134,6 @@ dialog a, dialog a:visited, dialog a:hover {
 .dialog-section-container {
   overflow-x: hidden;
   overflow-y: scroll;
-  /* scrollbar for Internet Explorer */
-  scrollbar-face-color: #A58D7C;
-  scrollbar-track-color: #7F6C5F;
 }
 
 .dialog {
