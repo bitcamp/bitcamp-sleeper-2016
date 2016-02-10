@@ -1,0 +1,60 @@
+.travel {
+	section{
+		padding-top: $space;
+		padding-bottom: $space;
+	}	
+
+	.info {
+		text-align: left;
+	}
+
+	h1 {
+		color: $dark-blue;
+		font-size: 3em;
+		padding-top: 1em;
+	}
+
+	h2 {
+		margin-bottom: $space;
+		margin-top: $space * 1.5;
+		color: $orange;
+	}
+
+	h3 {
+		margin-bottom: $space * 0.25;
+		margin-top: $space * 0.75;
+		font-size: 1em;
+	}
+
+	ol, .directions {
+		text-align: left;
+		list-style: decimal;
+		li {
+			margin-left: 1em;
+		}
+	}
+
+	a {
+		color: $orange;
+	}
+
+	.hero {
+		padding-bottom: 4em;
+
+	}
+	.hero {
+		background: $sky-blue;
+		padding: 4*$space 0;
+		padding: 0 20%;
+	}
+	
+}
+.map {
+	img {
+		width: 100%;
+		
+	}
+
+
+
+}
