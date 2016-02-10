@@ -12,3 +12,5 @@
 @import "homepage";
 @import "scrollbar";
 @import "travel";
+@import "hero";
+@import "layout";

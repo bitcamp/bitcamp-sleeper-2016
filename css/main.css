@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "@charset "utf-8"": expected "{", was ";"
+        on line 4 of css/main.scss
+
+1: ---
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: @charset "utf-8";
+5: @import "reset";
+6: @import "bourbon/bourbon";
+7: @import "neat/neat";
+8: 
+9: @import "typography";
+
+Backtrace:
+css/main.scss:4
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:654:in `block'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:293:in `watch'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/plugin.rb:109:in `method_missing'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:383:in `watch_or_update'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/home/anthony/.rvm/gems/ruby-2.2.3/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/home/anthony/.rvm/gems/ruby-2.2.3/bin/sass:23:in `load'
+/home/anthony/.rvm/gems/ruby-2.2.3/bin/sass:23:in `<main>'
+/home/anthony/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `eval'
+/home/anthony/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@charset \"utf-8\"\": expected \"{\", was \";\"\A         on line 4 of css/main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: @charset \"utf-8\";\A 5: @import \"reset\";\A 6: @import \"bourbon/bourbon\";\A 7: @import \"neat/neat\";\A 8: \A 9: @import \"typography\";"; }
