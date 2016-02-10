@@ -223,8 +223,17 @@ dialog a, dialog a:visited, dialog a:hover {
   min-height: 475px;
 }
 
-td{
-  margin-right: 10px;
+#sponsors-table {
+  text-align: center;
+  display: block;
+}
+
+#sponsors-table td {
+  display: inline-block;
+}
+
+#sponsors-table img {
+  padding: 20px;
 }
 
 @media screen and (max-width: 720px) {

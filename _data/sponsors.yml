@@ -1,0 +1,36 @@
+- name: large
+  image_height: 140
+  companies:
+- name: medium
+  image_height: 110
+  companies:
+    - name: Leidos
+      image: Leidos.svg
+    - name: LTS
+      image: LTS.svg
+    - name: Northrop Grumman
+      image: NorthropGrumman.png
+- name: small
+  image_height: 80
+  companies:
+    - name: AOL
+      image: AOL.png
+    - name: ATT
+      image: ATT.svg
+    - name: Bloomberg
+      image: Bloomberg.svg
+    - name: Booz Allen Hamilton
+      image: Booz.svg
+    - name: Capital One
+      image: CapitalOne.svg
+    - name: Cipher Tech Solutions
+      image: Cipher.svg
+    - name: Facebook
+      image: Facebook.svg
+    - name: OPIS
+      image: OPIS.svg
+    - name: Soylent
+      image: Soylent.png
+- name: partners
+  image_height: 160
+  companies:

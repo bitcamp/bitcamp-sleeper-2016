@@ -1,0 +1,12 @@
+<table id="sponsors-table">
+  {% for tier in site.data.sponsors %}
+    <tr>
+      {% for company in tier.companies %}
+        <td>
+          <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}"
+            alt="{{company.name}}" height="{{tier.image_height}}">
+        </td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>

@@ -22,7 +22,7 @@ function clearDialog() {
             left: '-3000px'
         },
         {
-            duration: 75,
+            duration: 250,
             easing: "easeOutSine"
         }
     );
@@ -84,6 +84,12 @@ $(document).ready(function() {
             mobile = false;
         }
     }, 50);
+});
+
+$(document).keyup(function(e) {
+     if (e.keyCode == 27) {
+        setActiveDialog('Home');
+    }
 });
 
 function isMobile() {
