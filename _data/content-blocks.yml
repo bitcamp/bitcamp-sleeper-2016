@@ -13,6 +13,9 @@
     - name: Schedule
     - name: Colorwar
     - name: Trails
+- name: Sponsors
+  subsections:
+    - name: Sponsors
 - name: FAQ
   subsections:
     - name: General FAQ
