@@ -128,7 +128,9 @@ layout: default
               {{ subsection.name }}
             </div>
             <div class="section-content">
-              {{ subsection.value }}
+              {% capture file_name %}{{site.content_home_dir}}/{{section.name}}/{{subsection.name}}.html{% endcapture %}
+              {% capture directory_path %}{{ file_name | downcase | replace:' ','-'  }}{% endcapture %}
+              {% include {{directory_path}} %}
             </div>
           </div>
         {% endfor %}
