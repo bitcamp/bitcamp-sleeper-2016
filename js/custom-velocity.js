@@ -35,7 +35,7 @@ function easeInDialog(idSelector) {
             left: leftPos
         },
         {
-            duration: 150,
+            duration: 250,
             easing: "easeInSine"
         }
     );
@@ -52,6 +52,7 @@ function unHighlightMenuItem(cssSelector) {
 function setDesktop() {
     $('.dialog').addClass('vh_height60 vw_width60 vh_top21')
         .removeClass('mobile-dialog');
+    $('.dialog-section-container').addClass('vh_height48');
     $('.sign-img').each(function(index, element) {
         element.style.top = '';
     });
@@ -64,6 +65,7 @@ function setDesktop() {
 function setMobile() {
     $('.dialog').removeClass('vh_height60 vw_width60 vh_top21')
         .addClass('mobile-dialog');
+    $('.dialog-section-container').removeClass('vh_height48');
     $('.sign-img').each(function(index, element) {
         element.style.top = (300 + index * 70).toString() + 'px';
     });
