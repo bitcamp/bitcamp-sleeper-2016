@@ -3,8 +3,10 @@
     <tr>
       {% for company in tier.companies %}
         <td>
-          <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}"
-            alt="{{company.name}}" height="{{tier.image_height}}">
+          <a href="{{company.site}}">
+            <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}"
+              alt="{{company.name}}" height="{{tier.image_height}}">
+          </a>
         </td>
       {% endfor %}
     </tr>
