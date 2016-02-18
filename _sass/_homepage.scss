@@ -23,12 +23,14 @@ dialog a, dialog a:visited, dialog a:hover {
   background-color: #CBF2FF;
   text-align: center;
   color: #FF6F3F;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #mc_embed_signup {
-  background-color: none;
   font-family: 'avenir';
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 5px;
 
   .text-field {
     border: none;
@@ -39,6 +41,15 @@ dialog a, dialog a:visited, dialog a:hover {
     font-weight: 300;
     text-transform: none;
     font-family: 'aleo';
+    margin-right: 8px;
+    cursor: text;
+    position: relative;
+    top: 3px;
+    margin-top: 1px;
+  }
+
+  .mailchimp-form-container {
+    display: inline-block;
   }
 }
 
