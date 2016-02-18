@@ -1,15 +1,21 @@
-<div class="sky vh_height44" id="sky">
+<div class="sky vh_height75" id="sky">
   <img src="{{ '/assets/img/bitcamp-logo-text-orange.svg' | prepend: site.baseurl }}" class="vh_height10" id="logo-text">
   <div class="subtext">
-    <div class="vw_width52" style="margin-left:24%;">
-      Registration is currently full. Check back soon to sign up for the waitlist.
+    <div class="vw_width52" style="margin-left:24%;margin-bottom:20px;">
+      Registration for Bitcamp 2016 is currently full. 
+    </div>
+    <div class="vw_width52" style="margin-left:24%;margin-bottom:20px;">
+      Sign up for the waitlist to get notified if space opens up.
+    </div>
+    <div>
+      {% include forms/waitlist-form.html %}
     </div>
   </div>
 </div>
 
-<div id="img-container">
+<div class="img-container">
   <img src="{{ '/assets/img/mountains-left.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height26 vh_top19 vw_left6 mountain" id="mountain-1">
+   class="svg-image vh_height25 vh_top51 vw_left6 mountain" id="mountain-1">
    <img src="{{ '/assets/img/mountains-right.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height26 vh_top19 vw_right1 mountain" id="mountain">
+   class="svg-image vh_height25 vh_top51 vw_right1 mountain" id="mountain">
 </div>

@@ -26,6 +26,22 @@ dialog a, dialog a:visited, dialog a:hover {
   overflow: hidden;
 }
 
+#mc_embed_signup {
+  background-color: none;
+  font-family: 'avenir';
+
+  .text-field {
+    border: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: 300;
+    text-transform: none;
+    font-family: 'aleo';
+  }
+}
+
 .sponsorship_inquiries {
   position: absolute;
   color: #7F6C5F;
