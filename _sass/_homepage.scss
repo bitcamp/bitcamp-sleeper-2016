@@ -27,6 +27,7 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 #mc_embed_signup {
+  z-index: 10000;
   font-family: 'avenir';
   font-size: 16px;
   line-height: 16px;
@@ -46,11 +47,28 @@ dialog a, dialog a:visited, dialog a:hover {
     position: relative;
     top: 3px;
     margin-top: 1px;
+    color: #000000;
   }
 
   .mailchimp-form-container {
     display: inline-block;
   }
+}
+
+.blue-body {
+  padding-top: 65px;
+  background-color: #CBF2FF;
+  text-align: center;
+  color: #FF6F3F;
+  overflow: visible;
+}
+
+.closed-text {
+  margin-top: 108px;
+}
+
+.reg-closed-text {
+  font-size: 24px;
 }
 
 .sponsorship_inquiries {
@@ -76,7 +94,6 @@ dialog a, dialog a:visited, dialog a:hover {
 .subtext {
   position: relative;
   z-index: 1;
-  margin-top: 32px;
   font-size: 18px;
   text-align: center;
   font-family: 'aleo';
@@ -268,6 +285,17 @@ dialog a, dialog a:visited, dialog a:hover {
     height: 50px;
   }
 
+  #mountain-closed-reg {
+    display: none;
+  }
+
+  #mountain-closed-reg-2 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .selection-text {
     font-size: 18px;
   }
@@ -355,6 +383,10 @@ dialog a, dialog a:visited, dialog a:hover {
     border: none;
   }
 
+  .reg-closed-text {
+    font-size: 18px;
+  }
+
   #img-container {
     .vh_top12 {
       top: 285px;
@@ -367,5 +399,16 @@ dialog a, dialog a:visited, dialog a:hover {
 
   .show-only-mobile {
     display: block;
+  }
+
+  .closed-text {
+    margin-top: 22px;
+    font-size: 110%;
+  }
+
+  #mc_embed_signup {
+    .register-button {
+      font-size: 100%;
+    }
   }
 }

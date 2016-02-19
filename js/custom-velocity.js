@@ -49,6 +49,12 @@ function unHighlightMenuItem(cssSelector) {
     $(cssSelector).css("color", "#E5D8CE");
 }
 
+$(document).keyup(function(e) {
+     if (e.keyCode == 27) {
+        setActiveDialog('Home');
+    }
+});
+
 function setDesktop() {
     $('.dialog').addClass('vh_height60 vw_width60 vh_top21')
         .removeClass('mobile-dialog');
@@ -69,13 +75,12 @@ function setMobile() {
     $('.sign-img').each(function(index, element) {
         element.style.top = (300 + index * 70).toString() + 'px';
     });
-    
     $('.sign').each(function(index, element) {
         element.style.top = (305 + index * 70).toString() + 'px';
     });
 }
 
-$(document).ready(function() {
+$(window).ready(function() {
     mobile = false;
     setInterval(function() {
         if(isMobile() && !mobile) {
@@ -88,13 +93,6 @@ $(document).ready(function() {
     }, 50);
 });
 
-$(document).keyup(function(e) {
-     if (e.keyCode == 27) {
-        setActiveDialog('Home');
-    }
-});
-
 function isMobile() {
     return $(window).width() < 720;
 }
-
