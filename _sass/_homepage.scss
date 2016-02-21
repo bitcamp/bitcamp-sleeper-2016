@@ -213,6 +213,8 @@ dialog a, dialog a:visited, dialog a:hover {
   font-weight: 600;
   text-transform: uppercase;
   font-family: 'avenir';
+  -webkit-appearance:none;  
+  -webkit-border-radius:0px;
 }
 
 .register-button:hover {
