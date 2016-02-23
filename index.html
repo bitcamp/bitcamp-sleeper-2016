@@ -11,7 +11,13 @@ layout: default
       April 8-10, 2016
     </div>
     <a href="{{ site.typeform_url }}">
-      <button class="register-button">Register</button>
+      <button class="register-button">
+        {% if site.registration_status == "open" %}
+          Register
+        {% else %}
+          Join the Waitlist
+        {% endif %}
+      </button>
     </a>
   </div>
 </div>
