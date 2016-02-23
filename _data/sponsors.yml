@@ -6,43 +6,43 @@
   companies:
     - name: Leidos
       image: Leidos.svg
-      site:
+      site: https://www.leidos.com/
     - name: LTS
       image: LTS.svg
-      site:
+      site: http://www.ltsnet.net/
     - name: Northrop Grumman
       image: NorthropGrumman.png
-      site:
+      site: http://www.northropgrumman.com/careers/Pages/default.aspx
 - name: small
   image_height: 80
   companies:
     - name: AOL
       image: AOL.png
-      site:
+      site: http://www.aol.com/
     - name: ATT
       image: ATT.svg
-      site:
+      site: https://www.att.com/
     - name: Bloomberg
       image: Bloomberg.svg
-      site:
+      site: http://www.bloomberg.com/
     - name: Booz Allen Hamilton
       image: Booz.svg
-      site:
+      site: http://www.boozallen.com/
     - name: Capital One
       image: CapitalOne.svg
-      site:
+      site: https://www.capitalone.com/
     - name: Cipher Tech Solutions
       image: Cipher.svg
-      site:
+      site: https://www.ciphertechsolutions.com/
     - name: Facebook
       image: Facebook.svg
-      site:
+      site: https://www.facebook.com/
     - name: OPIS
       image: OPIS.svg
-      site:
+      site: http://www.opisnet.com/
     - name: Soylent
       image: Soylent.png
-      site:
+      site: https://www.soylent.com/
 - name: partners
   image_height: 160
   companies:
