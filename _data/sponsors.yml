@@ -59,12 +59,12 @@
     - name: Bookholders
       image: Bookholders.svg
       site: http://www.bookholders.com/
-    - name: Sparkpost
-      image: sparkpost-logo.svg
-      site: https://www.sparkpost.com/
-    - name: Easy Dynamics
-      image: Easydynamics.svg
-      site: http://easydynamics.com/
+   #- name: Sparkpost
+    #  image: sparkpost-logo.svg
+    #  site: https://www.sparkpost.com/
+    #- name: Easy Dynamics
+    #  image: Easydynamics.svg
+    #  site: http://easydynamics.com/
       
 - name: partners
   image_height: 160
