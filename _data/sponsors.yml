@@ -13,10 +13,10 @@
     - name: Northrop Grumman
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
-    -name: FINRA
-     image: Financial_Industry_Regulatory_Authority_logo.svg
-     site: http://www.finra.org/
-    -name: Tata Consulting Services
+    - name: FINRA
+      image: Financial_Industry_Regulatory_Authority_logo.svg
+      site: http://www.finra.org/
+    - name: Tata Consulting Services
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
 - name: small
