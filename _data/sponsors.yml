@@ -64,6 +64,7 @@
     - name: Easy Dynamics
       image: Easy.Dynamics.svg
       site: http://easydynamics.com/
+      
 - name: partners
   image_height: 160
   companies:
