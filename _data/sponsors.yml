@@ -19,6 +19,7 @@
     - name: Tata Consulting Services
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
+      
 - name: small
   image_height: 80
   companies:
