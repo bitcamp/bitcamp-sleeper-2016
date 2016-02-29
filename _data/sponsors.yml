@@ -55,6 +55,9 @@
     - name: Namecheap
       image: Namecheap.svg
       site: https://www.namecheap.com/
+    - name: Neelbauer Law 
+      image: neelbauer.svg
+      site: http://neelbauerlaw.com/
     - name: OPIS
       image: OPIS.svg
       site: http://www.opisnet.com/
