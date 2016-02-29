@@ -1,8 +1,8 @@
 - name: large
-  image_height: 130
+  image_height: 140
   companies:
 - name: medium
-  image_height: 100
+  image_height: 115
   companies:
     - name: FINRA
       image: Financial_Industry_Regulatory_Authority_logo.svg
@@ -20,7 +20,7 @@
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
 - name: small
-  image_height: 70
+  image_height: 85
   companies:
     - name: AOL
       image: AOL.png
@@ -68,7 +68,7 @@
       image: sparkpost-logo.svg
       site: https://www.sparkpost.com/
 - name: partners
-  image_height: 160
+  image_height: 165
   companies:
     - name: "College of Computer, Mathematics, and Natural Sciences"
       image: cmns.svg
