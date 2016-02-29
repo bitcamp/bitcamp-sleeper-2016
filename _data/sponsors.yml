@@ -4,6 +4,9 @@
 - name: medium
   image_height: 110
   companies:
+    - name: FINRA
+      image: Financial_Industry_Regulatory_Authority_logo.svg
+      site: http://www.finra.org/
     - name: Leidos
       image: Leidos.svg
       site: https://www.leidos.com/
@@ -13,13 +16,9 @@
     - name: Northrop Grumman
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
-    - name: FINRA
-      image: Financial_Industry_Regulatory_Authority_logo.svg
-      site: http://www.finra.org/
     - name: Tata Consulting Services
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
-      
 - name: small
   image_height: 80
   companies:
@@ -32,6 +31,9 @@
     - name: Bloomberg
       image: Bloomberg.svg
       site: http://www.bloomberg.com/
+    - name: Bookholders
+      image: Bookholders.svg
+      site: http://www.bookholders.com/
     - name: Booz Allen Hamilton
       image: Booz.svg
       site: http://www.boozallen.com/
@@ -41,31 +43,33 @@
     - name: Cipher Tech Solutions
       image: Cipher.svg
       site: https://www.ciphertechsolutions.com/
+    - name: Easy Dynamics
+      image: Easydynamics.svg
+      site: http://easydynamics.com/
     - name: Facebook
       image: Facebook.svg
       site: https://www.facebook.com/
-    - name: OPIS
-      image: OPIS.svg
-      site: http://www.opisnet.com/
-    - name: Soylent
-      image: Soylent.svg
-      site: https://www.soylent.com/
     - name: Fedora Project
       image: Fedora_logo_and_wordmark.svg
       site: https://getfedora.org/
     - name: Namecheap
       image: Namecheap.svg
       site: https://www.namecheap.com/
-    - name: Bookholders
-      image: Bookholders.svg
-      site: http://www.bookholders.com/
-   #- name: Sparkpost
-    #  image: sparkpost-logo.svg
-    #  site: https://www.sparkpost.com/
-    #- name: Easy Dynamics
-    #  image: Easydynamics.svg
-    #  site: http://easydynamics.com/
-      
+    - name: OPIS
+      image: OPIS.svg
+      site: http://www.opisnet.com/
+    - name: Soylent
+      image: Soylent.svg
+      site: https://www.soylent.com/
+    - name: Sparkpost
+      image: sparkpost-logo.svg
+      site: https://www.sparkpost.com/
 - name: partners
   image_height: 160
   companies:
+    - name: "College of Computer, Mathematics, and Natural Sciences"
+      image: cmns.svg
+      site: http://cmns.umd.edu/
+    - name: "A. James Clark School of Engineering"
+      image: clark.svg
+      site: http://clark.umd.edu/
