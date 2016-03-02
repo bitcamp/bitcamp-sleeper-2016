@@ -1,3 +1,12 @@
+- name: partners
+  image_height: 165
+  companies:
+    - name: "College of Computer, Mathematics, and Natural Sciences"
+      image: cmns.svg
+      site: http://cmns.umd.edu/
+    - name: "A. James Clark School of Engineering"
+      image: clark.svg
+      site: http://clark.umd.edu/
 - name: large
   image_height: 140
   companies:
@@ -67,12 +76,4 @@
     - name: Sparkpost
       image: sparkpost-logo.svg
       site: https://www.sparkpost.com/
-- name: partners
-  image_height: 165
-  companies:
-    - name: "College of Computer, Mathematics, and Natural Sciences"
-      image: cmns.svg
-      site: http://cmns.umd.edu/
-    - name: "A. James Clark School of Engineering"
-      image: clark.svg
-      site: http://clark.umd.edu/
+
