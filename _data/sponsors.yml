@@ -10,6 +10,9 @@
 - name: large
   image_height: 140
   companies:
+    - name: credible behavioral health
+      image: CWI-corporate-logo-2015-wslogan.svg
+      site: http://www.credibleinc.com/
     - name: Northrop Grumman
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
