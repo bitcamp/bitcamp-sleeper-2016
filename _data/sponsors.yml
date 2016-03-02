@@ -10,12 +10,12 @@
 - name: large
   image_height: 140
   companies:
-    - name: LTS
-      image: LTS.svg
-      site: http://www.ltsnet.net/
     - name: Northrop Grumman
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
+    - name: LTS
+      image: LTS.svg
+      site: http://www.ltsnet.net/
     - name: Tata Consulting Services
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
@@ -64,7 +64,7 @@
     - name: Sparkpost
       image: sparkpost-logo.svg
       site: https://www.sparkpost.com/
-- name: stiny
+- name: tiny
   image_height: 75
   companies:
     - name: Namecheap
