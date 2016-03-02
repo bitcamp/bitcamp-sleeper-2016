@@ -64,7 +64,7 @@
     - name: Sparkpost
       image: sparkpost-logo.svg
       site: https://www.sparkpost.com/
-- name: stiny
+- name: tiny
   image_height: 75
   companies:
     - name: Namecheap
