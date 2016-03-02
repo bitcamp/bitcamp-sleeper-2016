@@ -13,12 +13,6 @@
 - name: medium
   image_height: 115
   companies:
-    - name: FINRA
-      image: Financial_Industry_Regulatory_Authority_logo.svg
-      site: http://www.finra.org/
-    - name: Leidos
-      image: Leidos.svg
-      site: https://www.leidos.com/
     - name: LTS
       image: LTS.svg
       site: http://www.ltsnet.net/
@@ -28,6 +22,12 @@
     - name: Tata Consulting Services
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
+    - name: FINRA
+      image: Financial_Industry_Regulatory_Authority_logo.svg
+      site: http://www.finra.org/
+    - name: Leidos
+      image: Leidos.svg
+      site: https://www.leidos.com/
 - name: small
   image_height: 85
   companies:
