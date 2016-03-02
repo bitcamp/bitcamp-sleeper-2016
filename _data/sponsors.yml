@@ -10,9 +10,6 @@
 - name: large
   image_height: 140
   companies:
-- name: medium
-  image_height: 115
-  companies:
     - name: LTS
       image: LTS.svg
       site: http://www.ltsnet.net/
@@ -22,6 +19,9 @@
     - name: Tata Consulting Services
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
+- name: medium
+  image_height: 115
+  companies:
     - name: FINRA
       image: Financial_Industry_Regulatory_Authority_logo.svg
       site: http://www.finra.org/
@@ -58,22 +58,25 @@
     - name: Facebook
       image: Facebook.svg
       site: https://www.facebook.com/
-    - name: Fedora Project
-      image: Fedora_logo_and_wordmark.svg
-      site: https://getfedora.org/
-    - name: Namecheap
-      image: Namecheap.svg
-      site: https://www.namecheap.com/
-    - name: Neelbauer Law 
-      image: neelbauer.svg
-      site: http://neelbauerlaw.com/
     - name: OPIS
       image: OPIS.svg
       site: http://www.opisnet.com/
-    - name: Soylent
-      image: Soylent.svg
-      site: https://www.soylent.com/
     - name: Sparkpost
       image: sparkpost-logo.svg
       site: https://www.sparkpost.com/
+- name: stiny
+  image_height: 75
+  companies:
+    - name: Namecheap
+      image: Namecheap.svg
+      site: https://www.namecheap.com/
+    - name: Fedora Project
+      image: Fedora_logo_and_wordmark.svg
+      site: https://getfedora.org/
+    - name: Neelbauer Law 
+      image: neelbauer.svg
+      site: http://neelbauerlaw.com/
+    - name: Soylent
+      image: Soylent.svg
+      site: https://www.soylent.com/
 
