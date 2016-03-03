@@ -16,9 +16,6 @@
     - name: Northrop Grumman
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
-    - name: LTS
-      image: LTS.svg
-      site: http://www.ltsnet.net/
     - name: Tata Consulting Services
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
@@ -31,6 +28,9 @@
     - name: Leidos
       image: Leidos.svg
       site: https://www.leidos.com/
+    - name: LTS
+      image: LTS.svg
+      site: http://www.ltsnet.net/
 - name: small
   image_height: 85
   companies:
