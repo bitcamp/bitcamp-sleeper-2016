@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="sky vh_height44" id="sky">
-  <img src="{{ 'assets/img/bitcamp-logo-text-orange.svg' | prepend: site.baseurl }}" class="vh_height10" id="logo-text">
+<div class="sky" id="sky">
+  <img src="{{ 'assets/img/bitcamp-logo-text-orange.svg' | prepend: site.baseurl }}" id="logo-text">
   <div class="subtext" style="margin-top: 32px;">
-    <div class="vw_width52" style="margin-left:24%;">
+    <div>
       A 36-hour hackathon at the University of Maryland
     </div>
     <div class="date-container">
@@ -22,13 +22,12 @@ layout: default
   </div>
 </div>
 <div id="img-container">
-  <div class="pole vh_height69 vh_top12"></div>
   <img src="{{ 'assets/img/mountains-left.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height26 vh_top19 vw_left6 mountain" id="mountain-1">
+   class="svg-image mountain" id="mountain-1">
    <img src="{{ 'assets/img/mountains-right.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height26 vh_top19 vw_right1 mountain" id="mountain">
+   class="svg-image mountain" id="mountain">
   <img src="{{ 'assets/img/tents.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height8 vh_top59 vw_left36 desktop-assets">
+   class="svg-image tent">
 </div>
 <div class="dialog-container">
   {% for section in site.data.content-blocks %}
