@@ -170,38 +170,10 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 .dialog-section {
-  display: none;
   text-align: left;
   font-size: 17px;
   margin-right: 20px;
   color: #444444;
-}
-
-.dialog-section-container {
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.dialog-section-container::-webkit-scrollbar {
-    width: 10px;
-}
-
-.dialog-section-container::-webkit-scrollbar-thumb {
-    background-color: #A58D7C;
-    width: 6px;
-}
-
-.dialog-section-container::-webkit-scrollbar-track {
-    background-color: #7F6C5F;
-}
-
-.dialog {
-  padding-top: 45px;
-  position: absolute;
-  background-color: #E5D8CE;
-  border: 1px solid #7F6C5F;
-  z-index: 10000;
-  right: 3000px;
 }
 
 .register-button {
@@ -227,18 +199,6 @@ dialog a, dialog a:visited, dialog a:hover {
   margin-bottom: 10px;
 }
 
-.show-only-mobile {
-  display: none;
-}
-
-.lines-tiled {
-  background-image: url('../assets/img/lines.svg');
-  top: 300px;
-  height: 450px;
-  z-index: -100000;
-  background-repeat: space;
-}
-
 .exit {
   color: #7F6C5F;
   position: absolute;
@@ -249,24 +209,8 @@ dialog a, dialog a:visited, dialog a:hover {
   z-index: 10000000;
 }
 
-@media screen and (max-width: 999px) {
-  .selection-text {
-    font-size: 18px;
-  }
-}
-
 #mlh-trust-badge {
   right: 75px;
-}
-
-#lines {
-  z-index: -10000;
-}
-
-.mobile-dialog {
-  width: 100%;
-  top: 252px;
-  min-height: 600px;
 }
 
 #sponsors-table {
@@ -287,27 +231,8 @@ dialog a, dialog a:visited, dialog a:hover {
     height: 50px;
   }
 
-  #mountain-closed-reg {
-    display: none;
-  }
-
-  #mountain-closed-reg-2 {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .selection-text {
     font-size: 18px;
-  }
-
-  .desktop-assets {
-    display: none;
-  }
-
-  footer {
-    display: none;
   }
 
   .subtext {

@@ -32,52 +32,23 @@ layout: default
 </div>
 <div class="dialog-container">
   {% for section in site.data.content-blocks %}
-    <div class="dialog">
-      {% if section.subsections.size > 1 %}
-        <div class="col-md-4">
-          {% for subsection in section.subsections %}
-            {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
-            <a href="#">
-              <div class="selection-text unselected"
-                id="{{selectorName}}-selector">
-                {{ subsection.name }}
-              </div>
-            </a>
-            <script>
-                $('#{{selectorName}}-selector').click(
-                  function() {
-                    changeText({{section.name}}selected, '{{selectorName}}');
-                    {{section.name}}selected = '{{selectorName}}';
-                  }
-                );
-            </script>
-          {% endfor %}
-        </div>
-      {% endif %}
-      <div class="dialog-section-container vh_height48
-        {% if section.subsections.size > 1 %}
-          col-md-8
-        {% else %}
-          col-md-12
-        {% endif %}
-        ">
-        {% for subsection in section.subsections %}
-          {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
-          <div class="dialog-section" id="{{selectorName}}">
-            <div class="selection-text selected content-title 
-              {% if section.subsections.size > 1 %}
-                desktop-assets
-              {% endif %}">
-              {{ subsection.name }}
-            </div>
-            <div class="section-content">
-              {% capture file_name %}{{site.content_home_dir}}/{{section.name}}/{{subsection.name}}.html{% endcapture %}
-              {% capture directory_path %}{{ file_name | downcase | replace:' ','-'  }}{% endcapture %}
-              {% include {{directory_path}} %}
-            </div>
+    <div class="dialog-section-container">
+      {% for subsection in section.subsections %}
+        {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
+        <div class="dialog-section" id="{{selectorName}}">
+          <div class="selection-text selected content-title 
+            {% if section.subsections.size > 1 %}
+              desktop-assets
+            {% endif %}">
+            {{ subsection.name }}
           </div>
-        {% endfor %}
-      </div>
+          <div class="section-content">
+            {% capture file_name %}{{site.content_home_dir}}/{{section.name}}/{{subsection.name}}.html{% endcapture %}
+            {% capture directory_path %}{{ file_name | downcase | replace:' ','-'  }}{% endcapture %}
+            {% include {{directory_path}} %}
+          </div>
+        </div>
+      {% endfor %}
     </div>
   {% endfor %}
 </div>
