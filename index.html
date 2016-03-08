@@ -27,76 +27,12 @@ layout: default
    class="svg-image vh_height26 vh_top19 vw_left6 mountain" id="mountain-1">
    <img src="{{ 'assets/img/mountains-right.svg' | prepend: site.baseurl }}"
    class="svg-image vh_height26 vh_top19 vw_right1 mountain" id="mountain">
-  <img src="{{ 'assets/img/lake.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height11 vh_top47 vw_right7 desktop-assets">
-  <img src="{{ 'assets/img/bus.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height14 vh_top67 vw_left87 desktop-assets">
-  <img src="{{ 'assets/img/bulletin_board.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height11 vh_top71 vw_left69 desktop-assets">
   <img src="{{ 'assets/img/tents.svg' | prepend: site.baseurl }}"
    class="svg-image vh_height8 vh_top59 vw_left36 desktop-assets">
-  <img src="{{ 'assets/img/fire.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height11 vh_top64 vw_left46 desktop-assets">
-  <img src="{{ 'assets/img/cabin.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height5 vh_top51 vw_left23 desktop-assets">
-  <img src="{{ 'assets/img/lines.svg' | prepend: site.baseurl }}"
-   class="svg-image vh_height56 vw_width100 vh_top38 desktop-assets"
-   id="lines">
 </div>
 <div class="dialog-container">
-  <a href="#">
-    <div onclick="setActiveDialog('Home');">
-      <img src="assets/img/sign-right.svg"
-        class="sign-img sign-right vh_top14">
-      <div class="sign vh_top15 sign-right-text"
-        id="Home-menu" style="color:#FFFFFF">
-        Home
-      </div>
-    </div>
-  </a>
-
   {% for section in site.data.content-blocks %}
-    {% capture orientation %}{% cycle 'left', 'right' %}{% endcapture %}
-    {% capture height %}
-      {% cycle 'vh_top21', 'vh_top28', 'vh_top35', 'vh_top42',
-      'vh_top49', 'vh_top56', 'vh_top63' %}
-    {% endcapture %}
-    {% capture textHeight %}
-      {% cycle 'vh_top22', 'vh_top29', 'vh_top36', 'vh_top43',
-      'vh_top50', 'vh_top57', 'vh_top64' %}
-    {% endcapture %}
-    <a href="#">
-      <div onclick="setActiveDialog('{{section.name | replace:' ','-' }}');">
-        <img src="assets/img/sign-{{orientation}}.svg"
-          class="sign-img 
-            {% if orientation == 'right' %}
-              sign-right
-            {% else %}
-              sign-left
-            {% endif %}
-          {{height}}">
-        <div class="sign {{textHeight}}
-          {% if orientation == 'right' %}
-            sign-right-text
-          {% else %}
-            sign-left-text
-          {% endif %}"
-          id="{{section.name| replace:' ','-' }}-menu">
-          {{section.name}}
-        </div>
-      </div>
-    </a>
-    <div class="dialog vh_height60 vw_width60 vh_top21 container-fluid"
-      id="{{ section.name }}">
-      <script>
-        $(document).ready(function(){
-          {{section.name | replace:' ','-' }}selected = '{{section.name}}-{{section.subsections[0].name | replace:' ','-' }}';
-          expandSelect({{section.name | replace:' ','-' }}selected);
-        });
-      </script>
-      <a href="#">
-        <div class="exit" onclick="setActiveDialog('Home');">x</div>
-      </a>
+    <div class="dialog">
       {% if section.subsections.size > 1 %}
         <div class="col-md-4">
           {% for subsection in section.subsections %}
@@ -145,4 +81,4 @@ layout: default
     </div>
   {% endfor %}
 </div>
-<div class="lines-tiled show-only-mobile"></div>
+
