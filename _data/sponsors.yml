@@ -4,6 +4,7 @@
     - name: "College of Computer, Mathematics, and Natural Sciences"
       image: cmns.svg
       site: http://cmns.umd.edu/
+      css_id: clark
     - name: "A. James Clark School of Engineering"
       image: clark.svg
       site: http://clark.umd.edu/
