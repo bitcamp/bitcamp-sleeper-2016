@@ -2,6 +2,9 @@
 layout: default
 ---
 <div class="sky" id="sky">
+  <div>
+
+  </div>
   <img src="{{ 'assets/img/bitcamp-logo-text-orange.svg' | prepend: site.baseurl }}" id="logo-text">
   <div class="subtext" style="margin-top: 32px;">
     <div>
@@ -11,7 +14,7 @@ layout: default
       April 8-10, 2016
     </div>
     <!--a href="{{ site.typeform_url }}">
-      <button class="register-button">
+      <button class="orange-button">
         {% if site.registration_status == "open" %}
           Register
         {% else %}
@@ -22,23 +25,16 @@ layout: default
   </div>
 </div>
 <div id="img-container">
-  <img src="{{ 'assets/img/mountains-left.svg' | prepend: site.baseurl }}"
-   class="svg-image mountain" id="mountain-1">
-   <img src="{{ 'assets/img/mountains-right.svg' | prepend: site.baseurl }}"
-   class="svg-image mountain" id="mountain">
-  <img src="{{ 'assets/img/tents.svg' | prepend: site.baseurl }}"
-   class="svg-image tent">
+  <img src="{{ 'assets/img/mountains-left.svg' | prepend: site.baseurl }}" id="mountain-2">
+   <img src="{{ 'assets/img/mountains-right.svg' | prepend: site.baseurl }}" id="mountain">
+  <img src="{{ 'assets/img/tents.svg' | prepend: site.baseurl }}" id="tent">
 </div>
 <div class="dialog-container">
   {% for section in site.data.content-blocks %}
     <div class="dialog-section-container">
       {% for subsection in section.subsections %}
-        {% capture selectorName %}{{section.name | replace:' ','-' }}-{{subsection.name | replace:' ','-' }}{% endcapture %}
-        <div class="dialog-section" id="{{selectorName}}">
-          <div class="selection-text selected content-title 
-            {% if section.subsections.size > 1 %}
-              desktop-assets
-            {% endif %}">
+        <div class="dialog-section">
+          <div class="selection-text selected content-title">
             {{ subsection.name }}
           </div>
           <div class="section-content">
@@ -51,4 +47,3 @@ layout: default
     </div>
   {% endfor %}
 </div>
-
