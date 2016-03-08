@@ -10,20 +10,11 @@ dialog a, dialog a:visited, dialog a:hover {
   text-decoration: underline;
 }
 
-.svg-image {
-  position: absolute;
-}
-
-.mountain {
-  z-index: 0;
-}
-
 .sky {
   padding-top: 65px;
   background-color: #CBF2FF;
   text-align: center;
   color: #FF6F3F;
-  overflow: visible;
 }
 
 #mc_embed_signup {
@@ -176,7 +167,7 @@ dialog a, dialog a:visited, dialog a:hover {
   color: #444444;
 }
 
-.register-button {
+.orange-button {
   margin-top: 5px;
   padding: 10px 35px 9px 35px;
   border: none;
@@ -189,7 +180,7 @@ dialog a, dialog a:visited, dialog a:hover {
   -webkit-border-radius:0px;
 }
 
-.register-button:hover {
+.orange-button:hover {
   background-color: #FF3F46;
   cursor: pointer;
 }
@@ -197,16 +188,6 @@ dialog a, dialog a:visited, dialog a:hover {
 .section-content {
   text-align: left;
   margin-bottom: 10px;
-}
-
-.exit {
-  color: #7F6C5F;
-  position: absolute;
-  top: 13px;
-  right: 13px;
-  font-family: 'avenir';
-  font-size: 30px;
-  z-index: 10000000;
 }
 
 #mlh-trust-badge {
@@ -224,112 +205,4 @@ dialog a, dialog a:visited, dialog a:hover {
 
 #sponsors-table img {
   padding: 20px;
-}
-
-@media screen and (max-width: 720px) {
-  #logo-text {
-    height: 50px;
-  }
-
-  .selection-text {
-    font-size: 18px;
-  }
-
-  .subtext {
-    line-height: 150%;
-    font-size: 90%;
-    margin-top: 2px;
-  }
-
-  #mlh-trust-badge {
-    right: 15px;
-  }
-
-  #mountain,#mountain-1 {
-    height: 80px;
-    top: 174px;
-  }
-
-  #mountain {
-    right: 0;
-  }
-
-  #mountain-1 {
-    left: 5px;
-  }
-
-  #sky {
-    padding-top: 35px;
-    height: 250px
-  }
-
-  .date-container {
-    font-weight: 600;
-  }
-
-  .register-button {
-    padding-top: 14px;
-    padding-bottom: 12px;
-    font-size: 135%;
-    margin-top: 10px;
-  }
-
-  #lines {
-    position: absolute;
-    top: 270px;
-  }
-
-  .pole {
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 20px;
-  }
-
-  .sign-img,.sign {
-    left: 0;
-    right: 0;
-    margin: auto;
-    font-size: 20px;
-  }
-
-  .sign {
-    padding-top: 16px;
-  }
-
-  .sign-img {
-    padding-left: 17px;
-    height: 60px;
-  }
-
-  .sign-left {
-    padding-right: 30px;
-  }
-
-  .dialog {
-    border: none;
-  }
-
-  .reg-closed-text {
-    font-size: 18px;
-  }
-
-  .dialog-section-container {
-    overflow-y: visible;
-  }
-
-  .show-only-mobile {
-    display: block;
-  }
-
-  .closed-text {
-    margin-top: 22px;
-    font-size: 110%;
-  }
-
-  #mc_embed_signup {
-    .register-button {
-      font-size: 100%;
-    }
-  }
 }
