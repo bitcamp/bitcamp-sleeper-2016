@@ -3,18 +3,45 @@ html, body {
   overflow-x: hidden;
   background-color: #E5D8CE;
   font-family: 'avenir';
-}
-
-dialog a, dialog a:visited, dialog a:hover {
-  color: #7F6C5F;
-  text-decoration: underline;
+  text-align: center;
 }
 
 .sky {
-  padding-top: 65px;
+  padding-top: 100px;
   background-color: #CBF2FF;
-  text-align: center;
   color: #FF6F3F;
+  height: 520px;
+}
+
+#logo-text {
+  height: 85px;
+  margin-bottom: 12px;
+}
+
+#tent {
+  position: absolute;
+  height: 70px;
+  top: 455px;
+}
+
+#mountain {
+  position: absolute;
+  height: 280px;
+  top: 250px;
+  right: 80px;
+}
+
+#mountain-2 {
+  position: absolute;
+  height: 280px;
+  top: 250px;
+  left: 80px;
+}
+
+.absolute-position-centered {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 #mc_embed_signup {
@@ -27,7 +54,6 @@ dialog a, dialog a:visited, dialog a:hover {
   .text-field {
     border: none;
     background-color: #FFFFFF;
-    text-align: center;
     padding-right: 0;
     padding-left: 0;
     font-weight: 300;
@@ -46,130 +72,29 @@ dialog a, dialog a:visited, dialog a:hover {
   }
 }
 
-.blue-body {
-  padding-top: 65px;
-  background-color: #CBF2FF;
-  text-align: center;
-  color: #FF6F3F;
-  overflow: visible;
-}
-
-.closed-text {
-  margin-top: 108px;
-}
-
-.reg-closed-text {
-  font-size: 24px;
-}
-
-.sponsorship_inquiries {
-  position: absolute;
-  color: #7F6C5F;
-  font-size: 17px;
-  text-align: center;
-  a {
-    color: #7F6C5F;
-    text-decoration: underline;
-  }
-  width: 100%;
-  font-family: 'aleo';
-}
-
-.pole {
-  background-color: #7F6C5F;
-  width: 15px;
-  position: absolute;
-  left: 110px;
-}
-
 .subtext {
   position: relative;
   z-index: 1;
   font-size: 18px;
-  text-align: center;
   font-family: 'aleo';
 }
 
-.date-container {
-  padding-top: 10px;
-  font-size: 24px;
-  padding-bottom: 10px;
-}
-
-.sign-img {
-  z-index: 100;
-  position: absolute;
-  height: 48px;
-}
-
-.sign {
-  position: absolute;
-  z-index: 200;
-  color: #E5D8CE;
-  text-transform: uppercase;
-  font-family: 'avenir';
-  font-weight: 600;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 11px;
-  left: 70px;
-  text-align: center;
-  width: 100px;
-}
-
-.sign-right {
-  left: 56px;
-}
-
-.sign-left {
-  left: 40px;
-}
-
-.sign-right, .sign-right-text {
-  -ms-transform: rotate(356deg); /* IE 9 */
-  -webkit-transform: rotate(356deg); /* Chrome, Safari, Opera */
-  transform: rotate(356deg);
-}
-
-.sign-left, .sign-left-text {
-  -ms-transform: rotate(4deg); /* IE 9 */
-  -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
-  transform: rotate(4deg);
-}
-
-.selected {
-  color: #1A2E33;
-}
-
-.unselected {
-  color: #528CA5;
-}
-
-.selection-text {
+.section-title {
   text-transform: uppercase;
   font-family: 'avenir';
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 20px;
-  a {
-    text-decoration: none;
-  }
-}
-
-.content-title {
-  margin-bottom: 20px;
 }
 
 .dialog-section {
-  text-align: left;
   font-size: 17px;
   margin-right: 20px;
   color: #444444;
 }
 
 .orange-button {
-  margin-top: 5px;
-  padding: 10px 35px 9px 35px;
+  padding: 15px 35px 15px 35px;
   border: none;
   background-color: #FF6F3F;
   color: #FFFFFF;
@@ -186,7 +111,6 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 .section-content {
-  text-align: left;
   margin-bottom: 10px;
 }
 
@@ -195,7 +119,6 @@ dialog a, dialog a:visited, dialog a:hover {
 }
 
 #sponsors-table {
-  text-align: center;
   display: block;
 }
 
