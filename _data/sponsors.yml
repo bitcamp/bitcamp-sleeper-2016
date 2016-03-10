@@ -71,15 +71,18 @@
 - name: tiny
   image_height: 75
   companies:
+    - name: Accel
+      image: accel.png
+      site: http://www.accel.com/
     - name: Namecheap
       image: Namecheap.svg
       site: https://www.namecheap.com/
-    - name: Fedora Project
-      image: Fedora_logo_and_wordmark.svg
-      site: https://getfedora.org/
     - name: Neelbauer Law 
       image: neelbauer.svg
       site: http://neelbauerlaw.com/
+    - name: Fedora Project
+      image: Fedora_logo_and_wordmark.svg
+      site: https://getfedora.org/
     - name: Soylent
       image: Soylent.svg
       site: https://www.soylent.com/
