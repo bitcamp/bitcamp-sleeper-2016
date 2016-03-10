@@ -31,24 +31,21 @@ layout: default
 </div>
 {% for section in site.data.content-blocks %}
   <div id="{{section.name}}">
-    <div class="dialog-section">
-      <div class="section-title">
-        {{ section.name }}
-      </div>
-      <div class="section-content">
-        {% capture file_name %}{{site.content_home_dir}}/{{section.name}}.html{% endcapture %}
-        {% capture directory_path %}{{ file_name | downcase | replace:' ','-'  }}{% endcapture %}
-        {% include {{directory_path}} %}
-      </div>
+    <div class="section-title">
+      {{ section.name }}
+    </div>
+    <div class="section-content">
+      {% capture file_name %}{{site.content_home_dir}}/{{section.name}}.html{% endcapture %}
+      {% capture directory_path %}{{ file_name | downcase | replace:' ','-'  }}{% endcapture %}
+      {% include {{directory_path}} %}
     </div>
     {% for subsection in section.subsections %}
       {% capture subsection_url %}
         /{{section.name}}/{{subsection.name}}
       {% endcapture %}
-
-      <a href="{{subsection_url}}">
+      <a href="{{subsection_url | downcase | replace: ' ', ''}}">
         <button class="orange-button">
-          {{subsection.name | downcase | replace: ' ', ''}}
+          {{subsection.name}}
         </button>
       </a>
     {% endfor %}
