@@ -37,12 +37,12 @@ layout: default
     </div>
     {% for subsection in section.subsections %}
       {% capture subsection_url %}
-        {{site.url}}/{{section.name}}/{{subsection.name}}
+        /{{section.name}}/{{subsection.name}}
       {% endcapture %}
 
       <a href="{{subsection_url}}">
         <button class="orange-button">
-          {{subsection.name}}
+          {{subsection.name | downcase | replace: ' ', ''}}
         </button>
       </a>
     {% endfor %}
