@@ -1,25 +1,41 @@
-<section class="schedule-table" id="schedule"> <!-- schedule -->
-
-{% for day in site.data.schedule %}
-  <!-- Friday -->
-  <h3 class="table-title">{{ day.name }}</h3><br>
-  <table class="schedule-table-day" id="table-{{day.name}}">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>Event</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for event in day.events %}
-        {% if event.highlighted %}
-          <tr>
-            <td>{{ event.time }}</td>
-            <td>{{ event.name }}</td>
-          </tr>
-          {% endif %}
+<div class="container">
+  <div class="col-xs-7">
+    <section class="schedule-table" id="schedule"> <!-- schedule -->
+      {% for day in site.data.schedule %}
+        <!-- Friday -->
+        <h3 class="table-title">{{ day.name }}</h3><br>
+        <table class="schedule-table-day" id="table-{{day.name}}">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for event in day.events %}
+              {% if event.highlighted %}
+                <tr>
+                  <td>{{ event.time }}</td>
+                  <td>{{ event.name }}</td>
+                </tr>
+                {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+        <!-- /{{ day.name }} -->
       {% endfor %}
-    </tbody>
-  </table>
-  <!-- /{{ day.name }} -->
-{% endfor %}
+    </section>
+  </div>
+  <div class="col-xs-5">
+    {% for subsection in section.subsections %}
+      {% capture subsection_url %}
+        /{{section.name}}/{{subsection.name}}
+      {% endcapture %}
+      <a href="{{subsection_url | downcase | replace: ' ', ''}}">
+        <button class="orange-button">
+          {{subsection.name}}
+        </button>
+      </a>
+    {% endfor %}
+  </div>
+</div>
