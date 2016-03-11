@@ -2,10 +2,12 @@
 layout: default
 ---
 <div class="sky" id="sky">
-  <div>
-    <span></span>
+  <div class="date-text">
+    <span>April 8-10, 2016</span>
+    <span><img src="{{ '/assets/img/bitcamp-logo.svg' }}" id="logo-img"></span>
+    <span>College Park, MD</span>
   </div>
-  <img src="{{ 'assets/img/bitcamp-logo-text-orange.svg' | prepend: site.baseurl }}" id="logo-text">
+  <img src="{{ '/assets/img/bitcamp-logo-text-orange.svg' | prepend: site.baseurl }}" id="logo-text">
   <div class="subtext">
     <a href="{{ site.typeform_url }}">
       <button class="orange-button">
@@ -19,29 +21,37 @@ layout: default
   </div>
 </div>
 <div id="img-container">
-  <img src="{{ 'assets/img/mountains-left.svg' | prepend: site.baseurl }}" id="mountain-2">
-   <img src="{{ 'assets/img/mountains-right.svg' | prepend: site.baseurl }}" id="mountain">
+  <img src="{{ 'assets/img/mountain-left.svg' | prepend: site.baseurl }}" id="mountain-2">
+   <img src="{{ 'assets/img/mountain-right.svg' | prepend: site.baseurl }}" id="mountain">
   <img src="{{ 'assets/img/tents.svg' | prepend: site.baseurl }}" id="tent" class="absolute-position-centered">
+  <img src="{{ 'assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-left">
+  <img src="{{ 'assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-right">
 </div>
 {% for section in site.data.content-blocks %}
   <div id="{{section.name}}">
-    <div class="section-title">
-      {{ section.name }}
-    </div>
+    {% unless section.hide_title %}
+      <div class="section-title">
+        {{ section.name }}
+      </div>
+    {% endunless %}
     <div class="section-content">
       {% capture file_name %}{{site.content_home_dir}}/{{section.name}}.html{% endcapture %}
       {% capture directory_path %}{{ file_name | downcase | replace:' ','-'  }}{% endcapture %}
       {% include {{directory_path}} %}
     </div>
-    {% for subsection in section.subsections %}
-      {% capture subsection_url %}
-        /{{section.name}}/{{subsection.name}}
-      {% endcapture %}
-      <a href="{{subsection_url | downcase | replace: ' ', ''}}">
-        <button class="orange-button">
-          {{subsection.name}}
-        </button>
-      </a>
-    {% endfor %}
+    <div class="container">
+      {% for subsection in section.subsections %}
+        {% capture subsection_url %}
+          /{{section.name}}/{{subsection.name}}
+        {% endcapture %}
+        <div class="col-md-{{section.buttons_conf}}">
+          <a href="{{subsection_url | downcase | replace: ' ', ''}}">
+            <button class="orange-button">
+              {{subsection.name}}
+            </button>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 {% endfor %}

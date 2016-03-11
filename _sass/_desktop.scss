@@ -1,28 +1,30 @@
-@include media($tablet) {
+@include media ($desktop) {
   .orange-button {
-    height: 50px;
+    height: 60px;
   }
 
   #mountain {
-    height: 170px;
-    top: 430px;
+    position: absolute;
+    height: 240px;
+    top: 360px;
     right: 80px;
   }
 
   #mountain-2 {
-    height: 170px;
-    top: 430px;
+    position: absolute;
+    height: 240px;
+    top: 360px;
     left: 80px;
   }
 
   #cloud-left {
-    height: 100px;
-    left: 85px;
+    height: 110px;
+    left: 100px;
   }
 
   #cloud-right {
-    height: 100px;
-    right: 85px;
+    height: 110px;
+    right: 100px;
   }
 
   #logo-text {
@@ -30,7 +32,7 @@
   }
 
   #logo-img {
-    height: 50px;
+    height: 60px;
     position: relative;
     top: 15px;
     margin: 0 8px;
@@ -41,6 +43,6 @@
   }
 
   .sky {
-    padding-top: 180px;
+    padding-top: 150px;
   }
 }
