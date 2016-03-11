@@ -7,35 +7,49 @@ html, body {
 }
 
 .sky {
-  padding-top: 100px;
   background-color: #CBF2FF;
   color: #FF6F3F;
-  height: 520px;
+  height: 600px;
+}
+
+.date-text {
+  margin-bottom: 15px;
+  font-family: 'avenir';
+  z-index: 1;
+  position: relative;
 }
 
 #logo-text {
-  height: 85px;
   margin-bottom: 12px;
+  z-index: 1;
+  position: relative;
+}
+
+#logo-img {
+  z-index: 1;
+}
+
+#cloud-left,#cloud-right {
+  position: absolute;
+}
+
+#cloud-left {
+  top: 100px;
+}
+
+#cloud-right {
+  top: 200px;
 }
 
 #tent {
   position: absolute;
-  height: 70px;
-  top: 455px;
+  height: 50px;
+  top: 553px;
+  display: none;
 }
 
-#mountain {
+#mountain, #mountain-2 {
   position: absolute;
-  height: 280px;
-  top: 250px;
-  right: 80px;
-}
-
-#mountain-2 {
-  position: absolute;
-  height: 280px;
-  top: 250px;
-  left: 80px;
 }
 
 .absolute-position-centered {
@@ -75,7 +89,6 @@ html, body {
 .subtext {
   position: relative;
   z-index: 1;
-  font-size: 18px;
   font-family: 'aleo';
 }
 
@@ -83,31 +96,34 @@ html, body {
   text-transform: uppercase;
   font-family: 'avenir';
   font-weight: 600;
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 120%;
+  padding-top: 40px;
 }
 
 .orange-button {
-  padding: 15px 35px 15px 35px;
   border: none;
-  background-color: #FF6F3F;
   color: #FFFFFF;
   font-weight: 600;
   text-transform: uppercase;
   font-family: 'avenir';
   -webkit-appearance:none;  
   -webkit-border-radius:0px;
+  background: url('/assets/img/button.svg') center center no-repeat;
+  height: 60px;
+  width: 100%;
+  margin-top: 15px;
 }
 
 .orange-button:hover {
-  background-color: #FF3F46;
   cursor: pointer;
 }
 
 .section-content {
   margin-bottom: 10px;
   color: #444444;
-  font-size: 17px;
+  padding: 20px 15%;
+  color: $brown;
+  line-height: 115%;
 }
 
 #mlh-trust-badge {
@@ -124,4 +140,10 @@ html, body {
 
 #sponsors-table img {
   padding: 20px;
+}
+
+.contact-text {
+  font-weight: 700;
+  color: #666;
+  padding: 100px 0;
 }
