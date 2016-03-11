@@ -1,79 +1,25 @@
-<section class="info" id="schedule"> <!-- schedule -->
-<!-- Friday -->
-<h3 class="table-title">Friday</h3><br>
-<table id="table-friday">
-<thead>
-  <tr>
-    <th>Time</th>
-    <th>Event</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>4:00PM</td>
-    <td>Sponsor Mentor Checkin</td>
-  </tr>
-  <tr>
-    <td>6:00PM</td>
-    <td>Registration Opens</td>
-  </tr>
-  <tr>
-    <td>8:00PM</td>
-    <td>Sponsorship Fair</td>
-  </tr>
-  <tr>
-    <td>9:30PM</td>
-    <td>Opening Ceremony</td>
-  </tr>
-  <tr>
-    <td>10:00PM </td>
-    <td>Hacking Begins</td>
-  </tr>
-</tbody>
-</table><!-- /Friday -->
-<!-- Saturday -->
-<br><h3 class="table-title">Saturday</h3><br>
-<table id="table-friday">
-<thead>
-  <tr>
-    <th>Start</th>
-    <th>Event</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>4:00PM </td>
-    <td>Colorwar</td>
-  </tr>
-</tbody>
-</table><!-- /Saturday -->
-<!-- Sunday -->
-<br><h3 class="table-title">Sunday</h3><br>
-<table id="table-sunday">
-<thead>
-  <tr>
-    <th>Start</th>
-    <th>Event</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>10:00AM </td>
-    <td>Hacking Ends/Submissions Due</td>
-  </tr>
-  <tr>
-    <td>11:00AM </td>
-    <td>Expo Begins</td>
-  </tr>
-  <tr>
-    <td>1:30PM</td>
-    <td>Closing Ceremony</td>
-  </tr>
-  <tr>
-    <td>2:30PM</td>
-    <td>End</td>
-  </tr>
-</tbody>
-</table>
-<!-- /Sunday -->
+<section class="schedule-table" id="schedule"> <!-- schedule -->
 
+{% for day in site.data.schedule %}
+  <!-- Friday -->
+  <h3 class="table-title">{{ day.name }}</h3><br>
+  <table class="schedule-table-day" id="table-{{day.name}}">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Event</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for event in day.events %}
+        {% if event.highlighted %}
+          <tr>
+            <td>{{ event.time }}</td>
+            <td>{{ event.name }}</td>
+          </tr>
+          {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  <!-- /{{ day.name }} -->
+{% endfor %}
