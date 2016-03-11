@@ -1,0 +1,36 @@
+- name: Friday
+  events:
+    - name: Sponsor and Mentor Check-in
+      time: 4:00 PM
+      highlighted: true
+    - name: Registration Opens
+      time: 6:00 PM
+      highlighted: true
+    - name: Sponsorship Fair
+      time: 8:00 PM
+      highlighted: true
+    - name: Opening Ceremony
+      time: 9:30 PM
+      highlighted: true
+    - name: Hacking Begins
+      time: 10:00 PM
+      highlighted: true
+- name: Saturday
+  events:
+    - name: Colorwar
+      time: 4:00 PM
+      highlighted: true
+- name: Sunday
+  events:
+    - name: Hacking Ends/Submissions Due
+      time: 10:00 AM
+      highlighted: true
+    - name: Expo Begins
+      time: 11:00 AM
+      highlighted: true
+    - name: Closing Ceremony
+      time: 1:30 PM
+      highlighted: true
+    - name: End
+      time: 2:30 PM
+      highlighted: true
