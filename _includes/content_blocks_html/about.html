@@ -1,1 +1,16 @@
-Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!
+<div style="padding: 20px 15%;">Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!</div>
+
+<div class="container">
+  {% for subsection in section.subsections %}
+    {% capture subsection_url %}
+      /{{section.name}}/{{subsection.name}}
+    {% endcapture %}
+    <div class="col-md-4">
+      <a href="{{subsection_url | downcase | replace: ' ', ''}}">
+        <button class="orange-button">
+          {{subsection.name}}
+        </button>
+      </a>
+    </div>
+  {% endfor %}
+</div>

@@ -37,21 +37,7 @@ layout: default
     <div class="section-content">
       {% capture file_name %}{{site.content_home_dir}}/{{section.name}}.html{% endcapture %}
       {% capture directory_path %}{{ file_name | downcase | replace:' ','-'  }}{% endcapture %}
-      {% include {{directory_path}} %}
-    </div>
-    <div class="container">
-      {% for subsection in section.subsections %}
-        {% capture subsection_url %}
-          /{{section.name}}/{{subsection.name}}
-        {% endcapture %}
-        <div class="col-md-{{section.buttons_conf}}">
-          <a href="{{subsection_url | downcase | replace: ' ', ''}}">
-            <button class="orange-button">
-              {{subsection.name}}
-            </button>
-          </a>
-        </div>
-      {% endfor %}
+      {% include {{directory_path}} subsections=section.subscetions %}
     </div>
   </div>
 {% endfor %}
