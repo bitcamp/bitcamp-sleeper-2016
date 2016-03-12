@@ -4,13 +4,13 @@
 #     _includes/name/subsection-name.html, no spaces, with - instead of spaces
 
 - name: About
-  buttons_conf: 4
   subsections: 
     - name: Venue
     - name: Faq
     - name: Conduct
+- name: image-1
+  hide_title: true
 - name: Events
-  buttons_conf: 3
   subsections:
     - name: Schedule
     - name: Map
