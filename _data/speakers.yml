@@ -1,0 +1,12 @@
+- name: Brendan Iribe
+  company: Oculus
+  title: CEO
+  image: brendan.png
+- name: Jane Doe
+  company: Hollow Sword Blade Company
+  title: President & CEO
+  image: jane.png
+- name: John Doe
+  company: South Seas Company
+  title: Founder
+  image: john.png
