@@ -1,0 +1,13 @@
+<div class="container">
+  {% for speaker in site.data.speakers %}
+    <div class="col-md-4 speaker-info">
+      <img src="{{site.speaker_photo_dir}}{{speaker.image}}">
+      <div class="speaker-name">
+        {{speaker.name}}
+      </div>
+      <div>
+        {{speaker.title}}, {{speaker.company}}
+      </div>
+    </div>
+  {% endfor %}
+</div>
