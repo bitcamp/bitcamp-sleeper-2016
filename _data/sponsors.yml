@@ -86,4 +86,7 @@
     - name: Soylent
       image: Soylent.svg
       site: https://www.soylent.com/
-
+    - name: Minimill
+      image: minimill-logo-blue.svg
+      site: http://minimill.co
+      
