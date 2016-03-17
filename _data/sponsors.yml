@@ -4,89 +4,121 @@
     - name: "College of Computer, Mathematics, and Natural Sciences"
       image: cmns.svg
       site: http://cmns.umd.edu/
-      css_id: clark
+      css_id: cmns
     - name: "A. James Clark School of Engineering"
       image: clark.svg
       site: http://clark.umd.edu/
+      css_id: clark
+    - name: "UMD department of mathematics"
+      image: unviersitymath.png
+      site: http://www-math.umd.edu/
+      css_id: math
+    - name: "BSOS"
+      image: bsos.png
+      site: http://bsos.umd.edu/
+      css_id: bsos
 - name: large
   image_height: 140
   companies:
-    - name: credible behavioral health
+    - name: "credible behavioral health"
       image: CWI-corporate-logo-2015-wslogan.svg
       site: http://www.credibleinc.com/
-    - name: Northrop Grumman
+      css_id: credible
+    - name: "Northrop Grumman"
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
-    - name: Tata Consulting Services
+      css_id: northrop
+    - name: "Tata Consulting Services"
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
+      css_id: tata
 - name: medium
   image_height: 115
   companies:
-    - name: FINRA
+    - name: "FINRA"
       image: Financial_Industry_Regulatory_Authority_logo.svg
       site: http://www.finra.org/
-    - name: Leidos
+      css_id: finra
+    - name: "Leidos"
       image: Leidos.svg
       site: https://www.leidos.com/
-    - name: LTS
+      css_id: leidos
+    - name: "LTS"
       image: LTS.svg
       site: http://www.ltsnet.net/
+      css_id: lts
 - name: small
   image_height: 85
   companies:
-    - name: AOL
+    - name: "AOL"
       image: AOL.png
       site: http://www.aol.com/
-    - name: ATT
+      css_id: aol
+    - name: "ATT"
       image: ATT.svg
       site: https://www.att.com/
-    - name: Bloomberg
+      css_id: att
+    - name: "Bloomberg"
       image: Bloomberg.svg
       site: http://www.bloomberg.com/
-    - name: Bookholders
+      css_id: bloomberg
+    - name: "Bookholders"
       image: Bookholders.svg
       site: http://www.bookholders.com/
-    - name: Booz Allen Hamilton
+      css_id: bookholders
+    - name: "Booz Allen Hamilton"
       image: Booz.svg
       site: http://www.boozallen.com/
-    - name: Capital One
+      css_id: bah
+    - name: "Capital One"
       image: CapitalOne.svg
       site: https://www.capitalone.com/
-    - name: Cipher Tech Solutions
+      css_id: capital
+    - name: "Cipher Tech Solutions"
       image: Cipher.svg
       site: https://www.ciphertechsolutions.com/
-    - name: Easy Dynamics
+      css_id: cipher
+    - name: "Easy Dynamics"
       image: Easydynamics.svg
       site: http://easydynamics.com/
-    - name: Facebook
+      css_id: easy
+    - name: "Facebook"
       image: Facebook.svg
       site: https://www.facebook.com/
-    - name: OPIS
+      css_id: facebook
+    - name: "OPIS"
       image: OPIS.svg
       site: http://www.opisnet.com/
-    - name: Sparkpost
+      css_id: opis
+    - name: "Sparkpost"
       image: sparkpost-logo.svg
       site: https://www.sparkpost.com/
+      css_id: sparkpost
 - name: tiny
   image_height: 75
   companies:
-    - name: Accel
+    - name: "Accel"
       image: accel.png
       site: http://www.accel.com/
-    - name: Namecheap
+      css_id: accel
+    - name: "Namecheap"
       image: Namecheap.svg
       site: https://www.namecheap.com/
-    - name: Neelbauer Law 
+      css_id: namecheap
+    - name: "Neelbauer Law" 
       image: neelbauer.svg
       site: http://neelbauerlaw.com/
-    - name: Fedora Project
+      css_id: neelbauer
+    - name: "Fedora Project"
       image: Fedora_logo_and_wordmark.svg
       site: https://getfedora.org/
-    - name: Soylent
+      css_id: fedora
+    - name: "Soylent"
       image: Soylent.svg
       site: https://www.soylent.com/
-    - name: Minimill
+      css_id: soylent
+    - name: "Minimill"
       image: minimill-logo-blue.svg
       site: http://minimill.co
+      css_id: minimill
       
