@@ -10,7 +10,7 @@
       site: http://clark.umd.edu/
       css_id: clark
     - name: "UMD department of mathematics"
-      image: unviersitymath.png
+      image: universitymath.png
       site: http://www-math.umd.edu/
       css_id: math
     - name: "BSOS"
