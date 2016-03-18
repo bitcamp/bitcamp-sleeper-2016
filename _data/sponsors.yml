@@ -118,7 +118,7 @@
       site: http://minimill.co
       css_id: minimill
     - name: "HDR"
-      image: hdr.svg
+      image: HDR.svg
       site: http://www.hdrinc.com/
       css_id: hdr
     - name: "UMD department of mathematics"
