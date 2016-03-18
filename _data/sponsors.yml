@@ -9,14 +9,6 @@
       image: clark.svg
       site: http://clark.umd.edu/
       css_id: clark
-    - name: "UMD department of mathematics"
-      image: universitymath.png
-      site: http://www-math.umd.edu/
-      css_id: math
-    - name: "BSOS"
-      image: bsos.png
-      site: http://bsos.umd.edu/
-      css_id: bsos
 - name: large
   image_height: 140
   companies:
@@ -86,6 +78,10 @@
       image: Facebook.svg
       site: https://www.facebook.com/
       css_id: facebook
+    - name: "BSOS"
+      image: bsos.png
+      site: http://bsos.umd.edu/
+      css_id: bsos
     - name: "OPIS"
       image: OPIS.svg
       site: http://www.opisnet.com/
@@ -121,4 +117,11 @@
       image: minimill-logo-blue.svg
       site: http://minimill.co
       css_id: minimill
-      
+    - name: "HDR"
+      image: hdr.svg
+      site: http://www.hdrinc.com/
+      css_id: hdr
+    - name: "UMD department of mathematics"
+      image: universitymath.png
+      site: http://www-math.umd.edu/
+      css_id: math
