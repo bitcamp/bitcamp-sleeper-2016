@@ -1,5 +1,5 @@
 - name: partners
-  image_height: 165
+  image_height: 190
   companies:
     - name: "College of Computer, Mathematics, and Natural Sciences"
       image: cmns.svg
