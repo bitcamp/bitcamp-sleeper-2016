@@ -91,7 +91,7 @@
       site: https://www.sparkpost.com/
       css_id: sparkpost
     - name: "HDR"
-      image: HDR_Logo_W.png
+      image: HDR.svg
       site: http://www.hdrinc.com/
       css_id: hdr
 - name: tiny
