@@ -112,7 +112,7 @@
     - name: "Fedora Project"
       image: Fedora_logo_and_wordmark.svg
       site: https://getfedora.org/
-      css_id: fedora
+      css_id: ora
     - name: "Soylent"
       image: Soylent.svg
       site: https://www.soylent.com/
