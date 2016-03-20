@@ -100,7 +100,7 @@
     - name: "Accel"
       image: accel.png
       site: http://www.accel.com/
-      css_id: accel
+      css_id: ac
     - name: "Namecheap"
       image: Namecheap.svg
       site: https://www.namecheap.com/
