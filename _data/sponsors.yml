@@ -94,6 +94,46 @@
       image: HDR.svg
       site: http://www.hdrinc.com/
       css_id: hdr
+    - name: "AIE"
+      image: aie.svg
+      site: http://innovation.umd.edu/
+      css_id: aie
+    - name: "occulus"
+      image: Oculus.svg
+      site: https://www.oculus.com/en-us/
+      css_id: occulus
+    - name: "Microsoft"
+      image: Microsoft.svg
+      site: https://www.microsoft.com/
+      css_id: micro
+    - name: "Intel"
+      image: Intel-logo.svg
+      site: http://www.intel.com/content/www/us/en/homepage.html
+      css_id: intel
+    - name: "Contactually"
+      image: contactually.svg
+      site: https://www.contactually.com/
+      css_id: contactually
+    - name: "Dingman Center for Entrepreneurship"
+      image: dingman.svg
+      site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
+      css_id: dingman
+    - name: "JHU APL"
+      image: jhuapl.svg
+      site: http://www.intel.com/content/www/us/en/homepage.html
+      css_id: apl
+    - name: "SGA"
+      image: SGA.svg
+      site: http://www.umdsga.com/
+      css_id: sga
+    - name: "Drakontas"
+      image: Drakontas.svg
+      site: http://drakontasconsulting.com/
+      css_id: drakontas
+    - name: "ischool"
+      image: ischool.svg
+      site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
+      css_id: ischool
 - name: tiny
   image_height: 75
   companies:
@@ -122,6 +162,23 @@
       site: http://minimill.co
       css_id: minimill
     - name: "UMD department of mathematics"
-      image: universitymath.png
+      image: mathematics.svg
       site: http://www-math.umd.edu/
       css_id: math
+    - name: "Make School"
+      image: make.svg
+      site: https://www.makeschool.com/
+      css_id: make
+    - name: "Division of Information and Technology"
+      image: divit.svg
+      site: http://it.umd.edu/
+      css_id: divit
+    - name: "Insomnia Cookies"
+      image: insomnia.svg
+      site: https://insomniacookies.com/
+      css_id: insomnia
+    - name: "DCC"
+      image: DCC.svg
+      site: https://insomniacookies.com/
+      css_id: dcc
+
