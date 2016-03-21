@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div id="Home"></span>
 <div class="sky" id="sky">
   <div class="date-text">
     <span>April 8-10, 2016</span>
@@ -27,6 +28,27 @@ layout: default
   <img src="{{ 'assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-left">
   <img src="{{ 'assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-right">
 </div>
+<nav class="navbar navbar-inverse" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="nav navbar-nav">
+        <li><a href="#Home">Home</a></li>
+        {% for section in site.data.content-blocks %}
+          {% unless section.hide_title %}
+            <li><a href="#{{section.name}}">{{section.name}}</a></li>
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
 {% for section in site.data.content-blocks %}
   <div id="{{section.name}}">
     {% unless section.hide_title %}
