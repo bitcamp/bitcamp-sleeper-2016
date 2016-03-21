@@ -1,4 +1,4 @@
-- name: Friday
+- name: 'Friday, April 8'
   events:
     - name: Sponsor and Mentor Check-in
       time: 4:00 PM
@@ -15,12 +15,12 @@
     - name: Hacking Begins
       time: 10:00 PM
       highlighted: true
-- name: Saturday
+- name: 'Saturday, April 9'
   events:
     - name: Colorwar
       time: 4:00 PM
       highlighted: true
-- name: Sunday
+- name: 'Sunday, April 10'
   events:
     - name: Hacking Ends/Submissions Due
       time: 10:00 AM

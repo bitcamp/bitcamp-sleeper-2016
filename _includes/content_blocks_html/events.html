@@ -14,11 +14,11 @@
           <tbody>
             {% for event in day.events %}
               {% if event.highlighted %}
-                <tr>
+                <tr class="schedule-event">
                   <td>{{ event.time }}</td>
                   <td>{{ event.name }}</td>
                 </tr>
-                {% endif %}
+              {% endif %}
             {% endfor %}
           </tbody>
         </table>

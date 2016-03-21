@@ -88,10 +88,20 @@ html, body {
 
 .table-title {
   text-align: center;
+  padding-top: 50px;
 }
 
 .schedule-table {
   text-align: left;
+}
+
+.schedule-table-day {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.schedule-event {
+  border-top: 1px solid $brown;
 }
 
 .subtext {

@@ -41,7 +41,7 @@ layout: default
       <ul class="nav navbar-nav">
         <li><a href="#Home">Home</a></li>
         {% for section in site.data.content-blocks %}
-          {% unless section.hide_title %}
+          {% unless section.hide_navbar %}
             <li><a href="#{{section.name}}">{{section.name}}</a></li>
           {% endunless %}
         {% endfor %}

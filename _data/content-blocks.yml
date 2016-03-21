@@ -10,6 +10,7 @@
     - name: Conduct
 - name: image-1
   hide_title: true
+  hide_navbar: true
 - name: Events
   subsections:
     - name: Schedule
