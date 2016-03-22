@@ -1,0 +1,48 @@
+@include media ($desktop) {
+  .orange-button {
+    height: 60px;
+  }
+
+  #mountain {
+    position: absolute;
+    height: 240px;
+    top: 360px;
+    right: 80px;
+  }
+
+  #mountain-2 {
+    position: absolute;
+    height: 240px;
+    top: 360px;
+    left: 80px;
+  }
+
+  #cloud-left {
+    height: 110px;
+    left: 100px;
+  }
+
+  #cloud-right {
+    height: 110px;
+    right: 100px;
+  }
+
+  #logo-text {
+    height: 75px;
+  }
+
+  #logo-img {
+    height: 60px;
+    position: relative;
+    top: 15px;
+    margin: 0 8px;
+  }
+
+  .date-text {
+    font-size: 16px;
+  }
+
+  .sky {
+    padding-top: 150px;
+  }
+}

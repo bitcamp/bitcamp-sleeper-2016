@@ -3,27 +3,59 @@ html, body {
   overflow-x: hidden;
   background-color: #E5D8CE;
   font-family: 'avenir';
-}
-
-dialog a, dialog a:visited, dialog a:hover {
-  color: #7F6C5F;
-  text-decoration: underline;
-}
-
-.svg-image {
-  position: absolute;
-}
-
-.mountain {
-  z-index: 0;
+  text-align: center;
 }
 
 .sky {
-  padding-top: 65px;
   background-color: #CBF2FF;
-  text-align: center;
   color: #FF6F3F;
-  overflow: visible;
+  height: 600px;
+}
+
+.date-text {
+  margin-bottom: 15px;
+  font-family: 'avenir';
+  z-index: 1;
+  position: relative;
+}
+
+#logo-text {
+  margin-bottom: 12px;
+  z-index: 1;
+  position: relative;
+}
+
+#logo-img {
+  z-index: 1;
+}
+
+#cloud-left,#cloud-right {
+  position: absolute;
+}
+
+#cloud-left {
+  top: 100px;
+}
+
+#cloud-right {
+  top: 200px;
+}
+
+#tent {
+  position: absolute;
+  height: 50px;
+  top: 553px;
+  display: none;
+}
+
+#mountain, #mountain-2 {
+  position: absolute;
+}
+
+.absolute-position-centered {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 #mc_embed_signup {
@@ -36,7 +68,6 @@ dialog a, dialog a:visited, dialog a:hover {
   .text-field {
     border: none;
     background-color: #FFFFFF;
-    text-align: center;
     padding-right: 0;
     padding-left: 0;
     font-weight: 300;
@@ -55,222 +86,68 @@ dialog a, dialog a:visited, dialog a:hover {
   }
 }
 
-.blue-body {
-  padding-top: 65px;
-  background-color: #CBF2FF;
+.table-title {
   text-align: center;
-  color: #FF6F3F;
-  overflow: visible;
+  padding-top: 50px;
 }
 
-.closed-text {
-  margin-top: 108px;
+.schedule-table {
+  text-align: left;
 }
 
-.reg-closed-text {
-  font-size: 24px;
+.schedule-table-day {
+  border-collapse: separate;
+  border-spacing: 0 10px;
 }
 
-.sponsorship_inquiries {
-  position: absolute;
-  color: #7F6C5F;
-  font-size: 17px;
-  text-align: center;
-  a {
-    color: #7F6C5F;
-    text-decoration: underline;
-  }
-  width: 100%;
-  font-family: 'aleo';
-}
-
-.pole {
-  background-color: #7F6C5F;
-  width: 15px;
-  position: absolute;
-  left: 110px;
+.schedule-event {
+  border-top: 1px solid $brown;
 }
 
 .subtext {
   position: relative;
   z-index: 1;
-  font-size: 18px;
-  text-align: center;
   font-family: 'aleo';
 }
 
-.date-container {
-  padding-top: 10px;
-  font-size: 24px;
-  padding-bottom: 10px;
-}
-
-.sign-img {
-  z-index: 100;
-  position: absolute;
-  height: 48px;
-}
-
-.sign {
-  position: absolute;
-  z-index: 200;
-  color: #E5D8CE;
+.section-title {
   text-transform: uppercase;
   font-family: 'avenir';
   font-weight: 600;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 11px;
-  left: 70px;
-  text-align: center;
-  width: 100px;
+  font-size: 120%;
+  padding-top: 70px;
 }
 
-.sign-right {
-  left: 56px;
-}
-
-.sign-left {
-  left: 40px;
-}
-
-.sign-right, .sign-right-text {
-  -ms-transform: rotate(356deg); /* IE 9 */
-  -webkit-transform: rotate(356deg); /* Chrome, Safari, Opera */
-  transform: rotate(356deg);
-}
-
-.sign-left, .sign-left-text {
-  -ms-transform: rotate(4deg); /* IE 9 */
-  -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
-  transform: rotate(4deg);
-}
-
-.selected {
-  color: #1A2E33;
-}
-
-.unselected {
-  color: #528CA5;
-}
-
-.selection-text {
-  text-transform: uppercase;
-  font-family: 'avenir';
-  font-weight: 600;
-  font-size: 22px;
-  margin-bottom: 20px;
-  a {
-    text-decoration: none;
-  }
-}
-
-.content-title {
-  margin-bottom: 20px;
-}
-
-.dialog-section {
-  display: none;
-  text-align: left;
-  font-size: 17px;
-  margin-right: 20px;
-  color: #444444;
-}
-
-.dialog-section-container {
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.dialog-section-container::-webkit-scrollbar {
-    width: 10px;
-}
-
-.dialog-section-container::-webkit-scrollbar-thumb {
-    background-color: #A58D7C;
-    width: 6px;
-}
-
-.dialog-section-container::-webkit-scrollbar-track {
-    background-color: #7F6C5F;
-}
-
-.dialog {
-  padding-top: 45px;
-  position: absolute;
-  background-color: #E5D8CE;
-  border: 1px solid #7F6C5F;
-  z-index: 10000;
-  right: 3000px;
-}
-
-.register-button {
-  margin-top: 5px;
-  padding: 10px 35px 9px 35px;
+.orange-button {
   border: none;
-  background-color: #FF6F3F;
   color: #FFFFFF;
   font-weight: 600;
   text-transform: uppercase;
   font-family: 'avenir';
   -webkit-appearance:none;  
   -webkit-border-radius:0px;
+  background: url('/assets/img/button.svg') center center no-repeat;
+  height: 60px;
+  width: 100%;
+  margin-top: 15px;
 }
 
-.register-button:hover {
-  background-color: #FF3F46;
+.orange-button:hover {
   cursor: pointer;
 }
 
 .section-content {
-  text-align: left;
   margin-bottom: 10px;
-}
-
-.show-only-mobile {
-  display: none;
-}
-
-.lines-tiled {
-  background-image: url('../assets/img/lines.svg');
-  top: 300px;
-  height: 450px;
-  z-index: -100000;
-  background-repeat: space;
-}
-
-.exit {
-  color: #7F6C5F;
-  position: absolute;
-  top: 13px;
-  right: 13px;
-  font-family: 'avenir';
-  font-size: 30px;
-  z-index: 10000000;
-}
-
-@media screen and (max-width: 999px) {
-  .selection-text {
-    font-size: 18px;
-  }
+  color: #444444;
+  color: $brown;
+  line-height: 115%;
 }
 
 #mlh-trust-badge {
   right: 75px;
 }
 
-#lines {
-  z-index: -10000;
-}
-
-.mobile-dialog {
-  width: 100%;
-  top: 252px;
-  min-height: 600px;
-}
-
 #sponsors-table {
-  text-align: center;
   display: block;
 }
 
@@ -282,135 +159,25 @@ dialog a, dialog a:visited, dialog a:hover {
   padding: 20px;
 }
 
-@media screen and (max-width: 720px) {
-  #logo-text {
-    height: 50px;
-  }
+.padded-content {
+  padding: 20px 15%;
+}
 
-  #mountain-closed-reg {
-    display: none;
-  }
+.full-width-image {
+  padding: 40px 0;
+  width: 100%;
+}
 
-  #mountain-closed-reg-2 {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.contact-text {
+  font-weight: 700;
+  color: #666;
+  padding: 100px 0;
+}
 
-  .selection-text {
-    font-size: 18px;
-  }
+.speaker-info {
+  padding: 20px 0;
+}
 
-  .desktop-assets {
-    display: none;
-  }
-
-  footer {
-    display: none;
-  }
-
-  .subtext {
-    line-height: 150%;
-    font-size: 90%;
-    margin-top: 2px;
-  }
-
-  #mlh-trust-badge {
-    right: 15px;
-  }
-
-  #mountain,#mountain-1 {
-    height: 80px;
-    top: 174px;
-  }
-
-  #mountain {
-    right: 0;
-  }
-
-  #mountain-1 {
-    left: 5px;
-  }
-
-  #sky {
-    padding-top: 35px;
-    height: 250px
-  }
-
-  .date-container {
-    font-weight: 600;
-  }
-
-  .register-button {
-    padding-top: 14px;
-    padding-bottom: 12px;
-    font-size: 135%;
-    margin-top: 10px;
-  }
-
-  #lines {
-    position: absolute;
-    top: 270px;
-  }
-
-  .pole {
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 20px;
-  }
-
-  .sign-img,.sign {
-    left: 0;
-    right: 0;
-    margin: auto;
-    font-size: 20px;
-  }
-
-  .sign {
-    padding-top: 16px;
-  }
-
-  .sign-img {
-    padding-left: 17px;
-    height: 60px;
-  }
-
-  .sign-left {
-    padding-right: 30px;
-  }
-
-  .dialog {
-    border: none;
-  }
-
-  .reg-closed-text {
-    font-size: 18px;
-  }
-
-  #img-container {
-    .vh_top12 {
-      top: 285px;
-    }
-  }
-
-  .dialog-section-container {
-    overflow-y: visible;
-  }
-
-  .show-only-mobile {
-    display: block;
-  }
-
-  .closed-text {
-    margin-top: 22px;
-    font-size: 110%;
-  }
-
-  #mc_embed_signup {
-    .register-button {
-      font-size: 100%;
-    }
-  }
+.speaker-name {
+  font-weight: 700;
 }

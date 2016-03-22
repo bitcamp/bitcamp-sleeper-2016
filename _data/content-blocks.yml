@@ -5,21 +5,19 @@
 
 - name: About
   subsections: 
-    - name: What is Bitcamp
-    - name: What is a Hackathon
     - name: Venue
+    - name: Faq
+    - name: Conduct
+- name: image-1
+  hide_title: true
+  hide_navbar: true
 - name: Events
   subsections:
     - name: Schedule
+    - name: Map
     - name: Colorwar
-    - name: Trails
+    - name: DevPost
+- name: Speakers
 - name: Sponsors
-  subsections:
-    - name: Sponsors
-- name: FAQ
-  subsections:
-    - name: General FAQ
-    - name: Code of Conduct
 - name: Contact
-  subsections:
-    - name: Contact us
+  hide_title: true

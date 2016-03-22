@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="bitcamp">
     <meta property="og:title" content="Bitcamp 2016">
@@ -13,28 +12,19 @@
     <meta property="og:description" content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!">
     <meta property="og:image" content="http://bitca.mp/img/facebook-share-link.png" />
     <meta property="og:type" content="website">
-
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="http://bitca.mp/">
     <meta name="twitter:title" content="Bitcamp 2016">
     <meta name="twitter:description" content="Bitcamp is a place for exploration. You will have 36 hours to delve into your curiosities, learn something new, and make something awesome. With world-class mentors and hundreds of fellow campers, you’re in for an amazing time. If you’re ready for an adventure, see you by the fire!">
     <meta name="twitter:image" content="http://bitca.mp/img/twitter-share-link.png">
-
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl}}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
     <link rel="icon" type="image/png" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-    <script src="{{ "/js/vunit-0.2.0.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/vunit-cssmap.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/jquery-1.12.0.min.js" | prepend: site.baseurl }}"></script>
-
-    <script src="{{ "/js/custom-velocity.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/velocity.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/dynamic-dialog.js" | prepend: site.baseurl }}"></script>
-
+    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/smooth_scrolling.js" | prepend: site.baseurl }}"></script>
  </head>
-
   <body>
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MRPP8J"
@@ -45,52 +35,42 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MRPP8J');</script>
     <!-- End Google Tag Manager -->
- 
   <a id="mlh-trust-badge" style="position:fixed;top:0;max-width:80px;width:10%;min-width: 50px;display:block;z-index:10000" href="https://mlh.io/seasons/s2016/events?utm_source=s2016&utm_medium=TrustBadge&utm_campaign=s2016" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
-
-    {{ content }}
+  {{ content }}
   <footer class="section"> <!-- footer -->
     <div>
       <p class="copy">&copy; {{ site.time | date: '%Y' }} Bitcamp</p>
-
       <div class="social-links">
-
         <div class="social-item">
           <a href="https://www.facebook.com/bitcmp" class="social-item-link" target="_blank">
             <img src="{{ "/assets/img/facebook.svg" | prepend: site.baseurl }}">
           </a>
         </div>
-
         <div class="social-item">
           <a href="https://twitter.com/bitcmp" class="social-item-link" target="_blank">
             <img src="{{ "/assets/img/twitter.svg" | prepend: site.baseurl }}">
           </a>
         </div>
-
         <div class="social-item">
            <a href="https://instagram.com/bitcamp" class="social-item-link" target="_blank">
             <img src="{{ "/assets/img/instagram.svg" | prepend: site.baseurl }}">
           </a>
       </div>
-      
       <div class="social-item">
           <a href="https:bitcamp.github.io/assets/img/bitcamp.snap.png.jpeg" class="social-item-link" target="_blank">
             <img src="{{ "/assets/img/snapchat.svg" | prepend: site.baseurl }}">
           </a>
       </div>
-
         <div class="social-item">
           <a href="https://medium.com/bitcampfire-stories" class="social-item-link" target="_blank">
             <img src="{{ "/assets/img/medium.svg" | prepend: site.baseurl }}">
           </a>
         </div>
-
         <div class="social-item">
           <a href="https://github.com/bitcamp" class="social-item-link" target="_blank">
             <img src="{{ "/assets/img/github.svg" | prepend: site.baseurl }}">
           </a>
         </div>
-
       </div>
     </div>
   </footer> <!-- /footer -->

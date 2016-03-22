@@ -1,0 +1,46 @@
+@include media($tablet) {
+  .orange-button {
+    height: 50px;
+  }
+
+  #mountain {
+    height: 170px;
+    top: 430px;
+    right: 80px;
+  }
+
+  #mountain-2 {
+    height: 170px;
+    top: 430px;
+    left: 80px;
+  }
+
+  #cloud-left {
+    height: 100px;
+    left: 85px;
+  }
+
+  #cloud-right {
+    height: 100px;
+    right: 85px;
+  }
+
+  #logo-text {
+    height: 75px;
+  }
+
+  #logo-img {
+    height: 50px;
+    position: relative;
+    top: 15px;
+    margin: 0 8px;
+  }
+
+  .date-text {
+    font-size: 16px;
+  }
+
+  .sky {
+    padding-top: 180px;
+  }
+}

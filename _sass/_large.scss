@@ -1,0 +1,38 @@
+@include media($large) {
+  .orange-button {
+    height: 68px;
+  }
+
+  #tent {
+    display: block;
+  }
+
+  #cloud-left {
+    height: 130px;
+    left: 125px;
+  }
+
+  #cloud-right {
+    height: 130px;
+    right: 125px;
+  }
+
+  #logo-text {
+    height: 85px;
+  }
+
+  #logo-img {
+    height: 60px;
+    position: relative;
+    top: 15px;
+    margin: 0 8px;
+  }
+
+  .date-text {
+    font-size: 16px;
+  }
+
+  .sky {
+    padding-top: 125px;
+  }
+}

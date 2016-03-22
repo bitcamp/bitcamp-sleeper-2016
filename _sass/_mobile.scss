@@ -1,0 +1,46 @@
+@include media($mobile) {
+  .orange-button {
+    height: 45px;
+  }
+
+  #mountain {
+    height: 90px;
+    top: 510px;
+    right: 15px;
+  }
+
+  #mountain-2 {
+    height: 90px;
+    top: 510px;
+    left: 15px;
+  }
+
+  #cloud-left {
+    height: 75px;
+    left: 35px;
+  }
+
+  #cloud-right {
+    height: 75px;
+    right: 35px;
+  }
+
+  #logo-text {
+    height: 70px;
+  }
+
+  #logo-img {
+    height: 40px;
+    position: relative;
+    top: 15px;
+    margin: 0 8px;
+  }
+
+  .date-text {
+    font-size: 16px;
+  }
+
+  .sky {
+    padding-top: 200px;
+  }
+}

@@ -1,0 +1,16 @@
+<div class="padded-content">
+  <table id="sponsors-table">
+    {% for tier in site.data.sponsors %}
+      <tr>
+        {% for company in tier.companies %}
+          <td>
+            <a href="{{company.site}}">
+              <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}"
+                alt="{{company.name}}" height="{{tier.image_height}}" id="{{company.css_id}}">
+            </a>
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </table>
+</div>
