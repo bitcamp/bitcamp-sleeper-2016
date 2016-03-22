@@ -85,15 +85,15 @@
     - name: "Intel"
       image: Intel-logo.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
-    - name: "Contactually"
-      image: contactually.svg
-      site: https://www.contactually.com/
+#    - name: "Contactually"
+#      image: contactually.svg
+#      site: https://www.contactually.com/
     - name: "Dingman Center for Entrepreneurship"
       image: dingman.svg
       site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
-    - name: "JHU APL"
-      image: jhuapl.svg
-      site: http://www.intel.com/content/www/us/en/homepage.html
+#    - name: "JHU APL"
+#      image: jhuapl.svg
+#      site: http://www.intel.com/content/www/us/en/homepage.html
     - name: "SGA"
       image: SGA.svg
       site: http://www.umdsga.com/
@@ -124,9 +124,9 @@
     - name: "Minimill"
       image: minimill-logo-blue.svg
       site: http://minimill.co
-    - name: "UMD department of mathematics"
-      image: mathematics.svg
-      site: http://www-math.umd.edu/
+#    - name: "UMD department of mathematics"
+#      image: mathematics.svg
+#      site: http://www-math.umd.edu/
     - name: "Make School"
       image: make.svg
       site: https://www.makeschool.com/
@@ -136,6 +136,6 @@
     - name: "Insomnia Cookies"
       image: insomnia.svg
       site: https://insomniacookies.com/
-    - name: "DCC"
-      image: DCC.svg
-      site: https://insomniacookies.com/
+#    - name: "DCC"
+#      image: DCC.svg
+#      site: https://insomniacookies.com/
