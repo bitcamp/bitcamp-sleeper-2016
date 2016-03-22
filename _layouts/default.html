@@ -45,10 +45,10 @@
       </div>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="nav navbar-nav">
-          <li data-toggle="collapse" data-target="#mainNav"><a href="{{site.url}}#Home">Home</a></li>
+          <li><a href="{{site.url}}#Home">Home</a></li>
           {% for section in site.data.content-blocks %}
             {% unless section.hide_navbar %}
-              <li data-toggle="collapse" data-target="#mainNav"><a href="{{site.url}}#{{section.name}}">{{section.name}}</a></li>
+              <li><a href="{{site.url}}#{{section.name}}">{{section.name}}</a></li>
             {% endunless %}
             {% if forloop.index == 3 %}
               <li>
