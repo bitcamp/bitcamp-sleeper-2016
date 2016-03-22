@@ -1,184 +1,141 @@
 - name: partners
-  image_height: 200
+  css_class: col-large
   companies:
     - name: "College of Computer, Mathematics, and Natural Sciences"
       image: cmns.svg
       site: http://cmns.umd.edu/
-      css_id: cmns
     - name: "A. James Clark School of Engineering"
       image: clark.svg
       site: http://clark.umd.edu/
-      css_id: clark
 - name: large
-  image_height: 160
+  css_class: col-large
   companies:
     - name: "credible behavioral health"
       image: CWI-corporate-logo-2015-wslogan.svg
       site: http://www.credibleinc.com/
-      css_id: credible
     - name: "Northrop Grumman"
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
-      css_id: northrop
     - name: "Tata Consulting Services"
       image: TATA_Consultancy_Services_Logo_blue.svg
       site: http://www.tcs.com/Pages/default.aspx
-      css_id: tata
 - name: medium
-  image_height: 140
+  css_class: col-med
   companies:
     - name: "FINRA"
       image: Financial_Industry_Regulatory_Authority_logo.svg
       site: http://www.finra.org/
-      css_id: finra
     - name: "Leidos"
       image: Leidos.svg
       site: https://www.leidos.com/
-      css_id: leidos
     - name: "LTS"
       image: LTS.svg
       site: http://www.ltsnet.net/
-      css_id: lts
 - name: small
-  image_height: 110
+  css_class: col-small
   companies:
     - name: "AOL"
       image: AOL.png
       site: http://www.aol.com/
-      css_id: aol
     - name: "ATT"
       image: ATT.svg
       site: https://www.att.com/
-      css_id: att
     - name: "Bloomberg"
       image: Bloomberg.svg
       site: http://www.bloomberg.com/
-      css_id: bloomberg
     - name: "Bookholders"
       image: Bookholders.svg
       site: http://www.bookholders.com/
-      css_id: bookholders
     - name: "Booz Allen Hamilton"
       image: Booz.svg
       site: http://www.boozallen.com/
-      css_id: bah
     - name: "Capital One"
       image: CapitalOne.svg
       site: https://www.capitalone.com/
-      css_id: capital
     - name: "Cipher Tech Solutions"
       image: Cipher.svg
       site: https://www.ciphertechsolutions.com/
-      css_id: cipher
     - name: "Easy Dynamics"
       image: Easydynamics.svg
       site: http://easydynamics.com/
-      css_id: easy
     - name: "Facebook"
       image: Facebook.svg
       site: https://www.facebook.com/
-      css_id: facebook
     - name: "BSOS"
       image: bsos.png
       site: http://bsos.umd.edu/
-      css_id: bsos
     - name: "OPIS"
       image: OPIS.svg
       site: http://www.opisnet.com/
-      css_id: opis
     - name: "Sparkpost"
       image: sparkpost-logo.svg
       site: https://www.sparkpost.com/
-      css_id: sparkpost
     - name: "HDR"
       image: HDR.svg
       site: http://www.hdrinc.com/
-      css_id: hdr
     - name: "AIE"
       image: aie.svg
       site: http://innovation.umd.edu/
-      css_id: aie
     - name: "occulus"
       image: Oculus.svg
       site: https://www.oculus.com/en-us/
-      css_id: occulus
     - name: "Microsoft"
       image: Microsoft.svg
       site: https://www.microsoft.com/
-      css_id: micro
     - name: "Intel"
       image: Intel-logo.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
-      css_id: intel
     - name: "Contactually"
       image: contactually.svg
       site: https://www.contactually.com/
-      css_id: contactually
     - name: "Dingman Center for Entrepreneurship"
       image: dingman.svg
       site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
-      css_id: dingman
     - name: "JHU APL"
       image: jhuapl.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
-      css_id: apl
     - name: "SGA"
       image: SGA.svg
       site: http://www.umdsga.com/
-      css_id: sga
     - name: "Drakontas"
       image: Drakontas.svg
       site: http://drakontasconsulting.com/
-      css_id: drakontas
     - name: "ischool"
       image: ischool.svg
       site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
-      css_id: ischool
 - name: tiny
-  image_height: 90
+  css_class: col-small
   companies:
     - name: "Accel"
       image: accel.png
       site: http://www.accel.com/
-      css_id: ac
     - name: "Namecheap"
       image: Namecheap.svg
       site: https://www.namecheap.com/
-      css_id: namecheap
     - name: "Neelbauer Law" 
       image: neelbauer.svg
       site: http://neelbauerlaw.com/
-      css_id: neelbauer
     - name: "Fedora Project"
       image: Fedora_logo_and_wordmark.svg
       site: https://getfedora.org/
-      css_id: ora
     - name: "Soylent"
       image: Soylent.svg
       site: https://www.soylent.com/
-      css_id: soylent
     - name: "Minimill"
       image: minimill-logo-blue.svg
       site: http://minimill.co
-      css_id: minimill
     - name: "UMD department of mathematics"
       image: mathematics.svg
       site: http://www-math.umd.edu/
-      css_id: math
     - name: "Make School"
       image: make.svg
       site: https://www.makeschool.com/
-      css_id: make
     - name: "Division of Information and Technology"
       image: divit.svg
       site: http://it.umd.edu/
-      css_id: divit
     - name: "Insomnia Cookies"
       image: insomnia.svg
       site: https://insomniacookies.com/
-      css_id: insomnia
     - name: "DCC"
       image: DCC.svg
       site: https://insomniacookies.com/
-      css_id: dcc
-

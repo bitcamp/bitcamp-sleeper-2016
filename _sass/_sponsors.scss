@@ -1,0 +1,25 @@
+.col-xlarge, .col-large, .col-med, .col-small, .col-med-partner { height: 100px; margin-bottom: 1em; padding: .625em; display: inline-block; }
+
+.col-xlarge { width: 50%; }
+@media screen and (max-width: 719px) { .col-xlarge { width: 100%; } }
+
+.col-large { width: 33.33333333%; }
+@media screen and (max-width: 719px) { .col-large { width: 66%; } }
+
+.col-med { width: 25%; }
+@media screen and (max-width: 719px) { .col-med { width: 40%; } }
+
+.col-small { width: 16.66666666%; }
+@media screen and (max-width: 719px) { .col-small { width: 30%; } }
+
+.col-med-partner { width: 25%; }
+@media screen and (max-width: 719px) { .col-med-partner { width: 50%; } }
+
+.row-sponsors::after { clear: both; content: ""; display: table; }
+
+@media screen and (max-width: 719px) { .row-sponsors { max-width: 50%; margin: auto; } }
+
+@media screen and (max-width: 719px) and (max-width: 719px) { .row-sponsors { max-width: 100%; } }
+
+.row-sponsors > li img { width: 100%; }
+

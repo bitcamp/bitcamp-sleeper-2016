@@ -1,16 +1,13 @@
-<div class="padded-content">
-  <table id="sponsors-table">
+<div class="container" id="sponsors-table">
     {% for tier in site.data.sponsors %}
-      <tr>
+      <ul class="row-sponsors">
         {% for company in tier.companies %}
-          <td>
+          <li class="{{tier.css_class}}">
             <a href="{{company.site}}">
-              <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}"
-                alt="{{company.name}}" height="{{tier.image_height}}" id="{{company.css_id}}">
+              <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}" alt="{{company.name}}">
             </a>
-          </td>
+          </li>
         {% endfor %}
-      </tr>
+      </ul>
     {% endfor %}
-  </table>
 </div>
