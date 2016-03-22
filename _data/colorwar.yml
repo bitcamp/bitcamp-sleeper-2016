@@ -16,19 +16,19 @@ judges:
   - name: Zvi Band
     company: Contactually
     title: CEO
-    image: jane.png
+    image: zvi.png
   - name: Raska yin
     company: Huge
     title: Visual Designer
-    image: jane.png
+    image: raska.png
   - name: Diego Samuel
     company: HDR
     title: Senior Designer
-    image: john.png
+    image: diego.png
   - name: Jacqueline Chen
     company: "Technica<br>COLORWAR Winner"
     title: Design Lead
-    image: jane.png
+    image: jacqueline.png
 signup_steps:
   - name: Register
     subtext: Register for Bitcamp 2016 by April 3

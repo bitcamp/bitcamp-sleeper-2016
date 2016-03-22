@@ -44,7 +44,7 @@
       image: terrapinhackers.svg
       site: http://terrapinhackers.com/
 - name: umd
-  css_class: col-med
+  css_class: col-small
   companies:
     - name: "AIE"
       image: aie.svg
@@ -142,9 +142,9 @@
     - name: "Fedora Project"
       image: fedora.svg
       site: https://getfedora.org/
-#    - name: "InsomniaCookies"
-#      image: insomnia.svg
-#      site: https://insomniacookies.com/
+    - name: "InsomniaCookies"
+      image: insomnia.png
+      site: https://insomniacookies.com/
     - name: "Make School"
       image: make.svg
       site: https://www.makeschool.com/
