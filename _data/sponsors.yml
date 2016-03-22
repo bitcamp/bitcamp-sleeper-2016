@@ -1,5 +1,5 @@
 - name: partners
-  css_class: col-large
+  css_class: col-xlarge
   companies:
     - name: "A. James Clark School of Engineering"
       image: clark.svg
