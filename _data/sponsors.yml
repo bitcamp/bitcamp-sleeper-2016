@@ -64,6 +64,9 @@
 #    - name: "Contactually"
 #      image: contactually.svg
 #      site: https://www.contactually.com/
+    - name: "College of Information Systems"
+      image: ischool.svg
+      site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
     - name: "Dingman Center for Entrepreneurship"
       image: dingman.svg
       site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
@@ -82,9 +85,6 @@
     - name: "Intel"
       image: Intel-logo.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
-    - name: "ischool"
-      image: ischool.svg
-      site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
 #    - name: "JHU APL"
 #      image: jhuapl.svg
 #      site: http://www.intel.com/content/www/us/en/homepage.html
