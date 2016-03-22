@@ -1,12 +1,12 @@
 - name: partners
   css_class: col-large
   companies:
-    - name: "College of Computer, Mathematics, and Natural Sciences"
-      image: cmns.svg
-      site: http://cmns.umd.edu/
     - name: "A. James Clark School of Engineering"
       image: clark.svg
       site: http://clark.umd.edu/
+    - name: "College of Computer, Mathematics, and Natural Sciences"
+      image: cmns.svg
+      site: http://cmns.umd.edu/
 - name: large
   css_class: col-large
   companies:
@@ -34,6 +34,9 @@
 - name: small
   css_class: col-small
   companies:
+    - name: "AIE"
+      image: aie.svg
+      site: http://innovation.umd.edu/
     - name: "AOL"
       image: AOL.png
       site: http://www.aol.com/
@@ -49,93 +52,90 @@
     - name: "Booz Allen Hamilton"
       image: Booz.svg
       site: http://www.boozallen.com/
+    - name: "BSOS"
+      image: bsos.png
+      site: http://bsos.umd.edu/
     - name: "Capital One"
       image: CapitalOne.svg
       site: https://www.capitalone.com/
     - name: "Cipher Tech Solutions"
       image: Cipher.svg
       site: https://www.ciphertechsolutions.com/
-    - name: "Easy Dynamics"
-      image: Easydynamics.svg
-      site: http://easydynamics.com/
-    - name: "Facebook"
-      image: Facebook.svg
-      site: https://www.facebook.com/
-    - name: "BSOS"
-      image: bsos.png
-      site: http://bsos.umd.edu/
-    - name: "OPIS"
-      image: OPIS.svg
-      site: http://www.opisnet.com/
-    - name: "Sparkpost"
-      image: sparkpost-logo.svg
-      site: https://www.sparkpost.com/
-    - name: "HDR"
-      image: HDR.svg
-      site: http://www.hdrinc.com/
-    - name: "AIE"
-      image: aie.svg
-      site: http://innovation.umd.edu/
-    - name: "occulus"
-      image: Oculus.svg
-      site: https://www.oculus.com/en-us/
-    - name: "Microsoft"
-      image: Microsoft.svg
-      site: https://www.microsoft.com/
-    - name: "Intel"
-      image: Intel-logo.svg
-      site: http://www.intel.com/content/www/us/en/homepage.html
 #    - name: "Contactually"
 #      image: contactually.svg
 #      site: https://www.contactually.com/
     - name: "Dingman Center for Entrepreneurship"
       image: dingman.svg
       site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
-#    - name: "JHU APL"
-#      image: jhuapl.svg
-#      site: http://www.intel.com/content/www/us/en/homepage.html
-    - name: "SGA"
-      image: SGA.svg
-      site: http://www.umdsga.com/
     - name: "Drakontas"
       image: Drakontas.svg
       site: http://drakontasconsulting.com/
+    - name: "Easy Dynamics"
+      image: Easydynamics.svg
+      site: http://easydynamics.com/
+    - name: "Facebook"
+      image: Facebook.svg
+      site: https://www.facebook.com/
+    - name: "HDR"
+      image: HDR.svg
+      site: http://www.hdrinc.com/
+    - name: "Intel"
+      image: Intel-logo.svg
+      site: http://www.intel.com/content/www/us/en/homepage.html
     - name: "ischool"
       image: ischool.svg
       site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
+#    - name: "JHU APL"
+#      image: jhuapl.svg
+#      site: http://www.intel.com/content/www/us/en/homepage.html
+    - name: "Microsoft"
+      image: Microsoft.svg
+      site: https://www.microsoft.com/
+    - name: "OPIS"
+      image: OPIS.svg
+      site: http://www.opisnet.com/
+    - name: "Oculus"
+      image: Oculus.svg
+      site: https://www.oculus.com/en-us/
+    - name: "SGA"
+      image: SGA.svg
+      site: http://www.umdsga.com/
+    - name: "Sparkpost"
+      image: sparkpost-logo.svg
+      site: https://www.sparkpost.com/
 - name: tiny
-  css_class: col-small
+  css_class: col-tiny
   companies:
     - name: "Accel"
       image: accel.png
       site: http://www.accel.com/
+#    - name: "DCC"
+#      image: DCC.svg
+#      site: https://insomniacookies.com/
+    - name: "Division of Information and Technology"
+      image: divit.svg
+      site: http://it.umd.edu/
+    - name: "Fedora Project"
+      image: Fedora_logo_and_wordmark.svg
+      site: https://getfedora.org/
+#    - name: "Insomnia Cookies"
+#      image: insomnia.svg
+#      site: https://insomniacookies.com/
+    - name: "Make School"
+      image: make.svg
+      site: https://www.makeschool.com/
+#    - name: "Math Department - UMD"
+#      image: mathematics.svg
+#      site: http://www-math.umd.edu/
+    - name: "Minimill"
+      image: minimill-logo-blue.svg
+      site: http://minimill.co
     - name: "Namecheap"
       image: Namecheap.svg
       site: https://www.namecheap.com/
     - name: "Neelbauer Law" 
       image: neelbauer.svg
       site: http://neelbauerlaw.com/
-    - name: "Fedora Project"
-      image: Fedora_logo_and_wordmark.svg
-      site: https://getfedora.org/
     - name: "Soylent"
       image: Soylent.svg
       site: https://www.soylent.com/
-    - name: "Minimill"
-      image: minimill-logo-blue.svg
-      site: http://minimill.co
-#    - name: "UMD department of mathematics"
-#      image: mathematics.svg
-#      site: http://www-math.umd.edu/
-    - name: "Make School"
-      image: make.svg
-      site: https://www.makeschool.com/
-    - name: "Division of Information and Technology"
-      image: divit.svg
-      site: http://it.umd.edu/
-#    - name: "Insomnia Cookies"
-#      image: insomnia.svg
-#      site: https://insomniacookies.com/
-#    - name: "DCC"
-#      image: DCC.svg
-#      site: https://insomniacookies.com/
