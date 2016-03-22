@@ -133,9 +133,9 @@
     - name: "Division of Information and Technology"
       image: divit.svg
       site: http://it.umd.edu/
-    - name: "Insomnia Cookies"
-      image: insomnia.svg
-      site: https://insomniacookies.com/
+#    - name: "Insomnia Cookies"
+#      image: insomnia.svg
+#      site: https://insomniacookies.com/
 #    - name: "DCC"
 #      image: DCC.svg
 #      site: https://insomniacookies.com/
