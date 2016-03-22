@@ -1,5 +1,5 @@
 - name: partners
-  image_height: 230
+  image_height: 200
   companies:
     - name: "College of Computer, Mathematics, and Natural Sciences"
       image: cmns.svg
@@ -10,7 +10,7 @@
       site: http://clark.umd.edu/
       css_id: clark
 - name: large
-  image_height: 190
+  image_height: 160
   companies:
     - name: "credible behavioral health"
       image: CWI-corporate-logo-2015-wslogan.svg
