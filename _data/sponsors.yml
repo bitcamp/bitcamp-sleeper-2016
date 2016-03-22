@@ -112,9 +112,9 @@
     - name: "Accel"
       image: accel.png
       site: http://www.accel.com/
-#    - name: "DCC"
-#      image: DCC.svg
-#      site: https://insomniacookies.com/
+    - name: "Design, Culture, Creativity - UMD"
+      image: DCC.png
+      site: http://www.dcc.umd.edu
     - name: "Division of Information and Technology"
       image: divit.svg
       site: http://it.umd.edu/
@@ -122,14 +122,14 @@
       image: Fedora_logo_and_wordmark.svg
       site: https://getfedora.org/
 #    - name: "InsomniaCookies"
-#      image: insomnia.jpg
+#      image: insomnia.svg
 #      site: https://insomniacookies.com/
     - name: "Make School"
       image: make.svg
       site: https://www.makeschool.com/
-#    - name: "Math Department - UMD"
-#      image: mathematics.svg
-#      site: http://www-math.umd.edu/
+    - name: "Math Department - UMD"
+      image: math.png
+      site: http://www.math.umd.edu
     - name: "Minimill"
       image: minimill-logo-blue.svg
       site: http://minimill.co
