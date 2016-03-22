@@ -43,7 +43,7 @@
     - name: "TerrapinHackers"
       image: terrapinhackers.svg
       site: http://terrapinhackers.com/
-- name: UMD
+- name: umd
   css_class: col-small
   companies:
     - name: "AIE"
