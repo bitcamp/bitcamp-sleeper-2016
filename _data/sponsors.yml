@@ -44,7 +44,7 @@
       image: terrapinhackers.svg
       site: http://terrapinhackers.com/
 - name: umd
-  css_class: col-small
+  css_class: col-med
   companies:
     - name: "AIE"
       image: aie.svg
