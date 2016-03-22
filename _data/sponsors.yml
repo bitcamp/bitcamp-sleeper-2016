@@ -11,13 +11,13 @@
   css_class: col-large
   companies:
     - name: "credible behavioral health"
-      image: CWI-corporate-logo-2015-wslogan.svg
+      image: credible.svg
       site: http://www.credibleinc.com/
     - name: "Northrop Grumman"
       image: NorthropGrumman.png
       site: http://www.northropgrumman.com/careers/Pages/default.aspx
     - name: "Tata Consulting Services"
-      image: TATA_Consultancy_Services_Logo_blue.svg
+      image: tcs.svg
       site: http://www.tcs.com/Pages/default.aspx
 - name: medium
   css_class: col-med
@@ -34,7 +34,7 @@
 - name: partners
   css_class: col-small
   companies:
-    - name: "Majore League Hacking" 
+    - name: "Major League Hacking" 
       image: mlh.svg
       site: https://mlh.io/
     - name: Startup Shell
@@ -43,12 +43,36 @@
     - name: "TerrapinHackers"
       image: terrapinhackers.svg
       site: http://terrapinhackers.com/
-- name: small
+- name: UMD
   css_class: col-small
   companies:
     - name: "AIE"
       image: aie.svg
       site: http://innovation.umd.edu/
+    - name: "BSOS"
+      image: bsos.png
+      site: http://bsos.umd.edu/
+    - name: "ComputerScience"
+      image: cs.svg
+      site: http://www.cs.umd.edu/
+    - name: "College of Information Systems"
+      image: ischool.svg
+      site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
+    - name: "Design, Culture, Creativity - UMD"
+      image: dcc.png
+      site: http://www.dcc.umd.edu
+    - name: "Dingman Center for Entrepreneurship"
+      image: dingman.svg
+      site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
+    - name: "Division of Information and Technology"
+      image: divit.svg
+      site: http://it.umd.edu/
+    - name: "Math Department - UMD"
+      image: math.png
+      site: http://www.math.umd.edu
+- name: small
+  css_class: col-small
+  companies:
     - name: "AOL"
       image: AOL.png
       site: http://www.aol.com/
@@ -64,9 +88,6 @@
     - name: "Booz Allen Hamilton"
       image: Booz.svg
       site: http://www.boozallen.com/
-    - name: "BSOS"
-      image: bsos.png
-      site: http://bsos.umd.edu/
     - name: "Capital One"
       image: CapitalOne.svg
       site: https://www.capitalone.com/
@@ -76,12 +97,6 @@
     - name: "Contactually"
       image: contactually.png
       site: https://www.contactually.com/
-    - name: "College of Information Systems"
-      image: ischool.svg
-      site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
-    - name: "Dingman Center for Entrepreneurship"
-      image: dingman.svg
-      site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
     - name: "Drakontas"
       image: Drakontas.svg
       site: http://drakontasconsulting.com/
@@ -95,7 +110,7 @@
       image: HDR.svg
       site: http://www.hdrinc.com/
     - name: "Intel"
-      image: Intel-logo.svg
+      image: intel.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
     - name: "JHU APL"
       image: jhuapl.png
@@ -116,22 +131,16 @@
       image: SGA.svg
       site: http://www.umdsga.com/
     - name: "Sparkpost"
-      image: sparkpost-logo.svg
-      site: https://www.sparkpost.com/
+      image: sparkpost.svg
+      site: https://www.sparkpost.com
 - name: tiny
   css_class: col-tiny
   companies:
     - name: "Accel"
       image: accel.png
       site: http://www.accel.com/
-    - name: "Design, Culture, Creativity - UMD"
-      image: dcc.png
-      site: http://www.dcc.umd.edu
-    - name: "Division of Information and Technology"
-      image: divit.svg
-      site: http://it.umd.edu/
     - name: "Fedora Project"
-      image: Fedora_logo_and_wordmark.svg
+      image: fedora.svg
       site: https://getfedora.org/
 #    - name: "InsomniaCookies"
 #      image: insomnia.svg
@@ -139,11 +148,8 @@
     - name: "Make School"
       image: make.svg
       site: https://www.makeschool.com/
-    - name: "Math Department - UMD"
-      image: math.png
-      site: http://www.math.umd.edu
     - name: "Minimill"
-      image: minimill-logo-blue.svg
+      image: minimill.svg
       site: http://minimill.co
     - name: "Namecheap"
       image: Namecheap.svg
