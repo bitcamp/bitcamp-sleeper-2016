@@ -61,9 +61,9 @@
     - name: "Cipher Tech Solutions"
       image: Cipher.svg
       site: https://www.ciphertechsolutions.com/
-#    - name: "Contactually"
-#      image: contactually.svg
-#      site: https://www.contactually.com/
+    - name: "Contactually"
+      image: contactually.png
+      site: https://www.contactually.com/
     - name: "College of Information Systems"
       image: ischool.svg
       site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
@@ -85,9 +85,12 @@
     - name: "Intel"
       image: Intel-logo.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
-#    - name: "JHU APL"
-#      image: jhuapl.svg
-#      site: http://www.intel.com/content/www/us/en/homepage.html
+    - name: "JHU APL"
+      image: jhuapl.png
+      site: http://www.jhuapl.edu/
+    - name: MathWorks
+      image: mathworks.png
+      site: http://www.mathworks.com/
     - name: "Microsoft"
       image: Microsoft.svg
       site: https://www.microsoft.com/
@@ -118,8 +121,8 @@
     - name: "Fedora Project"
       image: Fedora_logo_and_wordmark.svg
       site: https://getfedora.org/
-#    - name: "Insomnia Cookies"
-#      image: insomnia.svg
+#    - name: "InsomniaCookies"
+#      image: insomnia.jpg
 #      site: https://insomniacookies.com/
     - name: "Make School"
       image: make.svg
@@ -136,6 +139,9 @@
     - name: "Neelbauer Law" 
       image: neelbauer.svg
       site: http://neelbauerlaw.com/
+    - name: Rockwell Collins
+      image: rockwell.svg
+      site: https://www.rockwellcollins.com/
     - name: "Soylent"
       image: Soylent.svg
       site: https://www.soylent.com/
