@@ -12,58 +12,36 @@ layout: default
   Calling all creatives
 </div>
 <div class="padded-content"><div class="padded-content">
-  Welcome to Bitcamp's third annual COLORWAR design competition! COLORWAR features fast-paced design challenges for our Bitcamp participants to get their creative juices flowing.
+  {{site.data.colorwar.description}}
 </div></div>
 <div class="section-title">
   How it works
 </div>
 <div class="container">
-  <div class="col-md-4">
-    <div class="colorwar-text">
-      <img src="/assets/img/colorwar/flag-1.svg" id="cw-flag">
-      <div class="section-title">
-        Register
-        <div class="section-subtitle">
-          Register for Bitcamp 2016 by April 3
+  {% for step in site.data.colorwar.signup_steps %}
+    <div class="col-md-4">
+      <div class="colorwar-text">
+        <img src="/assets/img/colorwar/flag-{{forloop.index}}.svg" id="cw-flag">
+        <div class="section-title">
+          {{ step.name }}
+          <div class="section-subtitle">
+            {{ step.subtext }}
+          </div>
         </div>
+        {{ step.instruction }}
       </div>
-      Colorwar is an annual event, held at Bitcmap, the hackthon at the University of Maryland, which will be held on April 8-10, 2016. You will have 36 hours to learn something new, and make something awesome.
     </div>
-  </div>
-  <div class="col-md-4">
-    <div class="colorwar-text">
-      <img src="/assets/img/colorwar/flag-2.svg" id="cw-flag">
-      <div class="section-title">
-        Tweet
-        <div class="section-subtitle">
-          Submit your design by 11pm on Sunday, April 3
-        </div>
-      </div>
-      Create a visual that expresses your interpretatoin of Bitcamp's "Explore New Grounds" theme. Then show us that image on Twitter with the hashtag #COLORWAR @bitcmp.
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="colorwar-text">
-      <img src="/assets/img/colorwar/flag-3.svg" id="cw-flag">
-      <div class="section-title">
-        Compete
-        <div class="section-subtitle">
-          4-6pm on Saturday, April 9 at Bitcamp
-        </div>
-      </div>
-      We'll select five finalists for the main event at Bitcamp. Contestants will battle it out through five rounds of knockout design challenges. Judges and the crowd will determine one victor.
-    </div>
-  </div>
+  {% endfor %}
 </div>
 <div class="section-title">
   Prizes
 </div>
 <img src="/assets/img/colorwar/prizes.svg" id="cw-prizes">
 <div class="padded-content"><div class="padded-content">
-  Everyone who submits will receive COLORWARstickers. The Top 5 contestants will all receive limited edition COLORWAR shirts and compete for moleskin notebooks, Copic markers, Pencils by FiftyThree, a Wacom graphic tablet, and more!
+  {{site.data.colorwar.prizes}}
 </div></div>
 <div class="container cw-judges">
-  {% for judge in site.data.colorwar %}
+  {% for judge in site.data.colorwar.judges %}
     <div class="col-md-3 speaker-info">
       <img src="{{site.colorwar_judge_photo_dir}}{{judge.image}}">
       <div class="speaker-name">
@@ -77,6 +55,5 @@ layout: default
 </div>
 <img src="/assets/img/bitcamp-logo.svg" id="logo-img">
 <div class="padded-content"><div class="padded-content">
-  In order to be selected for the main event, you must be registered and planning to attend Bitcmp. Everyone can submit for fun and still receive a COLORWAR sticker.<br>
-  <!--a href="">Competition rules can be found here</a-->
+  {{site.data.colorwar.rules}}
 </div></div>

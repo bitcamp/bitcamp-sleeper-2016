@@ -1,16 +1,52 @@
-- name: Zvi Band
-  company: Contactually
-  title: CEO
-  image: jane.png
-- name: Raska yin
-  company: Huge
-  title: Visual Designer
-  image: jane.png
-- name: Diego Samuel
-  company: HDR
-  title: Senior Designer
-  image: john.png
-- name: Jacqueline Chen
-  company: "Technica<br>COLORWAR Winner"
-  title: Design Lead
-  image: jane.png
+description: >
+  Welcome to Bitcamp's third annual COLORWAR design competition!
+  COLORWAR features fast-paced design challenges for our Bitcamp
+  participants to get their creative juices flowing.
+prizes: >
+  Everyone who submits will receive COLORWARstickers.
+  The Top 5 contestants will all receive limited edition
+  COLORWAR shirts and compete for moleskin notebooks, Copic
+  markers, Pencils by FiftyThree, a Wacom graphic tablet, and more!
+rules: >
+  In order to be selected for the main event, you must be registered
+  and planning to attend Bitcmp. Everyone can submit for fun and
+  still receive a COLORWAR sticker.<br>
+  <!--a href="">Competition rules can be found here</a-->
+judges:
+  - name: Zvi Band
+    company: Contactually
+    title: CEO
+    image: jane.png
+  - name: Raska yin
+    company: Huge
+    title: Visual Designer
+    image: jane.png
+  - name: Diego Samuel
+    company: HDR
+    title: Senior Designer
+    image: john.png
+  - name: Jacqueline Chen
+    company: "Technica<br>COLORWAR Winner"
+    title: Design Lead
+    image: jane.png
+signup_steps:
+  - name: Register
+    subtext: Register for Bitcamp 2016 by April 3
+    instruction: >
+      Colorwar is an annual event, held at Bitcmap,
+      the hackthon at the University of Maryland,
+      which will be held on April 8-10, 2016. You will
+      have 36 hours to learn something new, and make something
+      awesome.
+  - name: Tweet
+    subtext: Submit your design by 11pm on Sunday, April 3
+    instruction: >
+      Create a visual that expresses your interpretatoin of
+      Bitcamp's "Explore New Grounds" theme. Then show us that
+      image on Twitter with the hashtag #COLORWAR @bitcmp.
+  - name: Compete
+    subtext: 4-6pm on Saturday, April 9 at Bitcamp
+    instruction: >
+      We'll select five finalists for the main event at Bitcamp.
+      Contestants will battle it out through five rounds of knockout
+      design challenges. Judges and the crowd will determine one victor.
