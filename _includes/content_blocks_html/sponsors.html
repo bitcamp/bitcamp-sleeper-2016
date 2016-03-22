@@ -4,7 +4,7 @@
         {% for company in tier.companies %}
           <li class="{{tier.css_class}}">
             <a href="{{company.site}}">
-              <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}" alt="{{company.name}}">
+              <img src="{{site.sponsor_logo_dir}}/{{tier.name}}/{{company.image}}" alt="{{company.name}}" id="{{company.name}}">
             </a>
           </li>
         {% endfor %}
