@@ -36,6 +36,27 @@
     })(window,document,'script','dataLayer','GTM-MRPP8J');</script>
     <!-- End Google Tag Manager -->
   <a id="mlh-trust-badge" style="position:fixed;top:0;max-width:80px;width:10%;min-width: 50px;display:block;z-index:10000" href="https://mlh.io/seasons/s2016/events?utm_source=s2016&utm_medium=TrustBadge&utm_campaign=s2016" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
+  <nav class="navbar navbar-inverse" id="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="nav navbar-nav">
+          <li><a href="{{site.url}}#Home">Home</a></li>
+          {% for section in site.data.content-blocks %}
+            {% unless section.hide_navbar %}
+              <li><a href="{{site.url}}#{{section.name}}">{{section.name}}</a></li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
   {{ content }}
   <footer class="section"> <!-- footer -->
     <div>
