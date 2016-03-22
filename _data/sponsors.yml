@@ -1,4 +1,4 @@
-- name: partners
+- name: xlarge
   css_class: col-xlarge
   companies:
     - name: "A. James Clark School of Engineering"
@@ -31,6 +31,18 @@
     - name: "LTS"
       image: LTS.svg
       site: http://www.ltsnet.net/
+- name: partners
+  css_class: col-small
+  companies:
+    - name: "Majore League Hacking" 
+      image: mlh.svg
+      site: https://mlh.io/
+    - name: Startup Shell
+      image: startupshell.svg
+      site: http://startupshell.org/
+    - name: "TerrapinHackers"
+      image: terrapinhackers.svg
+      site: http://terrapinhackers.com/
 - name: small
   css_class: col-small
   companies:
