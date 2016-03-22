@@ -29,6 +29,10 @@ html, body {
   z-index: 1;
 }
 
+#colorwar-logo {
+  padding-top: 150px;
+}
+
 #cloud-left,#cloud-right {
   position: absolute;
 }
@@ -56,6 +60,18 @@ html, body {
   height: 46px;
   padding: 0;
   margin: 0;
+}
+
+#cw-flag {
+  padding-top: 60px;
+}
+
+#cw-prizes {
+  padding: 70px 0;
+}
+
+.cw-judges {
+  padding: 75px 0;
 }
 
 .absolute-position-centered {
@@ -124,6 +140,13 @@ html, body {
   padding-top: 70px;
 }
 
+.section-subtitle {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-transform: none;
+  font-size: 75%;
+}
+
 .orange-button {
   border: none;
   color: #FFFFFF;
@@ -166,9 +189,13 @@ html, body {
 }
 
 .speaker-info {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .speaker-name {
   font-weight: 700;
+}
+
+.colorwar-text {
+  padding: 0 20px;
 }

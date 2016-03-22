@@ -1,0 +1,16 @@
+- name: Zvi Band
+  company: Contactually
+  title: CEO
+  image: jane.png
+- name: Raska yin
+  company: Huge
+  title: Visual Designer
+  image: jane.png
+- name: Diego Samuel
+  company: HDR
+  title: Senior Designer
+  image: john.png
+- name: Jacqueline Chen
+  company: "Technica<br>COLORWAR Winner"
+  title: Design Lead
+  image: jane.png

@@ -22,11 +22,11 @@ layout: default
   </div>
 </div>
 <div id="img-container">
-  <img src="{{ 'assets/img/mountain-left.svg' | prepend: site.baseurl }}" id="mountain-2">
-   <img src="{{ 'assets/img/mountain-right.svg' | prepend: site.baseurl }}" id="mountain">
-  <img src="{{ 'assets/img/tents.svg' | prepend: site.baseurl }}" id="tent" class="absolute-position-centered">
-  <img src="{{ 'assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-left">
-  <img src="{{ 'assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-right">
+  <img src="{{ '/assets/img/mountain-left.svg' | prepend: site.baseurl }}" id="mountain-2">
+   <img src="{{ '/assets/img/mountain-right.svg' | prepend: site.baseurl }}" id="mountain">
+  <img src="{{ '/assets/img/tents.svg' | prepend: site.baseurl }}" id="tent" class="absolute-position-centered">
+  <img src="{{ '/assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-left">
+  <img src="{{ '/assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-right">
 </div>
 {% for section in site.data.content-blocks %}
   <div id="{{section.name}}">
