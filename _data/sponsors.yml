@@ -62,7 +62,7 @@
       image: dcc.png
       site: http://www.dcc.umd.edu
     - name: "Dingman"
-      image: dingman.svg
+      image: dingman.png
       site: http://www.rhsmith.umd.edu/centers-excellence/dingman-center-entrepreneurship
     - name: "Division of Information and Technology"
       image: divit.svg
