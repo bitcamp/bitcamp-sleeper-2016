@@ -3,32 +3,28 @@ description: >
   COLORWAR features fast-paced design challenges for our Bitcamp
   participants to get their creative juices flowing.
 prizes: >
-  Everyone who submits will receive COLORWARstickers.
+  Everyone who submits will receive COLORWAR stickers.
   The Top 5 contestants will all receive limited edition
   COLORWAR shirts and compete for moleskin notebooks, Copic
   markers, Pencils by FiftyThree, a Wacom graphic tablet, and more!
-rules: >
-  In order to be selected for the main event, you must be registered
-  and planning to attend Bitcmp. Everyone can submit for fun and
-  still receive a COLORWAR sticker.<br>
-  <!--a href="">Competition rules can be found here</a-->
+rules_url: Colorwar-Rules.pdf
 judges:
   - name: Zvi Band
     company: Contactually
     title: CEO
-    image: zvi.png
-  - name: Raska yin
-    company: Huge
+    image: zvi_band.jpg
+  - name: Raksa Yin
+    company: Huge, inc.
     title: Visual Designer
-    image: raska.png
-  - name: Diego Samuel
-    company: HDR
-    title: Senior Designer
-    image: diego.png
+    image: raksa_yin.jpg
+  - name: Michael Vinkler
+    company: HDR, inc.
+    title: Director
+    image: michael_vinkler.jpg
   - name: Jacqueline Chen
-    company: "Technica<br>COLORWAR Winner"
+    company: "Technica<br>COLORWAR 2014 Winner"
     title: Design Lead
-    image: jacqueline.png
+    image: jacqueline_chen.jpg
 signup_steps:
   - name: Register
     subtext: Register for Bitcamp 2016 by April 3
