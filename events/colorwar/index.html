@@ -2,8 +2,21 @@
 layout: default
 ---
 <style>
-  body{color: #1A2E33; font-family: 'aleo';}
+  body{color: #1A2E33; font-family: 'aleo'; line-height: 115%;}
   a:visited, a:active, a:hover, a:link {color: #1A2E33; text-decoration: underline;}
+  {% for judge in site.data.colorwar.judges %}
+    #{{judge.css_id}} {
+      background-image: url('{{site.colorwar_judge_photo_dir}}pixelated-{{judge.image}}');
+    }
+    #{{judge.css_id}}:hover {
+      background-image: url('{{site.colorwar_judge_photo_dir}}{{judge.image}}');
+    }
+    @media screen and (max-width: 820px) {
+      #{{judge.css_id}} {
+        background-image: url('{{site.colorwar_judge_photo_dir}}{{judge.image}}');
+      }
+    }
+  {% endfor %}
 </style>
 <div class="sky" id="sky">
   <span><img src="{{ '/assets/img/colorwar-logo.svg' }}" id="colorwar-logo"></span>
@@ -55,12 +68,14 @@ layout: default
 <div class="container cw-judges">
   {% for judge in site.data.colorwar.judges %}
     <div class="col-md-3 speaker-info">
-      <img src="{{site.colorwar_judge_photo_dir}}{{judge.image}}" class="cw-judge">
+      <div class="cw-judge" id="{{judge.css_id}}">
+        <img src="{{site.colorwar_judge_photo_dir}}{{judge.image}}" style="visibility:hidden;">
+      </div>
       <div class="speaker-name">
         {{judge.name}}
       </div>
       <div class="speaker-info">
-        {{judge.title}}@{{judge.company}}
+        {{judge.title}} @ {{judge.company}}
       </div>
     </div>
   {% endfor %}

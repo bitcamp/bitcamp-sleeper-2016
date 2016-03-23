@@ -30,8 +30,8 @@ html, body {
 }
 
 #colorwar-logo {
-  padding-top: 50px;
-  height: 200px;
+  margin-top: 110px;
+  height: 150px;
   z-index: 10000;
 }
 
@@ -84,13 +84,15 @@ html, body {
   margin-top: 1px;
 }
 
-.cw-judge {
-  
-}
-
 .cw-button {
   position: relative;
   top: 50px;
+}
+
+.cw-judge {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .absolute-position-centered {

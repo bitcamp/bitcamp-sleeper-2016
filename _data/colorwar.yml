@@ -10,18 +10,22 @@ prizes: >
 rules_url: Colorwar-Rules.pdf
 judges:
   - name: Zvi Band
+    css_id: zvi
     company: Contactually
     title: CEO
     image: zvi_band.jpg
   - name: Raksa Yin
+    css_id: raksa
     company: Huge, inc.
     title: Visual Designer
     image: raksa_yin.jpg
   - name: Michael Vinkler
+    css_id: michael
     company: HDR, inc.
     title: Director
     image: michael_vinkler.jpg
   - name: Jacqueline Chen
+    css_id: jacqueline
     company: "Technica<br>COLORWAR 2014 Winner"
     title: Design Lead
     image: jacqueline_chen.jpg
