@@ -1,33 +1,31 @@
 ---
 layout: default
 ---
-<section class="schedule-table" id="schedule"> <!-- schedule -->
-
-{% for day in site.data.schedule %}
-  <!-- Friday -->
-  <h3 class="table-title">{{ day.name }}</h3><br>
-  <table class="schedule-table-day" id="table-{{day.name}}">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>Event</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for event in day.events %}
-        {% if event.highlighted %}
-          <b>
-        {% endif %}
-        <tr class="schedule-event">
-          <td>{{ event.time }}</td>
-          <td>{{ event.name }}</td>
+<div class="section-content padded-content">
+  <section class="schedule-table" id="schedule"> <!-- schedule -->
+  {% for day in site.data.schedule %}
+    <!-- Friday -->
+    <h3 class="table-title">{{ day.name }}</h3><br>
+    <table class="schedule-table-day" id="table-{{day.name}}">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Event</th>
         </tr>
-        {% if event.highlighted %}
-          </b>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-  <!-- /{{ day.name }} -->
-{% endfor %}
-
+      </thead>
+      <tbody>
+        {% for event in day.events %}
+          <tr class="schedule-event"
+            {% if event.highlighted %}
+              style="font-weight: 700;"
+            {% endif %}
+          >
+            <td>{{ event.time }}</td>
+            <td>{{ event.name }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <!-- /{{ day.name }} -->
+  {% endfor %}
+</div>
