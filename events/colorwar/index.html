@@ -10,7 +10,7 @@ layout: default
   a:visited, a:active, a:hover, a:link {color: #1A2E33; text-decoration: underline;}
   {% for judge in site.data.colorwar.judges %}
     #{{judge.css_id}} {
-      background-image: url('{{site.colorwar_judge_photo_dir}}pixelated-{{judge.image}}');
+      background-image: url('{{site.colorwar_judge_photo_dir}}pixel_{{judge.image}}');
     }
     #{{judge.css_id}}:hover {
       background-image: url('{{site.colorwar_judge_photo_dir}}{{judge.image}}');
