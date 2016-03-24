@@ -31,7 +31,7 @@ judges:
     image: jacqueline_chen.jpg
 signup_steps:
   - name: Register
-    subtext: Register for Bitcamp 2016 by April 3
+    subtext: Register for Bitcamp 2016 by Feb 19
     instruction: >
       You must be registered and planning to attend Bitcamp to be
       considered for the main event. Everyone can still submit for
