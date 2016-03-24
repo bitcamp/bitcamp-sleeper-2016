@@ -19,6 +19,9 @@
     - name: "Tata Consulting Services"
       image: tcs.svg
       site: http://www.tcs.com/Pages/default.aspx
+    - name: "MAX ISP"
+      image: max.svg
+      site: http://www.maxgigapop.net/
 - name: medium
   css_class: col-med
   companies:
