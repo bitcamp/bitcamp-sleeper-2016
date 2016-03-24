@@ -19,7 +19,7 @@
     - name: "Tata Consulting Services"
       image: tcs.svg
       site: http://www.tcs.com/Pages/default.aspx
-    - name: "MAX ISP"
+    - name: "MAX"
       image: max.svg
       site: http://www.maxgigapop.net/
 - name: medium
@@ -31,9 +31,6 @@
     - name: "Leidos"
       image: Leidos.svg
       site: https://www.leidos.com/
-    - name: "LTS"
-      image: LTS.svg
-      site: http://www.ltsnet.net/
 - name: partners
   css_class: col-small
   companies:
@@ -77,6 +74,36 @@
       image: smith.svg
       site: http://www.rhsmith.umd.edu/
 - name: small
+  css_class: col-med-small
+  companies:
+    - name: "Capital One"
+      image: CapitalOne.svg
+      site: https://www.capitalone.com/
+    - name: "Drakontas"
+      image: Drakontas.svg
+      site: http://drakontasconsulting.com/
+    - name: "Facebook"
+      image: Facebook.svg
+      site: https://www.facebook.com/
+    - name: "JHU APL"
+      image: jhuapl.png
+      site: http://www.jhuapl.edu/
+    - name: "LTS"
+      image: LTS.svg
+      site: http://www.ltsnet.net/
+    - name: MathWorks
+      image: mathworks.png
+      site: http://www.mathworks.com/
+    - name: "Microsoft"
+      image: Microsoft.svg
+      site: https://www.microsoft.com/
+    - name: "Oculus"
+      image: Oculus.svg
+      site: https://www.oculus.com/en-us/
+    - name: "SGA"
+      image: SGA.svg
+      site: http://www.umdsga.com/
+- name: small
   css_class: col-small
   companies:
     - name: "AOL"
@@ -91,45 +118,21 @@
     - name: "Booz Allen Hamilton"
       image: Booz.svg
       site: http://www.boozallen.com/
-    - name: "Capital One"
-      image: CapitalOne.svg
-      site: https://www.capitalone.com/
     - name: "Cipher Tech Solutions"
       image: Cipher.svg
       site: https://www.ciphertechsolutions.com/
     - name: "Contactually"
       image: contactually.png
       site: https://www.contactually.com/
-    - name: "Drakontas"
-      image: Drakontas.svg
-      site: http://drakontasconsulting.com/
     - name: "Easy Dynamics"
       image: Easydynamics.svg
       site: http://easydynamics.com/
-    - name: "Facebook"
-      image: Facebook.svg
-      site: https://www.facebook.com/
     - name: "Intel"
       image: intel.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
-    - name: "JHU APL"
-      image: jhuapl.png
-      site: http://www.jhuapl.edu/
-    - name: MathWorks
-      image: mathworks.png
-      site: http://www.mathworks.com/
-    - name: "Microsoft"
-      image: Microsoft.svg
-      site: https://www.microsoft.com/
     - name: "OPIS"
       image: OPIS.svg
       site: http://www.opisnet.com/
-    - name: "Oculus"
-      image: Oculus.svg
-      site: https://www.oculus.com/en-us/
-    - name: "SGA"
-      image: SGA.svg
-      site: http://www.umdsga.com/
     - name: "Sparkpost"
       image: sparkpost.svg
       site: https://www.sparkpost.com

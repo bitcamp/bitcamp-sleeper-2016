@@ -1,19 +1,22 @@
-.col-xlarge, .col-large, .col-med, .col-small, .col-tiny { height: 100px; margin-bottom: 1em; padding: .625em; display: inline-block; vertical-align: top;}
+.col-xlarge, .col-large, .col-med, .col-med-small, .col-small, .col-tiny { height: 100px; margin-bottom: 1em; padding: .625em; display: inline-block; vertical-align: top;}
 
 .col-xlarge { width: 49%; height: 200px;}
 @media screen and (max-width: 719px) { .col-xlarge { width: 100%; } }
 
 .col-large { width: 32%; height: 150px;}
-@media screen and (max-width: 719px) { .col-large { width: 50%; } }
+@media screen and (max-width: 719px) { .col-large { width: 49%; } }
 
 .col-med { width: 24%; }
-@media screen and (max-width: 719px) { .col-med { width: 33.33333333%; } }
+@media screen and (max-width: 719px) { .col-med { width: 32%; } }
 
-.col-small { width: 19%; }
-@media screen and (max-width: 719px) { .col-small { width: 25%; } }
+.col-med-small { width: 19%; }
+@media screen and (max-width: 719px) { .col-med-small { width: 24%; } }
 
-.col-tiny { width: 16%; }
-@media screen and (max-width: 719px) { .col-tiny { width: 20%; } }
+.col-small { width: 16%; }
+@media screen and (max-width: 719px) { .col-small { width: 19%; } }
+
+.col-tiny { width: 13%; }
+@media screen and (max-width: 719px) { .col-tiny { width: 16%; } }
 
 .row-sponsors::after { clear: both; content: ""; display: table; }
 
@@ -66,6 +69,10 @@
 
 #MathWorks {
   width: 70%;
+}
+
+#MAX {
+  width: 90%;
 }
 
 #SGA {
