@@ -39,7 +39,7 @@ signup_steps:
   - name: Tweet
     subtext: Submit your design by 11pm on Sunday, April 3
     instruction: >
-      Create a visual that expresses your interpretatoin of
+      Create a visual that expresses your interpretation of
       Bitcamp's "Explore New Grounds" theme. Then show us that
       image on Twitter with the hashtag #COLORWAR @bitcmp.
   - name: Compete
