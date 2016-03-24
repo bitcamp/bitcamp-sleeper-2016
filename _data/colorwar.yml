@@ -33,11 +33,9 @@ signup_steps:
   - name: Register
     subtext: Register for Bitcamp 2016 by April 3
     instruction: >
-      Colorwar is an annual event, held at Bitcmap,
-      the hackthon at the University of Maryland,
-      which will be held on April 8-10, 2016. You will
-      have 36 hours to learn something new, and make something
-      awesome.
+      You must be registered and planning to attend Bitcamp to be
+      considered for the main event. Everyone can still submit for
+      fun and receive a COLORWAR sticker!
   - name: Tweet
     subtext: Submit your design by 11pm on Sunday, April 3
     instruction: >
