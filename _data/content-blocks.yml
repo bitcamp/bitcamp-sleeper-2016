@@ -13,9 +13,9 @@
   hide_navbar: true
 - name: Events
   subsections:
-#    - name: Schedule
+    - name: Schedule
 #    - name: Map
-#    - name: Colorwar
+    - name: Colorwar
 #    - name: Devpost
 # - name: Speakers
 - name: Sponsors
