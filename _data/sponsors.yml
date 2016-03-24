@@ -70,6 +70,9 @@
     - name: "Math Department - UMD"
       image: math.png
       site: http://www.math.umd.edu
+    - name: "Robert H. Smith Business School"
+      image: smith.svg
+      site: http://www.rhsmith.umd.edu/
 - name: small
   css_class: col-small
   companies:
@@ -82,9 +85,6 @@
     - name: "Bloomberg"
       image: Bloomberg.svg
       site: http://www.bloomberg.com/
-    - name: "Bookholders"
-      image: Bookholders.svg
-      site: http://www.bookholders.com/
     - name: "Booz Allen Hamilton"
       image: Booz.svg
       site: http://www.boozallen.com/
@@ -106,9 +106,6 @@
     - name: "Facebook"
       image: Facebook.svg
       site: https://www.facebook.com/
-    - name: "HDR"
-      image: HDR.svg
-      site: http://www.hdrinc.com/
     - name: "Intel"
       image: intel.svg
       site: http://www.intel.com/content/www/us/en/homepage.html
@@ -139,9 +136,15 @@
     - name: "Accel"
       image: accel.png
       site: http://www.accel.com/
+    - name: "Bookholders"
+      image: Bookholders.svg
+      site: http://www.bookholders.com/
     - name: "Fedora Project"
       image: fedora.svg
       site: https://getfedora.org/
+    - name: "HDR"
+      image: HDR.svg
+      site: http://www.hdrinc.com/
     - name: "InsomniaCookies"
       image: insomnia.png
       site: https://insomniacookies.com/
@@ -163,3 +166,6 @@
     - name: "Soylent"
       image: Soylent.svg
       site: https://www.soylent.com/
+    - name: "VentureStorm"
+      image: venturestorm.svg
+      site: http://www.venturestorm.com/
