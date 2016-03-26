@@ -175,3 +175,6 @@
     - name: "VentureStorm"
       image: venturestorm.svg
       site: http://www.venturestorm.com/
+    - name: "Clay"
+      image: Clay_Website.svg
+      site: http://clay.computer
