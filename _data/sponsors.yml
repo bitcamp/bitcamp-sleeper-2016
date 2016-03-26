@@ -145,6 +145,9 @@
     - name: "Bookholders"
       image: Bookholders.svg
       site: http://www.bookholders.com/
+    - name: clay
+      image: clay.svg
+      site: http://clay.computer/
     - name: "Fedora Project"
       image: fedora.svg
       site: https://getfedora.org/
