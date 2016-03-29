@@ -4,7 +4,7 @@
     - name: "A. James Clark School of Engineering"
       image: clark.svg
       site: http://clark.umd.edu/
-    - name: "College of Computer, Mathematics, and Natural Sciences"
+    - name: "College of Computer: Mathematics: and Natural Sciences"
       image: cmns.svg
       site: http://cmns.umd.edu/
 - name: large
@@ -58,7 +58,7 @@
     - name: "College of Information Systems"
       image: ischool.svg
       site: http://www.rhsmith.umd.edu/programs/undergraduate-programs/academics/academic-majors/information-systems
-    - name: "Design, Culture, Creativity - UMD"
+    - name: "Design: Culture: Creativity - UMD"
       image: dcc.png
       site: http://www.dcc.umd.edu
     - name: "Dingman"
@@ -118,6 +118,9 @@
     - name: "Booz Allen Hamilton"
       image: Booz.svg
       site: http://www.boozallen.com/
+    - name: 'Carlyle'
+      image: carlyle.svg
+      site: https://www.carlyle.com/
     - name: "Cipher Tech Solutions"
       image: Cipher.svg
       site: https://www.ciphertechsolutions.com/
