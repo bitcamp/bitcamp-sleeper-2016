@@ -29,7 +29,7 @@ layout: default
   <img src="{{ '/assets/img/cloud.svg' | prepend: site.baseurl }}" id="cloud-right">
 </div>
 {% for section in site.data.content-blocks %}
-  <div id="{{section.name}}">
+  <div id="{{section.name| downcase | replace:' ','-'}}">
     {% unless section.hide_title %}
       <div class="section-title">
         {{ section.name }}
