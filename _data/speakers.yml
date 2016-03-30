@@ -2,22 +2,14 @@
   company: Oculus
   title: CEO
   image: Brendan.jpg
-- name: Mackenzie Burnett
-  company: Redspread
-  title: CEO/Founder
-  image: Mackenzie.jpg
-- name: Shariq Hashme
-  company: Unscan
-  title: CEO/Founder
-  image: Shariq.jpg
+- name: Georgette Kiser
+  company: The Carlyle Group
+  title: CIO
+  image: Georgette.jpg
 - name: Zvi Band
   company: Contactually
   title: CEO/Founder
   image: Zvi.jpg
-- name: Raksa Yin
-  company: Huge, inc.
-  title: Visual Designer
-  image: Raksa.jpg
 - name: Michael Vinkler
   company: HDR
   title: Director
@@ -26,11 +18,19 @@
   company: Mayor
   title: City of College Park
   image: Patrick.jpg
-- name: Georgette Kiser
-  company: The Carlyle Group
-  title: CIO
-  image: Georgette.jpg
+- name: Raksa Yin
+  company: Huge, inc.
+  title: Visual Designer
+  image: Raksa.jpg
 - name: Juliana Neelbauer
   company: Neelbauer Law
   title: Managing Attorney/Founder
   image: Juliana.jpg
+- name: Mackenzie Burnett
+  company: Redspread
+  title: CEO/Founder
+  image: Mackenzie.jpg
+- name: Shariq Hashme
+  company: Unscan
+  title: CEO/Founder
+  image: Shariq.jpg
