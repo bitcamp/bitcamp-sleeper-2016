@@ -61,7 +61,7 @@
     </div>
   </nav>
   <script>
-    $('.nav a').on('click', function() { $('.navbar-toggle').click() });
+    $('.nav a').on('click', function() { if ($(window).width() < 800) { $('.navbar-toggle').click() } });
     $('#compass').on('click', function() { $('#compass').attr("src", "/assets/img/compass.gif") })
     </script>
   {{ content }}
