@@ -27,7 +27,7 @@
   companies:
     - name: "FINRA"
       image: Financial_Industry_Regulatory_Authority_logo.svg
-      site: http://www.finra.org/
+      site: http://technology.finra.org/
     - name: "Leidos"
       image: Leidos.svg
       site: https://www.leidos.com/
