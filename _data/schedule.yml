@@ -6,6 +6,9 @@
     - name: Registration Opens
       time: 7:00 PM
       highlighted: true
+    - name: Ladies Storm Hackathons Meetup
+      time: 7:30 PM
+      highlighted: true
     - name: Sponsorship Fair
       time: 8:00 PM
       highlighted: true
@@ -15,6 +18,10 @@
     - name: Hacking Begins
       time: 10:00 PM
       highlighted: true
+    - name: Hardware Workshop
+	    time: 11:00 PM
+	    highlighted: true
+	    
 - name: 'Saturday, April 9'
   events:
     - name: Colorwar
