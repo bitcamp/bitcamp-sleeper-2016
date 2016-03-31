@@ -24,7 +24,6 @@
   events:
     - name: Gotta Code ’Em All
       time: 12:00 AM
-      highlighted: true
     - name: YC Talk
       time: 1:00 AM
     - name: S’mores
