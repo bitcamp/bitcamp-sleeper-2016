@@ -34,7 +34,6 @@
       highlighted: true
     - name: Breakfast
       time: 8:30 AM
-      highlighted: true
     - name: Android Dev Workshop
       time: 9:00 AM
       highlighted: true
@@ -42,7 +41,6 @@
       time: 10:00 AM
     - name: Lunch
       time: 12:30 PM
-      highlighted: true
     - name: Web Dev Workshop
       time: 1:30 PM
       highlighted: true
@@ -58,7 +56,6 @@
       highlighted: true
     - name: Dinner
       time: 6:00 PM
-      highlighted: true
     - name: Design Hacks for Programmers
       time: 8:00 PM
       highlighted: true
@@ -68,7 +65,6 @@
   events:
     - name: Breakfast
       time: 9:00 AM
-      highlighted: true
     - name: Hacking Ends/Submissions Due
       time: 10:00 AM
       highlighted: true
@@ -77,7 +73,6 @@
       highlighted: true
     - name: Lunch
       time: 1:00 PM
-      highlighted: true
     - name: Closing Ceremony
       time: 1:30 PM
       highlighted: true
