@@ -19,9 +19,8 @@
       time: 10:00 PM
       highlighted: true
     - name: Hardware Workshop
-	    time: 11:00 PM
-	    highlighted: true
-	    
+      time: 11:00 PM
+      highlighted: true
 - name: 'Saturday, April 9'
   events:
     - name: Colorwar
