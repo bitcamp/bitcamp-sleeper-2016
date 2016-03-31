@@ -2,63 +2,86 @@
   events:
     - name: Sponsor and Mentor Check-in
       time: 6:00 PM
+	  highlight: true
     - name: Registration Opens
       time: 7:00 PM
+	  highlight: true
     - name: Ladies Storm Hackathons Meetup
       time: 7:30 PM
     - name: Sponsorship Fair
       time: 8:00 PM
+	  highlight: true
     - name: Opening Ceremony
       time: 9:30 PM
+	  highlight: true
     - name: Hacking Begins
       time: 10:00 PM
+	  highlight: true
     - name: Hardware Workshop
       time: 11:00 PM
+	  highlight: true
 - name: 'Saturday, April 9'
   events:
     - name: Gotta Code ’Em All
       time: 12:00 AM
+	  highlight: true
     - name: YC Talk
       time: 1:00 AM
     - name: S’mores
       time: 12:00 AM
+	  highlight: true
     - name: Smash Tourney
       time: 2:30 AM
+	  highlight: true
     - name: Breakfast
       time: 8:30 AM
+	  highlight: true
     - name: Android Dev Workshop
       time: 9:00 AM
+	  highlight: true
     - name: Dingman Pitch Competition
       time: 10:00 AM
     - name: Lunch
       time: 12:30 PM
+	  highlight: true
     - name: Web Dev Workshop
       time: 1:30 PM
+	  highlight: true
     - name: Attorney Breakout
       time: 1:30 PM
     - name: Attorney AMA
       time: 2:00 PM
+	  highlight: true
     - name: Slideshow Karaoke
       time: 3:00 PM
-    - name: Colorwar
+    - name: COLORWAR
       time: 4:00 PM
+	  highlight: true
     - name: Dinner
       time: 6:00 PM
+	  highlight: true
     - name: Design Hacks for Programmers
       time: 8:00 PM
+	  highlight: true
     - name: Brownie Bar
       time: 9:00 PM
 - name: 'Sunday, April 10'
   events:
     - name: Breakfast
       time: 9:00 AM
+	  highlight: true
     - name: Hacking Ends/Submissions Due
       time: 10:00 AM
+	  highlight: true
     - name: Expo Begins
       time: 11:00 AM
+	  highlight: true
     - name: Lunch
       time: 1:00 PM
+	  highlight: true
     - name: Closing Ceremony
       time: 1:30 PM
+	  highlight: true
     - name: End
       time: 2:30 PM
+	  highlight: true
