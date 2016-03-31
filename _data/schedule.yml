@@ -23,17 +23,68 @@
       highlighted: true
 - name: 'Saturday, April 9'
   events:
+    - name: Gotta Code ’Em All
+	    time: 12:00 AM
+	    highlighted: true
+    - name: YC Talk
+	    time: 1:00 AM
+	    highlighted: true
+    - name: S’mores
+	    time: 12:00 AM
+	    highlighted: true
+    - name: Smash Tourney
+	    time: 2:30 AM
+	    highlighted: true
+    - name: Breakfast
+	    time: 8:30 AM
+	    highlighted: true
+    - name: Android Dev Workshop
+	    time: 9:00 AM
+	    highlighted: true
+    - name: Dingman Pitch Competition
+	    time: 10:00 AM
+	    highlighted: true
+    - name: Lunch
+	    time: 12:30 PM
+	    highlighted: true
+    - name: Web Dev Workshop
+	    time: 1:30 PM
+	    highlighted: true
+    - name: Attorney Breakout
+	    time: 1:30 PM
+	    highlighted: true
+    - name: Attorney AMA
+	    time: 2:00 PM
+	    highlighted: true
+    - name: Slideshow Karaoke
+	    time: 3:00 PM
+	    highlighted: true
     - name: Colorwar
-      time: 4:00 PM
-      highlighted: true
+	    time: 4:00 PM
+	    highlighted: true
+    - name: Dinner
+	    time: 6:00 PM
+	    highlighted: true
+    - name: Design Hacks for Programmers
+	    time: 8:00 PM
+	    highlighted: true
+    - name: Brownie Bar
+	    time: 9:00 PM
+	    highlighted: true
 - name: 'Sunday, April 10'
   events:
+    - name: Breakfast
+	    time: 9:00 AM
+	    highlighted: true
     - name: Hacking Ends/Submissions Due
       time: 10:00 AM
       highlighted: true
     - name: Expo Begins
       time: 11:00 AM
       highlighted: true
+    - name: Lunch
+	    time: 1:00 PM
+	    highlighted: true
     - name: Closing Ceremony
       time: 1:30 PM
       highlighted: true
