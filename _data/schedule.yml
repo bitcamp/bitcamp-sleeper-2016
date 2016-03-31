@@ -2,7 +2,6 @@
   events:
     - name: Sponsor and Mentor Check-in
       time: 6:00 PM
-      highlighted: true
     - name: Registration Opens
       time: 7:00 PM
       highlighted: true
