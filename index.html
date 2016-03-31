@@ -32,7 +32,11 @@ layout: default
   <div id="{{section.name| downcase | replace:' ','-'}}">
     {% unless section.hide_title %}
       <div class="section-title">
-        {{ section.name }}
+        {% if section.alt_name %}
+          {{ section.alt_name }}
+        {% else %}
+          {{ section.name }}
+        {% endif %}
       </div>
     {% endunless %}
     <div class="section-content">
