@@ -1,5 +1,8 @@
 - name: 'Friday, April 8'
   events:
+    - name: Volunteer Check-in/Setup begins
+      time: 9:00 AM
+      highlighted: false
     - name: Sponsor and Mentor Check-in
       time: 6:00 PM
       highlighted: true
