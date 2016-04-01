@@ -1,13 +1,13 @@
 <script>
   function hover(element, img) {element.setAttribute('src',
-    '{{site.speaker_photo_dir}}pixel_' + img);}
-  function unhover(element, img) {element.setAttribute('src',
     '{{site.speaker_photo_dir}}' + img);}
+  function unhover(element, img) {element.setAttribute('src',
+    '{{site.speaker_photo_dir}}pixel_' + img);}
 </script>
 <div class="container">
   {% for speaker in site.data.speakers %}
     <div class="col-md-4 speaker-info">
-      <img src="{{site.speaker_photo_dir}}{{speaker.image}}" width=225
+      <img src="{{site.speaker_photo_dir}}pixel_{{speaker.image}}" width=225
         onmouseover="hover(this,'{{speaker.image}}');"
         onmouseout="unhover(this,'{{speaker.image}}');">
       <div class="speaker-name">
