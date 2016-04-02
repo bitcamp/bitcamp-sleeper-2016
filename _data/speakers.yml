@@ -10,6 +10,14 @@
   company: Contactually
   title: CEO/Founder
   image: Zvi.jpg
+- name: Matthew Dorman
+  company: Credible Health 
+  title: CEO/Founder
+  image: Matthew.jpg
+- name: Luke Iseman
+  company: Y Combinator
+  title: Head of Hardware
+  image: Luke.jpg
 - name: Michael Vinkler
   company: HDR
   title: Director
@@ -22,10 +30,6 @@
   company: Huge, inc.
   title: Visual Designer
   image: Raksa.jpg
-- name: Juliana Neelbauer
-  company: Neelbauer Law
-  title: Managing Attorney/Founder
-  image: Juliana.jpg
 - name: Mackenzie Burnett
   company: Redspread
   title: CEO/Founder
@@ -34,3 +38,7 @@
   company: Unscan
   title: CEO/Founder
   image: Shariq.jpg
+- name: Juliana Neelbauer
+  company: Neelbauer Law
+  title: Managing Attorney/Founder
+  image: Juliana.jpg
