@@ -73,13 +73,8 @@
     - name: "Robert H. Smith Business School"
       image: smith.svg
       site: http://www.rhsmith.umd.edu/
-<<<<<<< HEAD
-    - name: "UMIACS"
-      image: UMIACS.svg
-=======
     - name: "umiacs"
-      image: umiacs.png
->>>>>>> ded077e253e54e6bb531902e6ba4ac8f900366c1
+      image: UMIACS.svg
       site: http://www.umiacs.umd.edu/
 - name: small
   css_class: col-med-small
