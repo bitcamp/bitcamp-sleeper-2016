@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html ng-app="bitcampLive">
+<head>
+    <title>Bitcamp Live</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Bitcamp Live" name="description">
+    <link href="bitcamp logo here"
+    rel="icon" type="image/png">
+    <link href=
+    "css/bitcamp-live.css"
+    rel="stylesheet" type="text/css">
+    <link href="css/bitcamp-live-styles.css" rel="stylesheet" type="text/css">
+        <link href="css/bitcamp-live-main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <!-- <nav class="bitcamp-nav fixed" id="navbar">
+        <div class="container">
+            <div class="nav-header">
+                <a class="nav-expand"><span class=
+                "expand-bar"></span><span class=
+                "expand-bar"></span><span class="expand-bar"></span></a><a href="/">
+                <h1 class="nav-brand">Bitcamp <span>Live</span></h1></a>
+            </div>
+            <div class="nav-collapse">
+            </div>
+        </div>
+    </nav> !-->
+    <div id="live-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="twitter-title"></div>
+                    <div id="announcements-wrapper">
+                        <table id="bitcamp-twitter" ng-controller=
+                        "TweetsController as tweets" ng-init="init()" style=
+                        "display: none">
+                            <tr ng-class="isIn(tweet)" ng-repeat=
+                            "tweet in tweets | orderBy: 'time'">
+                                <td>
+                                    <div>
+                                        <span class="avatar" ng-bind-html=
+                                        "tweet.authorAvatar | sanitize"></span>
+                                        <strong class="fullname"><a href=
+                                        "{{tweet.authorURL}}">{{tweet.authorFullName}}</a></strong><span class="username">@{{tweet.author}}</span><br>
+                                        <div>
+
+                                        <div class="media" ng-bind-html="trustMedia(tweet.media)"></div>
+                                        <div class="content" ng-bind-html=
+                                        "tweet.content | sanitize"> </div>
+                                        <div class="time">
+                                            {{ timeDiff(tweet) }}
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <table id="schedule-head" >
+                        <tr>
+                            <th>Event</th>
+                           <th>Location</th>
+                            <th>Time</th>
+                        </tr>
+                    </table>
+                    <div id="schedule-wrapper">
+                        <table id="schedule" ng-controller=
+                        "ScheduleController as schedule" style="display: none">
+                            <tr ng-class="status(event)" ng-repeat=
+                            "event in events | orderBy: '-start'">
+                                <td>
+                                    <div>
+                                        {{event.title}}
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        {{event.location}}
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>{{event.start | date: 'EEEE
+                                        '}}</span><span style=
+                                        "white-space: nowrap"> {{event.start |
+                                        date : 'shortTime' }}</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src=
+    "js/bitcamp-scripts.js">
+</script>
+<script src=
+    "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js">
+    </script>
+    <script src=
+    "//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js">
+    </script>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js">
+    </script>
+    <script src="js/bitcamp-live.js">
+    </script>
+</body>
+</html>
