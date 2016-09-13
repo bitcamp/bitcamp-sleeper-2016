@@ -1,32 +1,52 @@
 body {
-background-color: #CBF2FF;   
-font-family: 'Aleo', Arial, sans-serif; 
-color: #7F6C5F;
-text-align: center;
-font-size: 18px, regular;
-overflow: hidden;
+  background-color: #CBF2FF;
+  font-family: 'Aleo', Arial, sans-serif;
+  color: #7F6C5F;
+  text-align: center;
+  font-size: 18px, regular;
+  overflow: hidden;
 }
 
 H1 {
-64px, light, uppercase
+  64px,
+  light,
+  uppercase
 }
+
 H2 {
-40px, bold, title case
+  40px,
+  bold,
+  title case
 }
+
 H3 {
-27px, regular, sentence case
+  27px,
+  regular,
+  sentence case
 }
+
+H5 {
+  font-weight:800;
+}
+
+#coverText {
+  padding-top:20px !important;
+  font-weight:300;
+  font-size: 20px;
+}
+
 a {
-color: #FF6F3F;
+  color: #FF6F3F;
 }
 
 .bottom {
-    position:fixed;
-    width: 100%;
-    bottom:0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
+
 .footer {
-    background-color: #7F6C5F; 
-    color:white;
-    padding: 20px 0;
+  background-color: #7F6C5F;
+  color: white;
+  padding: 20px 0;
 }
