@@ -1,32 +1,38 @@
 body {
-background-color: #CBF2FF;   
-font-family: 'Aleo', Arial, sans-serif; 
+background-color: #A58D7C;   
 color: #7F6C5F;
 text-align: center;
 font-size: 18px, regular;
-overflow: hidden;
+font-family: 'Avenir', Arial, sans-serif;
+
 }
 
-H1 {
-64px, light, uppercase
-}
-H2 {
-40px, bold, title case
-}
-H3 {
-27px, regular, sentence case
-}
 a {
 color: #FF6F3F;
 }
 
-.bottom {
-    position:fixed;
-    width: 100%;
-    bottom:0;
+.sky {
+background-color: #CBF2FF;
+    padding-top: 100px;
 }
+
 .footer {
     background-color: #7F6C5F; 
     color:white;
     padding: 20px 0;
+}
+
+.mountainleft {
+    background-image: url(img/mountain-left.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 15em;
+}
+
+.mountainright {
+    background-image: url(img/mountain-right.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 15em;
+
 }
