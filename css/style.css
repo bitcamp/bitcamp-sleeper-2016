@@ -1,38 +1,36 @@
 body {
-background-color: #A58D7C;   
-color: #7F6C5F;
-text-align: center;
-font-size: 18px, regular;
-font-family: 'Avenir', Arial, sans-serif;
-
+  background-color: #A58D7C;
+  color: #7F6C5F;
+  text-align: center;
+  font-size: 18px, regular;
+  font-family: 'Avenir', Arial, sans-serif;
 }
 
 a {
-color: #FF6F3F;
+  color: #FF6F3F;
 }
 
 .sky {
-background-color: #CBF2FF;
-    padding-top: 100px;
+  background-color: #CBF2FF;
+  padding-top: 100px;
 }
 
 .footer {
-    background-color: #7F6C5F; 
-    color:white;
-    padding: 20px 0;
+  background-color: #7F6C5F;
+  color: white;
+  padding: 20px 0;
 }
 
 .mountainleft {
-    background-image: url(img/mountain-left.svg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    height: 15em;
+  background-image: url(img/mountain-left.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 15em;
 }
 
 .mountainright {
-    background-image: url(img/mountain-right.svg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    height: 15em;
-
+  background-image: url(img/mountain-right.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 15em;
 }
