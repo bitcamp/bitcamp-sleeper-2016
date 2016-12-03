@@ -15,6 +15,10 @@ a {
   padding-top: 100px;
 }
 
+input {
+  border: 0px;
+}
+
 .footer {
   background-color: #7F6C5F;
   color: white;
