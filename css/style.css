@@ -6,8 +6,30 @@ body {
   font-family: 'Avenir', Arial, sans-serif;
 }
 
-a {
-  color: #FF6F3F;
+a:link, a:visited {
+  color: #FFAF3F;
+}
+
+a:hover {
+  color: #CBF2FF;
+}
+
+h5 {
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+.button {
+  float: right;
+}
+
+.email {
+  width: 100%;
+}
+
+.email, .button {
+  height: 40px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .sky {
