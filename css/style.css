@@ -19,12 +19,6 @@ a:hover {
   color: #CBF2FF;
 }
 
-.email, .button {
-  height: 40px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
 .sky {
   background-color: #CBF2FF;
   padding-top: 100px;
@@ -54,11 +48,10 @@ input {
   height: 15em;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
 
   .field {
     overflow: hidden;
-    padding-right: .5em;
     display: flex;
     flex-direction: row;
   }
