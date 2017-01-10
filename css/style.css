@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Avenir;
+  src: url("fonts/Avenir-Regular.ttf") format("opentype");
+}
+
 body {
   background-color: #A58D7C;
   color: #7F6C5F;
@@ -6,8 +11,18 @@ body {
   font-family: 'Avenir', Arial, sans-serif;
 }
 
-a {
-  color: #FF6F3F;
+a:link, a:visited {
+  color: #FFAF3F;
+}
+
+a:hover {
+  color: #CBF2FF;
+}
+
+.email, .button {
+  height: 40px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .sky {
@@ -37,4 +52,19 @@ input {
   background-position: bottom center;
   background-repeat: no-repeat;
   height: 15em;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .field {
+    overflow: hidden;
+    padding-right: .5em;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .clear {
+    padding-left: .5em;
+  }
+
 }
