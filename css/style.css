@@ -1,445 +1,63 @@
 @font-face {
-    font-family: Avenir Light;
-    src: url("../fonts/Avenir/AvenirLTStd-Light.otf") format("opentype");
-}
-@font-face {
-    font-family: Aleo Light;
-    src: url("../fonts/Aleo/Aleo-Light.otf") format("opentype");
-}
-@font-face {
-    font-family: Aleo;
-    src: url("../fonts/Aleo/Aleo-Regular.otf") format("opentype");
-}
-h2{
-  padding:0px 0px 0px 40px;
-  font-family: Avenir Light;
-  text-align: left;
-  font-size: 27;
-}
-h3{
-  padding:0px 0px 0px 40px;
-  text-align: left;
-  font-family: Avenir Light;
-  font-size: 21;
-}
-body{
-  margin:0;
-  padding: 0;
-}
-a {
-  color: #FF3F46;
-  text-decoration: none;
-}
-a:hover {
-  color: #CBF2FF;
-  text-decoration: none;
+  font-family: Avenir;
+  src: url("fonts/Avenir-Regular.ttf") format("opentype");
 }
 
-.footer {
+body {
+  background-color: #A58D7C;
+  color: #7F6C5F;
+  text-align: center;
+  font-size: 18px, regular;
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+a:link, a:visited {
   color: #FFAF3F;
 }
 
-.footer:hover {
+a:hover {
   color: #CBF2FF;
 }
 
-#logo{
-  max-width: 25rem;
-  max-height: 25rem;
-  height: auto;
-  width:75%;
-}
-#content-wrapper{
-  width:100%;
-  max-width:850px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-#nav-bar-wrapper{
-  width:100%;
-  margin: 75px 0 75px 0;
-}
-.opaque-wrapper{
-  float:left;
-  width:100%;
-  background-color: rgba(22,38,41,.79);
-}
-#input-email{
-  width:100%;
-  max-width: 400px;
-  padding: 12px 12px;
-  box-sizing: border-box;
-  font-family: Aleo Light;
-  font-size: 24;
-  border-color: rgb(241, 97, 60);
-  border-style:solid;
-  border-width:4px;
-  outline: none;
-}
-#canvas-holder{
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-.button {
-  font-family: Aleo Light;
-  font-size: 41;
-  text-decoration: none;
-  background-color: rgba(22,38,41,.79);
-  color: #FA9F3A;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 0px 10px 0px;
-  border:none;
-  display: inline-block;
-  width: 260px;
-}
-input.button{
-  font-size:24;
-  padding:16px;
-  width:250px;
-  margin:40px 10px 40px 10px;
-  background-color: rgba(241, 97, 60, .69);
-}
-.body-text{
-  padding:0px 20px 0px 40px;
-  line-height:29px;
-  font-family: Avenir Light;
-  text-align: left;
-  font-size: 18;
-  color: #FA9F3A;
-}
-.intro-text{
-  padding:40px 40px 0px 40px;
-  /*line-height:29px;*/
-  font-family: Avenir Light;
-  text-align: left;
-  font-size: 24;
-  color: #fa9f3a;
+.sky {
+  background-color: #CBF2FF;
+  padding-top: 100px;
 }
 
-.date-text{ 
-  /*line-height:29px;*/
-  font-family: Aleo;
-  text-align: center;
-  font-size: 36;
-  color: #eb673f;
-  font-weight:1000;
+input {
+  border: 0px;
 }
 
-.row {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.content-images{
-  width: 100%;
-}
-
-.recruiter-images{
-  max-width: 40%;
-  margin: 50px 10px;
-  max-height: 80px;
-  display: inline-block;
-}
-
-#sponsors {
-  vertical-align: middle;
-}
-
-.api-images{
-  max-width: 30%;
-  margin: 30px 10px;
-  max-height: 60px;
-  display: inline-block;
-}
-
-.starter-images{
-  max-width: 20%;
-  margin: 30px 30px;
-  max-height: 40px;
-  display: inline-block;
-}
-
-.social-media-images {
-  width: 6%;
-  margin: 30px 10px;
-}
-
-.heading{
+.footer {
+  background-color: #7F6C5F;
   color: white;
+  padding: 20px 0;
 }
 
-.contact {
-  padding-top: 50px;
-  color: white;
-  text-align: center;
+.mountainleft {
+  background-image: url(img/mountain-left.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 15em;
 }
 
-.copyright {
-  color: white;
-  font-family: Avenir Light;
+.mountainright {
+  background-image: url(img/mountain-right.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 15em;
 }
 
-.fifty-percent{
-  float:left;
-  width:50%;
-}
+@media only screen and (min-width: 768px) {
 
-/*Hamburger Menu*/
-.header{
-  position:fixed;
-  top:0;
-  left:0;
-	width:100%;
-	background:#1d1f20;
-	height:60px;
-	line-height:60px;
-  display: none;
-}
-.hamburger{
-  display: none;
-  background:none;
-  position:absolute;
-  top:0;
-  right:0;
-  line-height:45px;
-  padding:5px 15px 0px 15px;
-  color:#fff;
-  border:0;
-  font-size:1.4em;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
-}
-.cross{
-  display: none;
-  background:none;
-  position:absolute;
-  top:0px;
-  right:0;
-  padding:13px 15px 0px 15px;
-  color:#fff;
-  border:0;
-  font-size:3em;
-  line-height:65px;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
-}
-.menu{
-  display: none;
-  top:60px;
-  z-index:1000000;
-  font-weight:bold;
-  font-size:0.8em;
-  width:100%;
-  background:#131313;
-  position:fixed;
-  text-align:center;
-}
-.menu ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  list-style-image: none;
-}
-.menu li {
-  font-family: Aleo Light;
-  display: block;
-  padding:15px 0 15px 0;
-  border-bottom:#1d1f20 1px solid;}
-.menu li:hover{
-  display: block;
-  background:#181818;
-  padding:15px 0 15px 0;
-  border-bottom:#1d1f20 1px solid;}
-.menu ul li a {
-  text-decoration:none;
-  margin: 0px;
-  color:#fff;
-}
-.menu ul li a:hover {
-  color: #fff;
-  text-decoration:none;
-}
-.menu a{
-  text-decoration:none;
-  color:white;
-}
-.menu a:hover{
-  text-decoration:none;
-  color:white;
-}
-
-.glyphicon-home{
-  color:white;
-  font-size:1.5em;
-  margin-top:5px;
-  margin:0 auto;
-}
-/*Sick hamburger menu*/
-/* Icon 1 */
-
-#nav-icon2{
-  width: 45px;
-  height: 45px;
-  position: fixed;
-  top:0;
-  right:0;
-  margin: 12;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-}
-
-/* Icon 2 */
-
-#nav-icon2 {
-}
-
-#nav-icon2 span {
-  display: block;
-  position: absolute;
-  height: 7px;
-  width: 50%;
-  background: #d3531a;
-  opacity: 1;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
-}
-
-#nav-icon2 span:nth-child(even) {
-  left: 50%;
-  border-radius: 0 9px 9px 0;
-}
-
-#nav-icon2 span:nth-child(odd) {
-  left:1px;
-  border-radius: 9px 0 0 9px;
-}
-
-#nav-icon2 span:nth-child(1), #nav-icon2 span:nth-child(2) {
-  top: 0px;
-}
-
-#nav-icon2 span:nth-child(3), #nav-icon2 span:nth-child(4) {
-  top: 13px;
-}
-
-#nav-icon2 span:nth-child(5), #nav-icon2 span:nth-child(6) {
-  top: 26px;
-}
-
-#nav-icon2.open span:nth-child(1),#nav-icon2.open span:nth-child(6) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-#nav-icon2.open span:nth-child(2),#nav-icon2.open span:nth-child(5) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-#nav-icon2.open span:nth-child(1) {
-  left: 5px;
-  top: 7px;
-}
-
-#nav-icon2.open span:nth-child(2) {
-  left: calc(50% - 5px);
-  top: 7px;
-}
-
-#nav-icon2.open span:nth-child(3) {
-  left: -50%;
-  opacity: 0;
-}
-
-#nav-icon2.open span:nth-child(4) {
-  left: 100%;
-  opacity: 0;
-}
-
-#nav-icon2.open span:nth-child(5) {
-  left: 5px;
-  top: 20px;
-}
-
-#nav-icon2.open span:nth-child(6) {
-  left: calc(50% - 5px);
-  top: 20px;
-}
-
-#contact {
-  width: inherit;
-  text-align: center;
-}
-
-#contact-inside {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-
-/*George's background experiments*/
-img.bg {
-  /* Set up proportionate scaling */
-  height: 100%;
-  min-width: 100%;
-
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: -1000;
-}
-
-@media only screen and (max-width: 768px){
-  #logo{
-    max-width: 15rem;
-    max-height: 15rem;
-    height: auto;
-    width:100%;
-  }
-  .menu, .cross, .hamburger, .header{
-    display: block;
-  }
-  .fifty-percent{
-    float:left;
-    width:100%;
-  }
-  .button{
-    margin:auto;
-    display: none;
-  }
-  input.button{
-    display: block;
-    margin:auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  .field {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
   }
 
-  #mlh-trust-badge {
-    display: none;
+  .clear {
+    padding-left: .5em;
   }
+
 }
